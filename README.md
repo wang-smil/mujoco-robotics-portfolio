@@ -1,26 +1,32 @@
-# MuJoCo 机器人控制与双足运动仿真
+# MuJoCo Control & Locomotion
 
-项目包含两个已完成的仿真阶段。单摆部分实现动力学建模、PD 控制、重力补偿和 PPO 训练。Open Duck Mini v2 部分实现并行训练、运动指令跟踪、多种子评测及交互控制，覆盖站立、前进、原地转向、行进弧线和低速后退。
+两个可复现的机器人仿真项目。单摆实现闭环控制与 PPO，Open Duck Mini v2 实现双足训练、速度跟踪和交互控制。
 
-[28 秒弧线与后退对照回放](media/moving_reverse_comparison.mp4) · [36 秒完整手柄路线](media/assisted_switch_comparison.mp4) · [20 秒头颈限速对照](media/neck-ablation.mp4)
+[![Open Duck Mini 同种子换向对照](docs/media/moving_reverse_comparison.png)](docs/media/moving_reverse_comparison.mp4)
 
-[![同一个种子的双画面对照回放预览](media/moving_reverse_comparison.png)](media/moving_reverse_comparison.mp4)
+[双足换向](docs/media/moving_reverse_comparison.mp4) · [头颈限速](docs/media/neck-ablation.mp4) · [单摆轨迹](docs/media/pendulum-controls.png)
 
-## 工程成果
+## 项目结果
 
-| 阶段 | 实现与验证范围 | 实验结果 |
+| 项目 | 实现 | 验证结果 |
 |---|---|---|
-| 01 · 单摆 | MJCF 模型 → P/PD → 重力补偿 → Gymnasium → SB3 PPO | 目标 `0.5 rad` 时，重力补偿将纯 PD 的稳态误差从 `0.0884 rad` 降到约 `3.4×10⁻⁷ rad`。单摆 PPO 采集 `200,704` 步，最佳模型在 10 个测试种子上的平均回报 `375.90`。 |
-| 02 · 双足 | 环境与课程设计 → MJX/Brax PPO → 示范监督 → 原生 MuJoCo 评测与手柄 | 头颈方案在 80 局基础命令中均达标，头颈关节速度 RMS 从 `1.2473` 降到 `0.3481 rad/s`。同种子的直走/后退互换从 `1/20` 提高到 `15/20` 达标，新版有 `18/20` 局跑满。 |
+| [单摆控制](docs/01-pendulum.md) | MJCF、PD、重力补偿、Gymnasium、SB3 PPO | 重力补偿将稳态误差从 `0.0884 rad` 降到 `3.4×10⁻⁷ rad`。PPO 训练 `200,704` 步，10 个测试种子平均回报 `375.90`。 |
+| [双足运动](docs/02-duck.md) | MJX/Brax PPO、动作示范、姿态反馈、交互控制 | 头颈速度 RMS 从 `1.2473` 降到 `0.3481 rad/s`；同种子前后换向从 `1/20` 提升到 `15/20` 达标，`18/20` 跑完整条路线。 |
 
-**后退过渡对照。** 第 22 轮 PPO 的同一检查点，后退阶跃命令 `−0.05 m/s` 的完成率为 `8/8`，缓变到同一目标时为 `0/8`。交互控制器结合 Actor、姿态反馈与相位切入，标准路线实际平均后退速度为 `−0.0508 m/s`。复杂换向的偏航误差和跌倒次数见 [分路线评测](docs/02-duck.md#最终同种子对照)。
+结果来自仿真。跟踪达标率、跑满率和逐段误差见 [评测数据](evidence/duck/)。
 
-## 阅读和运行
+## 运行预训练策略
 
-- [阶段 01 · 单摆与 PPO](docs/01-pendulum.md)
-- [阶段 02 · Open Duck Mini 工程和训练](docs/02-duck.md)
-- [实验时间线与逐轮配置索引](docs/03-timeline.md)
-- [安装、运行与复现边界](docs/reproduce.md)
-- [上游来源与贡献范围](docs/credits.md)
+按 [安装说明](docs/reproduce.md#2-小鸭子--上游环境与依赖) 初始化 Ubuntu / WSL 环境后，从仓库根目录运行：
 
-源码入口为 [`lessons/01_simulation_step.py`](lessons/01_simulation_step.py)、[`lessons/05_ppo.py`](lessons/05_ppo.py) 和 [`lessons/07_duck_ppo.py`](lessons/07_duck_ppo.py)。双足环境扩展见 [`extensions/`](extensions/)，实验数据见 [`evidence/`](evidence/)，验证好的权重和交互演示见 [`checkpoints/`](checkpoints/) 与 [`demo/`](demo/)。双足数据来自平地仿真。上游机器人设计、环境基础和公开模型见 [Open Duck Mini v2](https://github.com/apirrone/Open_Duck_Mini/tree/v2) 与 [固定版 Open Duck Playground](https://github.com/apirrone/Open_Duck_Playground/tree/b9be205ac64488c23504ca42e5ec790337adeec3)。
+```bash
+JAX_PLATFORMS=cpu .venv-duck/bin/python demo/native_assisted_gamepad.py --moving-entry
+```
+
+MuJoCo 打开后，从终端链接打开控制面板。[单摆运行](docs/reproduce.md#1-单摆--cpu) · [训练与续训](docs/reproduce.md#小批量-ppo-训练与检查点续训) · [检查点](checkpoints/)
+
+## 工程入口
+
+[`lessons/`](lessons/) 提供训练入口，双足环境与奖励在 [`extensions/`](extensions/)，评测和交互控制在 [`demo/`](demo/)。
+
+[实验时间线](docs/03-timeline.md) · [逐轮记录 Release](https://github.com/wang-smil/mujoco-robotics-portfolio/releases/tag/experiment-archive) · [上游与资产来源](docs/credits.md)

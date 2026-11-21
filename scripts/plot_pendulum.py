@@ -29,7 +29,7 @@ def main():
         ax.grid(alpha=.2)
         ax.legend(frameon=False)
     axes[0].set_ylabel('Joint angle (rad)')
-    figure.savefig(ROOT / 'media/pendulum-controls.png', dpi=180)
+    figure.savefig(ROOT / 'docs/media/pendulum-controls.png', dpi=180)
 
 
 if __name__ == '__main__':

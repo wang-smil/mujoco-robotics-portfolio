@@ -20,7 +20,7 @@
 
 随后恢复重力。纯 PD 在最后接近静止，但需要位置偏差来产生平衡力矩，实测稳态偏差约 `0.0884 rad`。重力补偿组用当前位置重算偏置力矩，在误差接近零时仍提供约 `−1.057 N·m`。终值误差降到约 `3.44×10⁻⁷ rad`。控制饱和也单独记录，以免把瞬态差异误判为控制律差异。[补偿实现](../lessons/03_gravity_compensation.py) · [实测结果](../evidence/lesson03/checks.json)
 
-![真实单摆轨迹和 0.5 rad 目标角对照](../media/pendulum-controls.png)
+![真实单摆轨迹和 0.5 rad 目标角对照](media/pendulum-controls.png)
 
 ## 3. 把物理过程封装成 RL 环境 · 2026-11-02
 

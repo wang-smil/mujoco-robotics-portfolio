@@ -153,7 +153,7 @@ def train(steps):
     source_dir.mkdir()
     for name in ("pendulum_env.py", "05_ppo.py"):
         shutil.copy2(Path(__file__).parent / name, source_dir / name)
-    shutil.copy2(ROOT / "requirements.txt", source_dir / "requirements.txt")
+    shutil.copy2(ROOT / "requirements/requirements.txt", source_dir / "requirements.txt")
     print("RUN_DIRECTORY", run_dir, flush=True)
 
     # 同一进程顺序推进 4 个独立环境；网络对 4 份观察一起计算。

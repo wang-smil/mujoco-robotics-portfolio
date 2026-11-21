@@ -705,8 +705,8 @@ def main(argv=None):
         report = run
         sources = run / "sources"
         sources.mkdir()
-        for source in (Path(__file__), ROOT / "requirements-duck.lock",
-                       ROOT / "requirements-duck.freeze.txt", WORK / "SOURCE.json"):
+        for source in (Path(__file__), ROOT / "requirements/requirements-duck.lock",
+                       ROOT / "requirements/requirements-duck.freeze.txt", WORK / "SOURCE.json"):
             if source.is_file():
                 shutil.copy2(source, sources / source.name)
         print(f"RUN_DIRECTORY: {run}", flush=True)

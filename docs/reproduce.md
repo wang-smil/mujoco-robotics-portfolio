@@ -6,7 +6,7 @@
 
 ```bash
 python3.12 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m pip install -r requirements/requirements.txt
 .venv/bin/python lessons/01_simulation_step.py
 .venv/bin/python lessons/02_pd_control.py
 .venv/bin/python lessons/03_gravity_compensation.py
@@ -29,7 +29,7 @@ cp evidence/lesson05/{initial,best_model,final}.zip artifacts/pendulum-release/
 ```bash
 python3.12 bootstrap_duck.py
 python3.12 -m venv .venv-duck
-.venv-duck/bin/python -m pip install -r requirements-duck.lock
+.venv-duck/bin/python -m pip install -r requirements/requirements-duck.lock
 .venv-duck/bin/python -m pip install onnxruntime==1.20.1
 ```
 
