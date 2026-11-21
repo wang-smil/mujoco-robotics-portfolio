@@ -1,0 +1,66 @@
+{
+  "kind": "static source audit; official JAX environment not executed",
+  "commit": "b9be205ac64488c23504ca42e5ec790337adeec3",
+  "official_sources_identical": true,
+  "python_syntax_parsed": true,
+  "functions": {
+    "default_config": {
+      "start_line": 49,
+      "end_line": 102
+    },
+    "_post_init": {
+      "start_line": 121,
+      "end_line": 200
+    },
+    "reset": {
+      "start_line": 206,
+      "end_line": 321
+    },
+    "step": {
+      "start_line": 323,
+      "end_line": 481
+    },
+    "_get_obs": {
+      "start_line": 487,
+      "end_line": 620
+    },
+    "_get_reward": {
+      "start_line": 622,
+      "end_line": 669
+    },
+    "_get_termination": {
+      "start_line": 483,
+      "end_line": 485
+    },
+    "sample_command": {
+      "start_line": 671,
+      "end_line": 725
+    }
+  },
+  "config_scalars": {
+    "ctrl_dt": 0.02,
+    "sim_dt": 0.002,
+    "episode_length": 1000,
+    "action_repeat": 1,
+    "action_scale": 0.25,
+    "dof_vel_scale": 0.05,
+    "history_len": 0,
+    "soft_joint_pos_limit_factor": 0.95,
+    "max_motor_velocity": 5.24,
+    "head_range_factor": 1.0
+  },
+  "native_mujoco_actuator_count": 14,
+  "observation_state_blocks_derived_from_source": {
+    "gyro": 3,
+    "accelerometer": 3,
+    "command": 7,
+    "joint_offset": 14,
+    "joint_velocity": 14,
+    "action_history": 42,
+    "motor_targets": 14,
+    "foot_contact": 2,
+    "imitation_phase": 2
+  },
+  "observation_state_length_static": 101,
+  "jax_installed_in_lesson_venv": false
+}

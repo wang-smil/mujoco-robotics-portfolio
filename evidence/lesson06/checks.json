@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "nq": 21,
+  "nv": 20,
+  "nu": 14,
+  "physics_dt_seconds": 0.002,
+  "home_targets_match_joint_positions": true,
+  "target_offset_rad": 0.1,
+  "resulting_head_torque_Nm": 1.337,
+  "zero_targets_max_torque_Nm": 3.23,
+  "kinematics_keeps_physics_time_zero": true,
+  "physics_seconds": 3.999999999999781,
+  "finite_state": true,
+  "physics_final_base_xyz": [
+    -0.005316492664849098,
+    0.0001543792493937983,
+    0.16004886108270303
+  ],
+  "scope": "model and actuator checks; no learned walking policy"
+}

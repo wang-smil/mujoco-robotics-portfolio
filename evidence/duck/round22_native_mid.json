@@ -1,0 +1,5279 @@
+{
+  "model": "artifacts/lesson07/run_20261119T031516_770749Z_b866ef/checkpoints/step_5038080",
+  "accelerometer_bias": 0.0,
+  "protocol": "Native CPU MuJoCo, 50 Hz, nominal flat terrain, small uniform seed perturbations, model-specific target slew and accelerometer bias, no simulated delays or external pushes",
+  "seeds": [
+    1101,
+    1102,
+    1103,
+    1104,
+    1105,
+    1106,
+    1107,
+    1108
+  ],
+  "ramp": false,
+  "brake_direction": false,
+  "reverse_entry_phase": null,
+  "episodes": [
+    {
+      "seed": 1101,
+      "case": "stop",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -7.867813936898606e-05,
+            -0.000120522936110966,
+            0.0005604373592559571
+          ],
+          "yaw_abs_mean_error": 0.0005604373592559571,
+          "planar_mean_error": 0.0001439306351801922,
+          "farthest_from_start_m": 0.008448562423240115
+        }
+      ]
+    },
+    {
+      "seed": 1102,
+      "case": "stop",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -6.452151447360139e-05,
+            -0.000123909450666515,
+            0.000495088459816663
+          ],
+          "yaw_abs_mean_error": 0.000495088459816663,
+          "planar_mean_error": 0.00013970174585324502,
+          "farthest_from_start_m": 0.009588507173941723
+        }
+      ]
+    },
+    {
+      "seed": 1103,
+      "case": "stop",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -7.092047373101429e-05,
+            -0.00012469944649030873,
+            0.0006051695209999884
+          ],
+          "yaw_abs_mean_error": 0.0006051695209999883,
+          "planar_mean_error": 0.00014345614503819925,
+          "farthest_from_start_m": 0.011150971022166679
+        }
+      ]
+    },
+    {
+      "seed": 1104,
+      "case": "stop",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -6.530311506502704e-05,
+            -0.00012754464434799005,
+            0.000506474548501407
+          ],
+          "yaw_abs_mean_error": 0.0005064745485014071,
+          "planar_mean_error": 0.00014329038048330891,
+          "farthest_from_start_m": 0.010472329062564402
+        }
+      ]
+    },
+    {
+      "seed": 1105,
+      "case": "stop",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -7.19321763626366e-05,
+            -0.0001236943929869884,
+            0.0005496829843181058
+          ],
+          "yaw_abs_mean_error": 0.0005496829843181053,
+          "planar_mean_error": 0.00014308927581298668,
+          "farthest_from_start_m": 0.009272350079421107
+        }
+      ]
+    },
+    {
+      "seed": 1106,
+      "case": "stop",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -9.052294401011304e-05,
+            -0.00012640955742789707,
+            0.0006246302761069851
+          ],
+          "yaw_abs_mean_error": 0.0006246302761069839,
+          "planar_mean_error": 0.00015547919346772695,
+          "farthest_from_start_m": 0.011681961072264914
+        }
+      ]
+    },
+    {
+      "seed": 1107,
+      "case": "stop",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -8.905098319969811e-05,
+            -0.0001297460014766456,
+            0.0006230035307653179
+          ],
+          "yaw_abs_mean_error": 0.0006230035307653191,
+          "planar_mean_error": 0.00015736614155532517,
+          "farthest_from_start_m": 0.010555879214322371
+        }
+      ]
+    },
+    {
+      "seed": 1108,
+      "case": "stop",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -9.177663263223961e-05,
+            -0.00012929407764698513,
+            0.0006602589834343402
+          ],
+          "yaw_abs_mean_error": 0.0006602589834343408,
+          "planar_mean_error": 0.00015855569624550765,
+          "farthest_from_start_m": 0.01119956856421314
+        }
+      ]
+    },
+    {
+      "seed": 1101,
+      "case": "forward_005",
+      "segments": [
+        {
+          "segment": "forward_005",
+          "command": [
+            0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.05040277172221568,
+            0.0016502877990221601,
+            -0.011226884013855857
+          ],
+          "yaw_abs_mean_error": 0.011226884013855847,
+          "planar_mean_error": 0.0016987274295242251,
+          "farthest_from_start_m": 1.005480816369826
+        }
+      ]
+    },
+    {
+      "seed": 1102,
+      "case": "forward_005",
+      "segments": [
+        {
+          "segment": "forward_005",
+          "command": [
+            0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.050368858537032345,
+            0.0017682648239295683,
+            -0.011806917086059899
+          ],
+          "yaw_abs_mean_error": 0.0118069170860599,
+          "planar_mean_error": 0.0018063269659417348,
+          "farthest_from_start_m": 1.0076554092617525
+        }
+      ]
+    },
+    {
+      "seed": 1103,
+      "case": "forward_005",
+      "segments": [
+        {
+          "segment": "forward_005",
+          "command": [
+            0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.05057782948886063,
+            0.001616229200784267,
+            -0.011970034819859752
+          ],
+          "yaw_abs_mean_error": 0.011970034819859764,
+          "planar_mean_error": 0.0017164159599772834,
+          "farthest_from_start_m": 1.012481437988686
+        }
+      ]
+    },
+    {
+      "seed": 1104,
+      "case": "forward_005",
+      "segments": [
+        {
+          "segment": "forward_005",
+          "command": [
+            0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.05040747073560673,
+            0.001874351790838096,
+            -0.011268169474944481
+          ],
+          "yaw_abs_mean_error": 0.01126816947494448,
+          "planar_mean_error": 0.001918131131125788,
+          "farthest_from_start_m": 1.0077229842713915
+        }
+      ]
+    },
+    {
+      "seed": 1105,
+      "case": "forward_005",
+      "segments": [
+        {
+          "segment": "forward_005",
+          "command": [
+            0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.050708366672725595,
+            0.001745446983299856,
+            -0.010258969231515553
+          ],
+          "yaw_abs_mean_error": 0.010258969231515546,
+          "planar_mean_error": 0.0018837113670992348,
+          "farthest_from_start_m": 1.0119596053234179
+        }
+      ]
+    },
+    {
+      "seed": 1106,
+      "case": "forward_005",
+      "segments": [
+        {
+          "segment": "forward_005",
+          "command": [
+            0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.050342164786778165,
+            0.001870590612865,
+            -0.012044010587624549
+          ],
+          "yaw_abs_mean_error": 0.012044010587624542,
+          "planar_mean_error": 0.0019016271932872694,
+          "farthest_from_start_m": 1.007138888872248
+        }
+      ]
+    },
+    {
+      "seed": 1107,
+      "case": "forward_005",
+      "segments": [
+        {
+          "segment": "forward_005",
+          "command": [
+            0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.05035524555535645,
+            0.001642638649385322,
+            -0.013162006796567321
+          ],
+          "yaw_abs_mean_error": 0.013162006796567309,
+          "planar_mean_error": 0.0016806133216938776,
+          "farthest_from_start_m": 1.0054528895113009
+        }
+      ]
+    },
+    {
+      "seed": 1108,
+      "case": "forward_005",
+      "segments": [
+        {
+          "segment": "forward_005",
+          "command": [
+            0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.05048034194135102,
+            0.0015065511119451917,
+            -0.012744964939365408
+          ],
+          "yaw_abs_mean_error": 0.01274496493936541,
+          "planar_mean_error": 0.0015812731052933886,
+          "farthest_from_start_m": 1.0110323495988647
+        }
+      ]
+    },
+    {
+      "seed": 1101,
+      "case": "forward_010",
+      "segments": [
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09889875512909431,
+            0.001490164172228483,
+            -0.0021208695933460702
+          ],
+          "yaw_abs_mean_error": 0.0021208695933460724,
+          "planar_mean_error": 0.0018529245872106075,
+          "farthest_from_start_m": 1.9612572230567566
+        }
+      ]
+    },
+    {
+      "seed": 1102,
+      "case": "forward_010",
+      "segments": [
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09845595631134227,
+            0.0013309418647792113,
+            -0.002876392056484901
+          ],
+          "yaw_abs_mean_error": 0.002876392056484901,
+          "planar_mean_error": 0.002038498751509523,
+          "farthest_from_start_m": 1.9538019384326346
+        }
+      ]
+    },
+    {
+      "seed": 1103,
+      "case": "forward_010",
+      "segments": [
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09863141564190499,
+            0.0007100628274515977,
+            0.00031791171218392234
+          ],
+          "yaw_abs_mean_error": 0.0003179117121839227,
+          "planar_mean_error": 0.0015418211193749985,
+          "farthest_from_start_m": 1.9622131970951664
+        }
+      ]
+    },
+    {
+      "seed": 1104,
+      "case": "forward_010",
+      "segments": [
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09917854219399745,
+            0.001264257714641219,
+            -0.0008549731067250348
+          ],
+          "yaw_abs_mean_error": 0.000854973106725036,
+          "planar_mean_error": 0.0015076937673387258,
+          "farthest_from_start_m": 1.9701789191441736
+        }
+      ]
+    },
+    {
+      "seed": 1105,
+      "case": "forward_010",
+      "segments": [
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09851254839887667,
+            0.0010959260447379272,
+            -0.003494826628083946
+          ],
+          "yaw_abs_mean_error": 0.0034948266280839485,
+          "planar_mean_error": 0.0018475838712272944,
+          "farthest_from_start_m": 1.9513902868125754
+        }
+      ]
+    },
+    {
+      "seed": 1106,
+      "case": "forward_010",
+      "segments": [
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09871924518645889,
+            0.001279141201560782,
+            -0.0007739514915903108
+          ],
+          "yaw_abs_mean_error": 0.0007739514915903103,
+          "planar_mean_error": 0.0018101201910202432,
+          "farthest_from_start_m": 1.963643171058022
+        }
+      ]
+    },
+    {
+      "seed": 1107,
+      "case": "forward_010",
+      "segments": [
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09876119771886555,
+            0.0006147049563941897,
+            0.00025747738495127435
+          ],
+          "yaw_abs_mean_error": 0.00025747738495127565,
+          "planar_mean_error": 0.0013829292372204787,
+          "farthest_from_start_m": 1.957920200000425
+        }
+      ]
+    },
+    {
+      "seed": 1108,
+      "case": "forward_010",
+      "segments": [
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09936772065342575,
+            0.0008641096557985422,
+            -0.0009661799603401675
+          ],
+          "yaw_abs_mean_error": 0.0009661799603401692,
+          "planar_mean_error": 0.0010707299703233682,
+          "farthest_from_start_m": 1.9718481380503445
+        }
+      ]
+    },
+    {
+      "seed": 1101,
+      "case": "forward_015",
+      "segments": [
+        {
+          "segment": "forward_015",
+          "command": [
+            0.15,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.14105036767932116,
+            0.0004641567251536375,
+            5.501480656218828e-05
+          ],
+          "yaw_abs_mean_error": 5.5014806562184424e-05,
+          "planar_mean_error": 0.008961660568267865,
+          "farthest_from_start_m": 2.8103967311639666
+        }
+      ]
+    },
+    {
+      "seed": 1102,
+      "case": "forward_015",
+      "segments": [
+        {
+          "segment": "forward_015",
+          "command": [
+            0.15,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.14177533317134625,
+            0.0007914601817941484,
+            0.0006228160834025152
+          ],
+          "yaw_abs_mean_error": 0.0006228160834025168,
+          "planar_mean_error": 0.008262660204905193,
+          "farthest_from_start_m": 2.8362546573851026
+        }
+      ]
+    },
+    {
+      "seed": 1103,
+      "case": "forward_015",
+      "segments": [
+        {
+          "segment": "forward_015",
+          "command": [
+            0.15,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.14111626991726506,
+            0.00015845612095185307,
+            0.000539377253877952
+          ],
+          "yaw_abs_mean_error": 0.0005393772538779514,
+          "planar_mean_error": 0.008885143134759216,
+          "farthest_from_start_m": 2.8128818019662747
+        }
+      ]
+    },
+    {
+      "seed": 1104,
+      "case": "forward_015",
+      "segments": [
+        {
+          "segment": "forward_015",
+          "command": [
+            0.15,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.1413389516601374,
+            0.0006739594697544803,
+            -0.0026167121136189764
+          ],
+          "yaw_abs_mean_error": 0.0026167121136189777,
+          "planar_mean_error": 0.008687230842581795,
+          "farthest_from_start_m": 2.8162957045639017
+        }
+      ]
+    },
+    {
+      "seed": 1105,
+      "case": "forward_015",
+      "segments": [
+        {
+          "segment": "forward_015",
+          "command": [
+            0.15,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.14120355712620117,
+            0.0004746359390686964,
+            0.002955514475896099
+          ],
+          "yaw_abs_mean_error": 0.0029555144758960984,
+          "planar_mean_error": 0.008809238701877853,
+          "farthest_from_start_m": 2.816281641002435
+        }
+      ]
+    },
+    {
+      "seed": 1106,
+      "case": "forward_015",
+      "segments": [
+        {
+          "segment": "forward_015",
+          "command": [
+            0.15,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.1406907852018797,
+            0.0005199756978828033,
+            -0.0024090413163457424
+          ],
+          "yaw_abs_mean_error": 0.002409041316345741,
+          "planar_mean_error": 0.009323725375831883,
+          "farthest_from_start_m": 2.803046614715094
+        }
+      ]
+    },
+    {
+      "seed": 1107,
+      "case": "forward_015",
+      "segments": [
+        {
+          "segment": "forward_015",
+          "command": [
+            0.15,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.14084577100258994,
+            0.000553949848570632,
+            -0.0004568267727423978
+          ],
+          "yaw_abs_mean_error": 0.00045682677274239814,
+          "planar_mean_error": 0.009170974265134265,
+          "farthest_from_start_m": 2.8042294755449166
+        }
+      ]
+    },
+    {
+      "seed": 1108,
+      "case": "forward_015",
+      "segments": [
+        {
+          "segment": "forward_015",
+          "command": [
+            0.15,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.13940713977416527,
+            0.0007399579331082548,
+            -0.0026761153377467374
+          ],
+          "yaw_abs_mean_error": 0.00267611533774674,
+          "planar_mean_error": 0.010618673434419105,
+          "farthest_from_start_m": 2.779719627502666
+        }
+      ]
+    },
+    {
+      "seed": 1101,
+      "case": "left",
+      "segments": [
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.009655525344709785,
+            -0.00039395919900923394,
+            0.15806839783891577
+          ],
+          "yaw_abs_mean_error": 0.041931602161084186,
+          "planar_mean_error": 0.009663559051033785,
+          "farthest_from_start_m": 0.2036977478958699
+        }
+      ]
+    },
+    {
+      "seed": 1102,
+      "case": "left",
+      "segments": [
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.009475714316654569,
+            -0.0006495238886955924,
+            0.15771878344761542
+          ],
+          "yaw_abs_mean_error": 0.042281216552384746,
+          "planar_mean_error": 0.009497949415154758,
+          "farthest_from_start_m": 0.20363306115993385
+        }
+      ]
+    },
+    {
+      "seed": 1103,
+      "case": "left",
+      "segments": [
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.009648655644089513,
+            -0.0005705588657507256,
+            0.1580693148469238
+          ],
+          "yaw_abs_mean_error": 0.04193068515307618,
+          "planar_mean_error": 0.009665510496477006,
+          "farthest_from_start_m": 0.2007266054329624
+        }
+      ]
+    },
+    {
+      "seed": 1104,
+      "case": "left",
+      "segments": [
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.00961604285649283,
+            -0.0004570849154234121,
+            0.15759039417614995
+          ],
+          "yaw_abs_mean_error": 0.04240960582385016,
+          "planar_mean_error": 0.009626900167645575,
+          "farthest_from_start_m": 0.2029233079121518
+        }
+      ]
+    },
+    {
+      "seed": 1105,
+      "case": "left",
+      "segments": [
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.009601031324033189,
+            -0.0005556273216381091,
+            0.15807051227426802
+          ],
+          "yaw_abs_mean_error": 0.041929487725732004,
+          "planar_mean_error": 0.009617095414189111,
+          "farthest_from_start_m": 0.20277233960956467
+        }
+      ]
+    },
+    {
+      "seed": 1106,
+      "case": "left",
+      "segments": [
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.009631392887442134,
+            -0.0003804354135335313,
+            0.15741470390568685
+          ],
+          "yaw_abs_mean_error": 0.04258529609431309,
+          "planar_mean_error": 0.009638903467518563,
+          "farthest_from_start_m": 0.20288115951093735
+        }
+      ]
+    },
+    {
+      "seed": 1107,
+      "case": "left",
+      "segments": [
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.00966575686954799,
+            -0.0005686676698524843,
+            0.15770057263740148
+          ],
+          "yaw_abs_mean_error": 0.04229942736259868,
+          "planar_mean_error": 0.009682470696054268,
+          "farthest_from_start_m": 0.20277389491321385
+        }
+      ]
+    },
+    {
+      "seed": 1108,
+      "case": "left",
+      "segments": [
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.009559863720287323,
+            -0.0003852281175680363,
+            0.1569756765658223
+          ],
+          "yaw_abs_mean_error": 0.04302432343417792,
+          "planar_mean_error": 0.009567622225664577,
+          "farthest_from_start_m": 0.20396084039102533
+        }
+      ]
+    },
+    {
+      "seed": 1101,
+      "case": "right",
+      "segments": [
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.0047188491447105385,
+            -0.0011319237654585895,
+            -0.08829874930209376
+          ],
+          "yaw_abs_mean_error": 0.11170125069790617,
+          "planar_mean_error": 0.004852709414476137,
+          "farthest_from_start_m": 0.19237792317766664
+        }
+      ]
+    },
+    {
+      "seed": 1102,
+      "case": "right",
+      "segments": [
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.004628262356994907,
+            -0.0012055820021458993,
+            -0.08834276331457994
+          ],
+          "yaw_abs_mean_error": 0.11165723668542027,
+          "planar_mean_error": 0.004782702207860549,
+          "farthest_from_start_m": 0.1936283821462592
+        }
+      ]
+    },
+    {
+      "seed": 1103,
+      "case": "right",
+      "segments": [
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.004637438202865332,
+            -0.001284089458411851,
+            -0.08839923337209388
+          ],
+          "yaw_abs_mean_error": 0.11160076662790609,
+          "planar_mean_error": 0.00481193503931623,
+          "farthest_from_start_m": 0.19512550690573327
+        }
+      ]
+    },
+    {
+      "seed": 1104,
+      "case": "right",
+      "segments": [
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.004649118441956144,
+            -0.001203609674687348,
+            -0.08976191354109028
+          ],
+          "yaw_abs_mean_error": 0.11023808645890971,
+          "planar_mean_error": 0.00480239300102956,
+          "farthest_from_start_m": 0.1964253446371795
+        }
+      ]
+    },
+    {
+      "seed": 1105,
+      "case": "right",
+      "segments": [
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.0046234587818221205,
+            -0.0011080380821764698,
+            -0.08893387205715841
+          ],
+          "yaw_abs_mean_error": 0.1110661279428416,
+          "planar_mean_error": 0.004754378981398243,
+          "farthest_from_start_m": 0.1944224566514569
+        }
+      ]
+    },
+    {
+      "seed": 1106,
+      "case": "right",
+      "segments": [
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.0046301666400084115,
+            -0.0012942161994058587,
+            -0.08770180667865873
+          ],
+          "yaw_abs_mean_error": 0.11229819332134133,
+          "planar_mean_error": 0.004807643776846547,
+          "farthest_from_start_m": 0.1970143996630827
+        }
+      ]
+    },
+    {
+      "seed": 1107,
+      "case": "right",
+      "segments": [
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.0047348593095918965,
+            -0.0011757167212241237,
+            -0.08795449161417371
+          ],
+          "yaw_abs_mean_error": 0.11204550838582633,
+          "planar_mean_error": 0.004878647608732881,
+          "farthest_from_start_m": 0.19573290118986003
+        }
+      ]
+    },
+    {
+      "seed": 1108,
+      "case": "right",
+      "segments": [
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.004654165117843405,
+            -0.0012163732126899234,
+            -0.0885945859920731
+          ],
+          "yaw_abs_mean_error": 0.11140541400792688,
+          "planar_mean_error": 0.0048104902802832816,
+          "farthest_from_start_m": 0.19524653335962627
+        }
+      ]
+    },
+    {
+      "seed": 1101,
+      "case": "reverse",
+      "segments": [
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -0.050238892142505855,
+            -0.009590895048435863,
+            0.0043350359956449225
+          ],
+          "yaw_abs_mean_error": 0.004335035995644931,
+          "planar_mean_error": 0.009593869776365666,
+          "farthest_from_start_m": 0.7157894385583734
+        }
+      ]
+    },
+    {
+      "seed": 1102,
+      "case": "reverse",
+      "segments": [
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -0.05574470719768521,
+            -0.01252638497375993,
+            0.03687894329627117
+          ],
+          "yaw_abs_mean_error": 0.03687894329627118,
+          "planar_mean_error": 0.013780855608342102,
+          "farthest_from_start_m": 0.8455764390237401
+        }
+      ]
+    },
+    {
+      "seed": 1103,
+      "case": "reverse",
+      "segments": [
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -0.050942495229519484,
+            -0.006091320491760214,
+            -0.008458277920404244
+          ],
+          "yaw_abs_mean_error": 0.008458277920404243,
+          "planar_mean_error": 0.006163804230424985,
+          "farthest_from_start_m": 0.7178034183168085
+        }
+      ]
+    },
+    {
+      "seed": 1104,
+      "case": "reverse",
+      "segments": [
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -0.052716307233543515,
+            -0.009488036125158084,
+            0.009281388890174486
+          ],
+          "yaw_abs_mean_error": 0.009281388890174469,
+          "planar_mean_error": 0.00986920232335448,
+          "farthest_from_start_m": 0.7759268341054324
+        }
+      ]
+    },
+    {
+      "seed": 1105,
+      "case": "reverse",
+      "segments": [
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -0.052555018772935384,
+            -0.009529142736829144,
+            0.030161996503036158
+          ],
+          "yaw_abs_mean_error": 0.03016199650303617,
+          "planar_mean_error": 0.009865732726407886,
+          "farthest_from_start_m": 0.766270435739419
+        }
+      ]
+    },
+    {
+      "seed": 1106,
+      "case": "reverse",
+      "segments": [
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -0.051764828297062734,
+            -0.010007932574522291,
+            0.030132183189102272
+          ],
+          "yaw_abs_mean_error": 0.03013218318910226,
+          "planar_mean_error": 0.010162348809910906,
+          "farthest_from_start_m": 0.7554716806195356
+        }
+      ]
+    },
+    {
+      "seed": 1107,
+      "case": "reverse",
+      "segments": [
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -0.053287232109272935,
+            -0.008376662365494563,
+            0.01912105563699126
+          ],
+          "yaw_abs_mean_error": 0.019121055636991256,
+          "planar_mean_error": 0.00899857584986248,
+          "farthest_from_start_m": 0.7886880747308705
+        }
+      ]
+    },
+    {
+      "seed": 1108,
+      "case": "reverse",
+      "segments": [
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            -0.05331307024766598,
+            -0.007772899455335253,
+            -0.0009912752596028013
+          ],
+          "yaw_abs_mean_error": 0.0009912752596028067,
+          "planar_mean_error": 0.008449520720651589,
+          "farthest_from_start_m": 0.7948107582307163
+        }
+      ]
+    },
+    {
+      "seed": 1101,
+      "case": "walk_left",
+      "segments": [
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09397437598796092,
+            0.0026630372112210264,
+            0.15664352284941332
+          ],
+          "yaw_abs_mean_error": 0.04335647715058676,
+          "planar_mean_error": 0.006587860951994142,
+          "farthest_from_start_m": 1.1677401709854105
+        }
+      ]
+    },
+    {
+      "seed": 1102,
+      "case": "walk_left",
+      "segments": [
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09376847125301616,
+            0.0019947501732008903,
+            0.15676245164042032
+          ],
+          "yaw_abs_mean_error": 0.04323754835957955,
+          "planar_mean_error": 0.006543009917306392,
+          "farthest_from_start_m": 1.1383159538021275
+        }
+      ]
+    },
+    {
+      "seed": 1103,
+      "case": "walk_left",
+      "segments": [
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09388060985536453,
+            0.002319714637262323,
+            0.15450955103356
+          ],
+          "yaw_abs_mean_error": 0.04549044896643998,
+          "planar_mean_error": 0.006544311403088396,
+          "farthest_from_start_m": 1.1846104878262875
+        }
+      ]
+    },
+    {
+      "seed": 1104,
+      "case": "walk_left",
+      "segments": [
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09294194721498289,
+            0.0016846785853143528,
+            0.15178560858407333
+          ],
+          "yaw_abs_mean_error": 0.048214391415926657,
+          "planar_mean_error": 0.007256324899830738,
+          "farthest_from_start_m": 1.199160278147746
+        }
+      ]
+    },
+    {
+      "seed": 1105,
+      "case": "walk_left",
+      "segments": [
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09369245188349994,
+            0.002944437418312179,
+            0.15947104357788877
+          ],
+          "yaw_abs_mean_error": 0.040528956422111156,
+          "planar_mean_error": 0.006960953595041489,
+          "farthest_from_start_m": 1.1291161148152802
+        }
+      ]
+    },
+    {
+      "seed": 1106,
+      "case": "walk_left",
+      "segments": [
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09405676283513194,
+            0.0026175399839884136,
+            0.15453746294701806
+          ],
+          "yaw_abs_mean_error": 0.04546253705298215,
+          "planar_mean_error": 0.006494119152405931,
+          "farthest_from_start_m": 1.1872296332071974
+        }
+      ]
+    },
+    {
+      "seed": 1107,
+      "case": "walk_left",
+      "segments": [
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09397262845622431,
+            0.0026313076962261265,
+            0.1548298547425646
+          ],
+          "yaw_abs_mean_error": 0.04517014525743537,
+          "planar_mean_error": 0.0065767003823297854,
+          "farthest_from_start_m": 1.170298695227471
+        }
+      ]
+    },
+    {
+      "seed": 1108,
+      "case": "walk_left",
+      "segments": [
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09356097604480947,
+            0.0022589953071632564,
+            0.15238962997569325
+          ],
+          "yaw_abs_mean_error": 0.047610370024306826,
+          "planar_mean_error": 0.0068237884853873075,
+          "farthest_from_start_m": 1.205196083973439
+        }
+      ]
+    },
+    {
+      "seed": 1101,
+      "case": "walk_right",
+      "segments": [
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.0999895365794513,
+            -0.0017269692318950278,
+            -0.13946067195282746
+          ],
+          "yaw_abs_mean_error": 0.06053932804717253,
+          "planar_mean_error": 0.0017270009296701853,
+          "farthest_from_start_m": 1.3534447684445379
+        }
+      ]
+    },
+    {
+      "seed": 1102,
+      "case": "walk_right",
+      "segments": [
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.0994793358218288,
+            -0.0012137505603424875,
+            -0.1433693919751001
+          ],
+          "yaw_abs_mean_error": 0.056630608024899706,
+          "planar_mean_error": 0.0013207125384285762,
+          "farthest_from_start_m": 1.3462100309331018
+        }
+      ]
+    },
+    {
+      "seed": 1103,
+      "case": "walk_right",
+      "segments": [
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09966066108224429,
+            -0.0012716939930404127,
+            -0.14596217991706886
+          ],
+          "yaw_abs_mean_error": 0.05403782008293123,
+          "planar_mean_error": 0.0013161901507907673,
+          "farthest_from_start_m": 1.3290798053044202
+        }
+      ]
+    },
+    {
+      "seed": 1104,
+      "case": "walk_right",
+      "segments": [
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09950390634646233,
+            -0.0011807590344727183,
+            -0.14279765037386966
+          ],
+          "yaw_abs_mean_error": 0.05720234962613046,
+          "planar_mean_error": 0.0012807422888970747,
+          "farthest_from_start_m": 1.3285618615071793
+        }
+      ]
+    },
+    {
+      "seed": 1105,
+      "case": "walk_right",
+      "segments": [
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09950090451584664,
+            -0.0007775846257059438,
+            -0.14613234772209663
+          ],
+          "yaw_abs_mean_error": 0.05386765227790343,
+          "planar_mean_error": 0.0009239773549370911,
+          "farthest_from_start_m": 1.3235204979375486
+        }
+      ]
+    },
+    {
+      "seed": 1106,
+      "case": "walk_right",
+      "segments": [
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09988793258207307,
+            -0.0014524763700719191,
+            -0.13884767910359916
+          ],
+          "yaw_abs_mean_error": 0.06115232089640068,
+          "planar_mean_error": 0.0014567932975470847,
+          "farthest_from_start_m": 1.3771943465537488
+        }
+      ]
+    },
+    {
+      "seed": 1107,
+      "case": "walk_right",
+      "segments": [
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.09969761510295833,
+            -0.001278803677189544,
+            -0.1443562721773571
+          ],
+          "yaw_abs_mean_error": 0.05564372782264295,
+          "planar_mean_error": 0.0013140682899881542,
+          "farthest_from_start_m": 1.3382160791370614
+        }
+      ]
+    },
+    {
+      "seed": 1108,
+      "case": "walk_right",
+      "segments": [
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 1000,
+          "terminated": false,
+          "mean_twist": [
+            0.0999043754673729,
+            -0.0016503471318394388,
+            -0.14034877201593618
+          ],
+          "yaw_abs_mean_error": 0.05965122798406376,
+          "planar_mean_error": 0.001653115152314194,
+          "farthest_from_start_m": 1.3750858870990985
+        }
+      ]
+    },
+    {
+      "seed": 1101,
+      "case": "switches",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004489152195140942,
+            -0.0004971839138310191,
+            0.002131102065169877
+          ],
+          "yaw_abs_mean_error": 0.002131102065169878,
+          "planar_mean_error": 0.000669863208784986,
+          "farthest_from_start_m": 0.008448562423240115
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09965186144343263,
+            -0.0002831217037747776,
+            0.013150590464561122
+          ],
+          "yaw_abs_mean_error": 0.013150590464561115,
+          "planar_mean_error": 0.0004487297112039412,
+          "farthest_from_start_m": 0.38867922213613887
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0036380638310960865,
+            -0.0006212292037121586,
+            0.13315222131694007
+          ],
+          "yaw_abs_mean_error": 0.06684777868305994,
+          "planar_mean_error": 0.0036907227154954867,
+          "farthest_from_start_m": 0.3981260058388807
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09582795350920373,
+            -0.002624546890463424,
+            0.007394873466959259
+          ],
+          "yaw_abs_mean_error": 0.007394873466959256,
+          "planar_mean_error": 0.004928916544394571,
+          "farthest_from_start_m": 0.7427572948110401
+        },
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.00399670044184355,
+            0.0001378591849007902,
+            -0.11891222192485032
+          ],
+          "yaw_abs_mean_error": 0.08108777807514968,
+          "planar_mean_error": 0.003999077340674214,
+          "farthest_from_start_m": 0.7497099079694844
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.039689661828671854,
+            -0.023972219748390845,
+            0.032755739236755205
+          ],
+          "yaw_abs_mean_error": 0.03275573923675519,
+          "planar_mean_error": 0.02609540942143439,
+          "farthest_from_start_m": 0.7601751040184863
+        },
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0919553353968267,
+            0.0031085612325661227,
+            0.17504019775976343
+          ],
+          "yaw_abs_mean_error": 0.02495980224023667,
+          "planar_mean_error": 0.008624371369216587,
+          "farthest_from_start_m": 1.0058346011858375
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09648998694682685,
+            -0.0025645560015988603,
+            -0.1643929908090993
+          ],
+          "yaw_abs_mean_error": 0.035607009190900776,
+          "planar_mean_error": 0.004347083978804941,
+          "farthest_from_start_m": 1.397170002266255
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0029237290072457968,
+            -0.0001624914301307623,
+            0.001054075231907917
+          ],
+          "yaw_abs_mean_error": 0.0010540752319079174,
+          "planar_mean_error": 0.0029282409007246025,
+          "farthest_from_start_m": 1.4081355093931052
+        }
+      ]
+    },
+    {
+      "seed": 1102,
+      "case": "switches",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.00037066918485190533,
+            -0.0005079059756904539,
+            0.0017252014215744067
+          ],
+          "yaw_abs_mean_error": 0.0017252014215744065,
+          "planar_mean_error": 0.000628779869859753,
+          "farthest_from_start_m": 0.009588507173941723
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09958912173561994,
+            0.00042373319900252857,
+            0.014352926666322255
+          ],
+          "yaw_abs_mean_error": 0.014352926666322251,
+          "planar_mean_error": 0.0005902294232557735,
+          "farthest_from_start_m": 0.388340885696497
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0033860664845065595,
+            -0.000632195727663783,
+            0.12825518943893058
+          ],
+          "yaw_abs_mean_error": 0.07174481056106943,
+          "planar_mean_error": 0.00344457801124825,
+          "farthest_from_start_m": 0.39843696468660933
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09616380214075737,
+            -0.002342678742334423,
+            -0.0021649200982950274
+          ],
+          "yaw_abs_mean_error": 0.002164920098295027,
+          "planar_mean_error": 0.004494948020282689,
+          "farthest_from_start_m": 0.750532339276854
+        },
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.00461270747478068,
+            0.00025587965786809505,
+            -0.11473395663021
+          ],
+          "yaw_abs_mean_error": 0.08526604336979007,
+          "planar_mean_error": 0.004619799199879607,
+          "farthest_from_start_m": 0.7571810818690209
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.049237282167610086,
+            -0.021153218547198885,
+            0.05420518067177342
+          ],
+          "yaw_abs_mean_error": 0.05420518067177338,
+          "planar_mean_error": 0.021166964671331705,
+          "farthest_from_start_m": 0.765402237321186
+        },
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09184113184228405,
+            0.0041671257972726305,
+            0.17570180139794525
+          ],
+          "yaw_abs_mean_error": 0.024298198602054816,
+          "planar_mean_error": 0.009161444592709459,
+          "farthest_from_start_m": 0.9745659085203889
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09727893338254781,
+            -0.002208681983646516,
+            -0.16679046477584933
+          ],
+          "yaw_abs_mean_error": 0.03320953522415075,
+          "planar_mean_error": 0.003504636877266648,
+          "farthest_from_start_m": 1.3699546691651479
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0030043982084781485,
+            -0.0001572256695859455,
+            0.0012579474726028932
+          ],
+          "yaw_abs_mean_error": 0.0012579474726028934,
+          "planar_mean_error": 0.003008509349542304,
+          "farthest_from_start_m": 1.3826246980440515
+        }
+      ]
+    },
+    {
+      "seed": 1103,
+      "case": "switches",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004064775050043005,
+            -0.0005188659889770656,
+            0.0024447868936921737
+          ],
+          "yaw_abs_mean_error": 0.0024447868936921732,
+          "planar_mean_error": 0.000659125084177252,
+          "farthest_from_start_m": 0.011150971022166679
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09927706383240321,
+            -0.000331954214738713,
+            0.010429592232937298
+          ],
+          "yaw_abs_mean_error": 0.010429592232937303,
+          "planar_mean_error": 0.0007955063187067331,
+          "farthest_from_start_m": 0.3880984982447038
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.004351247403670987,
+            -0.0005312839846119289,
+            0.13946751123620144
+          ],
+          "yaw_abs_mean_error": 0.06053248876379854,
+          "planar_mean_error": 0.004383562094947286,
+          "farthest_from_start_m": 0.3976190685690338
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09311956736068372,
+            -0.000487347722533098,
+            0.010614179000462761
+          ],
+          "yaw_abs_mean_error": 0.010614179000462754,
+          "planar_mean_error": 0.006897670701535898,
+          "farthest_from_start_m": 0.7333826490532103
+        },
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0044112552024591235,
+            7.091646523244007e-05,
+            -0.11449492567360191
+          ],
+          "yaw_abs_mean_error": 0.08550507432639814,
+          "planar_mean_error": 0.004411825201236303,
+          "farthest_from_start_m": 0.7403382793855426
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.047910605838990976,
+            -0.016485909797783044,
+            0.054731671809285454
+          ],
+          "yaw_abs_mean_error": 0.05473167180928546,
+          "planar_mean_error": 0.016617785346450278,
+          "farthest_from_start_m": 0.7516246992649277
+        },
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09204818775478146,
+            0.004669053930736792,
+            0.17796894668003668
+          ],
+          "yaw_abs_mean_error": 0.022031053319963304,
+          "planar_mean_error": 0.009221246260204522,
+          "farthest_from_start_m": 0.9497798683550384
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0968388703484495,
+            -0.0023179284979961434,
+            -0.1725757746819429
+          ],
+          "yaw_abs_mean_error": 0.027424225318057105,
+          "planar_mean_error": 0.003919889436672215,
+          "farthest_from_start_m": 1.3375052136566048
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.003078504519613083,
+            -0.00014581570577815086,
+            0.0015702753140849615
+          ],
+          "yaw_abs_mean_error": 0.0015702753140849617,
+          "planar_mean_error": 0.003081955920731145,
+          "farthest_from_start_m": 1.3496415392684744
+        }
+      ]
+    },
+    {
+      "seed": 1104,
+      "case": "switches",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0003736422359196089,
+            -0.0005350457331933676,
+            0.0017374673129941388
+          ],
+          "yaw_abs_mean_error": 0.001737467312994138,
+          "planar_mean_error": 0.0006525967032336534,
+          "farthest_from_start_m": 0.010472329062564402
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09951147186765734,
+            6.256378473744097e-05,
+            0.01723312344892928
+          ],
+          "yaw_abs_mean_error": 0.01723312344892927,
+          "planar_mean_error": 0.0004925179826675506,
+          "farthest_from_start_m": 0.3891684077551859
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0036041253253192252,
+            -0.0007522262126256678,
+            0.13096038639959154
+          ],
+          "yaw_abs_mean_error": 0.0690396136004085,
+          "planar_mean_error": 0.0036817881030239328,
+          "farthest_from_start_m": 0.3988964962531045
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09704699772189095,
+            -0.0018333354373473373,
+            0.010976339835306664
+          ],
+          "yaw_abs_mean_error": 0.010976339835306673,
+          "planar_mean_error": 0.0034758223890686457,
+          "farthest_from_start_m": 0.7466673310517817
+        },
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.004728575112031212,
+            0.0002695634420207641,
+            -0.11230474870825292
+          ],
+          "yaw_abs_mean_error": 0.08769525129174711,
+          "planar_mean_error": 0.004736252425641508,
+          "farthest_from_start_m": 0.7535339659231793
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.041645520794502205,
+            -0.02637415388102789,
+            0.11355135031748456
+          ],
+          "yaw_abs_mean_error": 0.1135513503174845,
+          "planar_mean_error": 0.027665742638418974,
+          "farthest_from_start_m": 0.7590072766318803
+        },
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09317169939014161,
+            0.0063762122685116236,
+            0.17843175838866826
+          ],
+          "yaw_abs_mean_error": 0.021568241611331716,
+          "planar_mean_error": 0.009342471413481079,
+          "farthest_from_start_m": 0.963245498205188
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09497578945433759,
+            -0.000745247282137594,
+            -0.1676082940743023
+          ],
+          "yaw_abs_mean_error": 0.03239170592569769,
+          "planar_mean_error": 0.005079181540236452,
+          "farthest_from_start_m": 1.3384347706127186
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0031225754086973375,
+            -0.00012800858830917979,
+            0.00174023590345024
+          ],
+          "yaw_abs_mean_error": 0.0017402359034502394,
+          "planar_mean_error": 0.0031251981347879773,
+          "farthest_from_start_m": 1.3501594508244978
+        }
+      ]
+    },
+    {
+      "seed": 1105,
+      "case": "switches",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.00041863448075400516,
+            -0.0005127186711611293,
+            0.002050319954107674
+          ],
+          "yaw_abs_mean_error": 0.0020503199541076736,
+          "planar_mean_error": 0.0006619178681931844,
+          "farthest_from_start_m": 0.009272350079421107
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09984465770567409,
+            0.0005785841585938607,
+            0.016294729693592833
+          ],
+          "yaw_abs_mean_error": 0.01629472969359283,
+          "planar_mean_error": 0.0005990750011327509,
+          "farthest_from_start_m": 0.38779786065423155
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0032760454531572734,
+            -0.0005131906380728329,
+            0.1281525227893155
+          ],
+          "yaw_abs_mean_error": 0.07184747721068448,
+          "planar_mean_error": 0.0033159973525559465,
+          "farthest_from_start_m": 0.3978466514729185
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09688674332821778,
+            -0.002516020169488559,
+            -0.0003308691423918038
+          ],
+          "yaw_abs_mean_error": 0.00033086914239180827,
+          "planar_mean_error": 0.0040028395668162235,
+          "farthest_from_start_m": 0.7498772020451663
+        },
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0045607477183569,
+            9.51517692488153e-05,
+            -0.11421238101577165
+          ],
+          "yaw_abs_mean_error": 0.08578761898422836,
+          "planar_mean_error": 0.004561740195329941,
+          "farthest_from_start_m": 0.7570980877988401
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.04378978289547156,
+            -0.02401261391933181,
+            0.11050708607092197
+          ],
+          "yaw_abs_mean_error": 0.110507086070922,
+          "planar_mean_error": 0.024802669689456127,
+          "farthest_from_start_m": 0.7710814281180434
+        },
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09340577913820226,
+            0.004747707501808232,
+            0.17427830702875816
+          ],
+          "yaw_abs_mean_error": 0.02572169297124193,
+          "planar_mean_error": 0.008125544615402403,
+          "farthest_from_start_m": 0.969252702823024
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09539925919799837,
+            -0.0009215113981803991,
+            -0.17394679122298753
+          ],
+          "yaw_abs_mean_error": 0.026053208777012376,
+          "planar_mean_error": 0.004692120968621697,
+          "farthest_from_start_m": 1.3472633171317911
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0030410107240879387,
+            -0.00012356830960205396,
+            0.0012992169816530377
+          ],
+          "yaw_abs_mean_error": 0.0012992169816530385,
+          "planar_mean_error": 0.0030435202235496576,
+          "farthest_from_start_m": 1.3594947057914895
+        }
+      ]
+    },
+    {
+      "seed": 1106,
+      "case": "switches",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0005094997002580312,
+            -0.0005324007125270426,
+            0.0025446114154370893
+          ],
+          "yaw_abs_mean_error": 0.00254461141543709,
+          "planar_mean_error": 0.0007369127921690099,
+          "farthest_from_start_m": 0.011681961072264914
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.098015514655091,
+            0.00032908046908642214,
+            0.010335464356103035
+          ],
+          "yaw_abs_mean_error": 0.010335464356103028,
+          "planar_mean_error": 0.002011585454136307,
+          "farthest_from_start_m": 0.38538129183776526
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.003901656092058575,
+            -0.0005155189335998676,
+            0.13382739747128186
+          ],
+          "yaw_abs_mean_error": 0.06617260252871811,
+          "planar_mean_error": 0.003935566037001252,
+          "farthest_from_start_m": 0.3951306411345364
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09883815705797655,
+            -0.0026653718741518955,
+            0.022699672216144863
+          ],
+          "yaw_abs_mean_error": 0.02269967221614487,
+          "planar_mean_error": 0.0029075911420709867,
+          "farthest_from_start_m": 0.7503826095800078
+        },
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0045260162917632706,
+            -5.350907092488463e-05,
+            -0.11618751809317635
+          ],
+          "yaw_abs_mean_error": 0.08381248190682374,
+          "planar_mean_error": 0.0045263325876450785,
+          "farthest_from_start_m": 0.7573957621972568
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.04207592826326289,
+            -0.010031433716635455,
+            0.05613535776450853
+          ],
+          "yaw_abs_mean_error": 0.05613535776450847,
+          "planar_mean_error": 0.012783605723746583,
+          "farthest_from_start_m": 0.7753872404762544
+        },
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09273168602440565,
+            0.0046602423611060385,
+            0.18679906958792894
+          ],
+          "yaw_abs_mean_error": 0.013200930412071097,
+          "planar_mean_error": 0.008634016846871864,
+          "farthest_from_start_m": 0.9732478279594273
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0935560710387255,
+            -0.0015418990189368187,
+            -0.17951137153191093
+          ],
+          "yaw_abs_mean_error": 0.02048862846808904,
+          "planar_mean_error": 0.006625833762067234,
+          "farthest_from_start_m": 1.3533099868176728
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0029117108740388956,
+            -0.00020108071554934042,
+            0.0018549724164225294
+          ],
+          "yaw_abs_mean_error": 0.0018549724164225298,
+          "planar_mean_error": 0.0029186458620672332,
+          "farthest_from_start_m": 1.3644846005580138
+        }
+      ]
+    },
+    {
+      "seed": 1107,
+      "case": "switches",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004891496512640998,
+            -0.0005504133809459566,
+            0.002492636772817899
+          ],
+          "yaw_abs_mean_error": 0.0024926367728178994,
+          "planar_mean_error": 0.0007363574344407403,
+          "farthest_from_start_m": 0.010555879214322371
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09903810985429022,
+            -9.783545476817895e-05,
+            0.020161978623693455
+          ],
+          "yaw_abs_mean_error": 0.02016197862369346,
+          "planar_mean_error": 0.0009668528474505521,
+          "farthest_from_start_m": 0.386947713915769
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0038303270650292703,
+            -0.0006260204135340832,
+            0.1327459189426825
+          ],
+          "yaw_abs_mean_error": 0.06725408105731753,
+          "planar_mean_error": 0.0038811476373950436,
+          "farthest_from_start_m": 0.396563917717574
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0964426833400135,
+            -0.0014133449374403445,
+            0.00843242820493088
+          ],
+          "yaw_abs_mean_error": 0.00843242820493088,
+          "planar_mean_error": 0.003827799071477721,
+          "farthest_from_start_m": 0.7460385875054351
+        },
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.004924346354681966,
+            0.00037219172437510733,
+            -0.11281788155260711
+          ],
+          "yaw_abs_mean_error": 0.08718211844739295,
+          "planar_mean_error": 0.004938391813188062,
+          "farthest_from_start_m": 0.7527328153814211
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.045182863338028977,
+            -0.026849771338820785,
+            0.10710516077655058
+          ],
+          "yaw_abs_mean_error": 0.10710516077655058,
+          "planar_mean_error": 0.027278471851756424,
+          "farthest_from_start_m": 0.7651213658483746
+        },
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09302337744345783,
+            0.006203250033136268,
+            0.1727634249425722
+          ],
+          "yaw_abs_mean_error": 0.027236575057427822,
+          "planar_mean_error": 0.009335607814709108,
+          "farthest_from_start_m": 0.958169022244238
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09497915977380962,
+            -0.0009291782936694403,
+            -0.17352825242490066
+          ],
+          "yaw_abs_mean_error": 0.026471747575099333,
+          "planar_mean_error": 0.0051060952672622355,
+          "farthest_from_start_m": 1.3361839120430572
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0029656695966978367,
+            -0.0001672934071717842,
+            0.0017441517902431695
+          ],
+          "yaw_abs_mean_error": 0.00174415179024317,
+          "planar_mean_error": 0.0029703843591126476,
+          "farthest_from_start_m": 1.3471193440364042
+        }
+      ]
+    },
+    {
+      "seed": 1108,
+      "case": "switches",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0005063925615992708,
+            -0.0005500199739752691,
+            0.0028040978251468833
+          ],
+          "yaw_abs_mean_error": 0.002804097825146884,
+          "planar_mean_error": 0.0007476331976409468,
+          "farthest_from_start_m": 0.01119956856421314
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09928582971470809,
+            0.00041239589129724177,
+            0.019391468592400294
+          ],
+          "yaw_abs_mean_error": 0.019391468592400287,
+          "planar_mean_error": 0.0008246875575348425,
+          "farthest_from_start_m": 0.3878571332541512
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.004202199506071836,
+            -0.000999869715366454,
+            0.13831326472188768
+          ],
+          "yaw_abs_mean_error": 0.061686735278112345,
+          "planar_mean_error": 0.004319516192415231,
+          "farthest_from_start_m": 0.39759026311006485
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09619099156946916,
+            -0.0026898798837692722,
+            0.0049077066250171695
+          ],
+          "yaw_abs_mean_error": 0.004907706625017167,
+          "planar_mean_error": 0.004663046108817877,
+          "farthest_from_start_m": 0.7455638178184765
+        },
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.004263225815207983,
+            -7.414430632944875e-05,
+            -0.11658251150178242
+          ],
+          "yaw_abs_mean_error": 0.08341748849821762,
+          "planar_mean_error": 0.0042638705104185385,
+          "farthest_from_start_m": 0.7527381304293285
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.04075894269643273,
+            -0.01678751105537771,
+            0.03413299820304827
+          ],
+          "yaw_abs_mean_error": 0.03413299820304833,
+          "planar_mean_error": 0.019162924294643623,
+          "farthest_from_start_m": 0.7721876494140312
+        },
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09345753751016024,
+            0.004160093762643921,
+            0.1699465032777275
+          ],
+          "yaw_abs_mean_error": 0.030053496722272487,
+          "planar_mean_error": 0.007753076521288061,
+          "farthest_from_start_m": 0.9983679609017253
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09590697908068613,
+            -0.0024578960310600606,
+            -0.17037740825066253
+          ],
+          "yaw_abs_mean_error": 0.029622591749337516,
+          "planar_mean_error": 0.004774313892638596,
+          "farthest_from_start_m": 1.388993115900772
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.002985864034872623,
+            -0.00014239348913136997,
+            0.0013575001091815748
+          ],
+          "yaw_abs_mean_error": 0.0013575001091815748,
+          "planar_mean_error": 0.0029892574229217574,
+          "farthest_from_start_m": 1.4012451112238902
+        }
+      ]
+    },
+    {
+      "seed": 1101,
+      "case": "switches_repeated_arcs",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004489152195140942,
+            -0.0004971839138310191,
+            0.002131102065169877
+          ],
+          "yaw_abs_mean_error": 0.002131102065169878,
+          "planar_mean_error": 0.000669863208784986,
+          "farthest_from_start_m": 0.008448562423240115
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.10110014983646999,
+            0.001967779425468948,
+            -0.12438374412217842
+          ],
+          "yaw_abs_mean_error": 0.07561625587782156,
+          "planar_mean_error": 0.00225443685429065,
+          "farthest_from_start_m": 0.39321216156776717
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.018556960050817254,
+            0.0035444437073798947,
+            0.016942764650849484
+          ],
+          "yaw_abs_mean_error": 0.016942764650849502,
+          "planar_mean_error": 0.03164218453964087,
+          "farthest_from_start_m": 0.3963869937111353
+        },
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09658843225067364,
+            0.0003941036811314248,
+            0.13672786111524365
+          ],
+          "yaw_abs_mean_error": 0.06327213888475637,
+          "planar_mean_error": 0.003434255700981701,
+          "farthest_from_start_m": 0.6672724691727088
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 99,
+          "terminated": true,
+          "mean_twist": [
+            -0.1973323323022049,
+            0.03574199854842263,
+            -0.2661689330667604
+          ],
+          "yaw_abs_mean_error": 0.2661689330667604,
+          "planar_mean_error": 0.15160576045072552,
+          "farthest_from_start_m": 0.6705066057100478
+        }
+      ]
+    },
+    {
+      "seed": 1102,
+      "case": "switches_repeated_arcs",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.00037066918485190533,
+            -0.0005079059756904539,
+            0.0017252014215744067
+          ],
+          "yaw_abs_mean_error": 0.0017252014215744065,
+          "planar_mean_error": 0.000628779869859753,
+          "farthest_from_start_m": 0.009588507173941723
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.10210540271236854,
+            0.0013495765945894115,
+            -0.12515038935969325
+          ],
+          "yaw_abs_mean_error": 0.0748496106403068,
+          "planar_mean_error": 0.0025008153802134796,
+          "farthest_from_start_m": 0.3971583307976731
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.04104927325241642,
+            0.0012626248233923436,
+            0.0126079322268285
+          ],
+          "yaw_abs_mean_error": 0.012607932226828489,
+          "planar_mean_error": 0.009039343491346857,
+          "farthest_from_start_m": 0.41985922826292643
+        },
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0973925945986726,
+            0.0010894744572147892,
+            0.13379064160787907
+          ],
+          "yaw_abs_mean_error": 0.06620935839212093,
+          "planar_mean_error": 0.0028258658000327418,
+          "farthest_from_start_m": 0.6414287005213114
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.025927372402851385,
+            -0.0033188049613619604,
+            0.12471457479739476
+          ],
+          "yaw_abs_mean_error": 0.1247145747973948,
+          "planar_mean_error": 0.024300326454649992,
+          "farthest_from_start_m": 0.652912530917344
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09839491263483571,
+            -0.00024153609314702906,
+            -0.1416235976654622
+          ],
+          "yaw_abs_mean_error": 0.05837640233453781,
+          "planar_mean_error": 0.001623158998404898,
+          "farthest_from_start_m": 0.9283491346942074
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.002800601039353542,
+            -0.00022905484185527464,
+            0.0005722512712958305
+          ],
+          "yaw_abs_mean_error": 0.0005722512712958302,
+          "planar_mean_error": 0.0028099523665367503,
+          "farthest_from_start_m": 0.936049918516086
+        }
+      ]
+    },
+    {
+      "seed": 1103,
+      "case": "switches_repeated_arcs",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004064775050043005,
+            -0.0005188659889770656,
+            0.0024447868936921737
+          ],
+          "yaw_abs_mean_error": 0.0024447868936921732,
+          "planar_mean_error": 0.000659125084177252,
+          "farthest_from_start_m": 0.011150971022166679
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.1022621057075735,
+            0.00023694798239927802,
+            -0.13505644975568712
+          ],
+          "yaw_abs_mean_error": 0.06494355024431281,
+          "planar_mean_error": 0.0022744816065643895,
+          "farthest_from_start_m": 0.39609508393227094
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.01896949822547187,
+            0.0023744353599355547,
+            0.042319831582324934
+          ],
+          "yaw_abs_mean_error": 0.04231983158232493,
+          "planar_mean_error": 0.031121214366690544,
+          "farthest_from_start_m": 0.4141605516453916
+        },
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09499223744294763,
+            0.0018043685954629192,
+            0.14748940734542343
+          ],
+          "yaw_abs_mean_error": 0.05251059265457664,
+          "planar_mean_error": 0.005322915728819027,
+          "farthest_from_start_m": 0.6536916904797535
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.011629585936373917,
+            -0.0034203979999625,
+            -0.010500621268348585
+          ],
+          "yaw_abs_mean_error": 0.01050062126834859,
+          "planar_mean_error": 0.038522562192723646,
+          "farthest_from_start_m": 0.6659964860613862
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09764873543004256,
+            0.0018154431481296992,
+            -0.14064032241031785
+          ],
+          "yaw_abs_mean_error": 0.05935967758968218,
+          "planar_mean_error": 0.0029705687842614126,
+          "farthest_from_start_m": 0.9668410923832842
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.00269756070877972,
+            -0.00019257145403129696,
+            -0.00030174490699849015
+          ],
+          "yaw_abs_mean_error": 0.0003017449069984901,
+          "planar_mean_error": 0.0027044255475904442,
+          "farthest_from_start_m": 0.9756520993648039
+        }
+      ]
+    },
+    {
+      "seed": 1104,
+      "case": "switches_repeated_arcs",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0003736422359196089,
+            -0.0005350457331933676,
+            0.0017374673129941388
+          ],
+          "yaw_abs_mean_error": 0.001737467312994138,
+          "planar_mean_error": 0.0006525967032336534,
+          "farthest_from_start_m": 0.010472329062564402
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.10137359800783724,
+            0.0009949171235636668,
+            -0.12876187205019615
+          ],
+          "yaw_abs_mean_error": 0.07123812794980389,
+          "planar_mean_error": 0.0016960635512546802,
+          "farthest_from_start_m": 0.39496951202220687
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 130,
+          "terminated": true,
+          "mean_twist": [
+            -0.15338164126191825,
+            0.010188552658822745,
+            -0.06310183092251927
+          ],
+          "yaw_abs_mean_error": 0.06310183092251928,
+          "planar_mean_error": 0.1038824833900767,
+          "farthest_from_start_m": 0.39842757344757646
+        }
+      ]
+    },
+    {
+      "seed": 1105,
+      "case": "switches_repeated_arcs",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.00041863448075400516,
+            -0.0005127186711611293,
+            0.002050319954107674
+          ],
+          "yaw_abs_mean_error": 0.0020503199541076736,
+          "planar_mean_error": 0.0006619178681931844,
+          "farthest_from_start_m": 0.009272350079421107
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.10200205277215046,
+            0.0013778549925484158,
+            -0.13279210333803868
+          ],
+          "yaw_abs_mean_error": 0.06720789666196128,
+          "planar_mean_error": 0.0024303702769261225,
+          "farthest_from_start_m": 0.39379552525590533
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 171,
+          "terminated": true,
+          "mean_twist": [
+            -0.09005357740319327,
+            0.011516960636505345,
+            -0.09251304350576563
+          ],
+          "yaw_abs_mean_error": 0.0925130435057656,
+          "planar_mean_error": 0.04167648551757223,
+          "farthest_from_start_m": 0.3972052483217804
+        }
+      ]
+    },
+    {
+      "seed": 1106,
+      "case": "switches_repeated_arcs",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0005094997002580312,
+            -0.0005324007125270426,
+            0.0025446114154370893
+          ],
+          "yaw_abs_mean_error": 0.00254461141543709,
+          "planar_mean_error": 0.0007369127921690099,
+          "farthest_from_start_m": 0.011681961072264914
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.1014026345516928,
+            0.0015400709985293358,
+            -0.12693386441704935
+          ],
+          "yaw_abs_mean_error": 0.07306613558295073,
+          "planar_mean_error": 0.002083075218544313,
+          "farthest_from_start_m": 0.39628309017547636
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 100,
+          "terminated": true,
+          "mean_twist": [
+            -0.18771495859042528,
+            0.034350280922140895,
+            -0.2601181531291289
+          ],
+          "yaw_abs_mean_error": 0.260118153129129,
+          "planar_mean_error": 0.14193432149762983,
+          "farthest_from_start_m": 0.39975790257969535
+        }
+      ]
+    },
+    {
+      "seed": 1107,
+      "case": "switches_repeated_arcs",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004891496512640998,
+            -0.0005504133809459566,
+            0.002492636772817899
+          ],
+          "yaw_abs_mean_error": 0.0024926367728178994,
+          "planar_mean_error": 0.0007363574344407403,
+          "farthest_from_start_m": 0.010555879214322371
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.1024214002893911,
+            0.0005729794810003687,
+            -0.1249674290049264
+          ],
+          "yaw_abs_mean_error": 0.07503257099507359,
+          "planar_mean_error": 0.0024882694482532856,
+          "farthest_from_start_m": 0.397366343204483
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.028255234056972965,
+            -0.001913583016672057,
+            0.023574222654487668
+          ],
+          "yaw_abs_mean_error": 0.02357422265448765,
+          "planar_mean_error": 0.021828803125199612,
+          "farthest_from_start_m": 0.4009418686688244
+        },
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09449808002129494,
+            0.00106279755409792,
+            0.1431767787527566
+          ],
+          "yaw_abs_mean_error": 0.05682322124724338,
+          "planar_mean_error": 0.005603629367924869,
+          "farthest_from_start_m": 0.6259185478225171
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 106,
+          "terminated": true,
+          "mean_twist": [
+            -0.17662063489008822,
+            0.02636120463849317,
+            -0.26525886184483677
+          ],
+          "yaw_abs_mean_error": 0.26525886184483677,
+          "planar_mean_error": 0.12933560333474123,
+          "farthest_from_start_m": 0.6296906345858743
+        }
+      ]
+    },
+    {
+      "seed": 1108,
+      "case": "switches_repeated_arcs",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0005063925615992708,
+            -0.0005500199739752691,
+            0.0028040978251468833
+          ],
+          "yaw_abs_mean_error": 0.002804097825146884,
+          "planar_mean_error": 0.0007476331976409468,
+          "farthest_from_start_m": 0.01119956856421314
+        },
+        {
+          "segment": "walk_right",
+          "command": [
+            0.1,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.10279620205963058,
+            0.0009032990849291632,
+            -0.12504089891740805
+          ],
+          "yaw_abs_mean_error": 0.07495910108259196,
+          "planar_mean_error": 0.0029384851871527696,
+          "farthest_from_start_m": 0.39906741134298035
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.03288073327028876,
+            -0.0019386669193015452,
+            0.02678672702132839
+          ],
+          "yaw_abs_mean_error": 0.026786727021328408,
+          "planar_mean_error": 0.017228688945679877,
+          "farthest_from_start_m": 0.41040420464199123
+        },
+        {
+          "segment": "walk_left",
+          "command": [
+            0.1,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09592064358900149,
+            0.0012601313121614706,
+            0.1324532572789081
+          ],
+          "yaw_abs_mean_error": 0.06754674272109189,
+          "planar_mean_error": 0.0042695526290050575,
+          "farthest_from_start_m": 0.6475326429254176
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 101,
+          "terminated": true,
+          "mean_twist": [
+            -0.18881252977538288,
+            0.034140422267784014,
+            -0.2850162764524838
+          ],
+          "yaw_abs_mean_error": 0.28501627645248384,
+          "planar_mean_error": 0.14294924573170775,
+          "farthest_from_start_m": 0.6508491127052165
+        }
+      ]
+    },
+    {
+      "seed": 1101,
+      "case": "switches_straight_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004489152195140942,
+            -0.0004971839138310191,
+            0.002131102065169877
+          ],
+          "yaw_abs_mean_error": 0.002131102065169878,
+          "planar_mean_error": 0.000669863208784986,
+          "farthest_from_start_m": 0.008448562423240115
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09965186144343263,
+            -0.0002831217037747776,
+            0.013150590464561122
+          ],
+          "yaw_abs_mean_error": 0.013150590464561115,
+          "planar_mean_error": 0.0004487297112039412,
+          "farthest_from_start_m": 0.38867922213613887
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 63,
+          "terminated": true,
+          "mean_twist": [
+            -0.508388662228085,
+            0.004777007904524571,
+            0.4826462301763731
+          ],
+          "yaw_abs_mean_error": 0.4826462301763731,
+          "planar_mean_error": 0.4584135528796823,
+          "farthest_from_start_m": 0.3951778996039036
+        }
+      ]
+    },
+    {
+      "seed": 1102,
+      "case": "switches_straight_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.00037066918485190533,
+            -0.0005079059756904539,
+            0.0017252014215744067
+          ],
+          "yaw_abs_mean_error": 0.0017252014215744065,
+          "planar_mean_error": 0.000628779869859753,
+          "farthest_from_start_m": 0.009588507173941723
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09958912173561994,
+            0.00042373319900252857,
+            0.014352926666322255
+          ],
+          "yaw_abs_mean_error": 0.014352926666322251,
+          "planar_mean_error": 0.0005902294232557735,
+          "farthest_from_start_m": 0.388340885696497
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 84,
+          "terminated": true,
+          "mean_twist": [
+            -0.2778906229352847,
+            0.00916912524961294,
+            -0.11836561167864916
+          ],
+          "yaw_abs_mean_error": 0.11836561167864922,
+          "planar_mean_error": 0.22807500713509846,
+          "farthest_from_start_m": 0.39514270609931657
+        }
+      ]
+    },
+    {
+      "seed": 1103,
+      "case": "switches_straight_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004064775050043005,
+            -0.0005188659889770656,
+            0.0024447868936921737
+          ],
+          "yaw_abs_mean_error": 0.0024447868936921732,
+          "planar_mean_error": 0.000659125084177252,
+          "farthest_from_start_m": 0.011150971022166679
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09927706383240321,
+            -0.000331954214738713,
+            0.010429592232937298
+          ],
+          "yaw_abs_mean_error": 0.010429592232937303,
+          "planar_mean_error": 0.0007955063187067331,
+          "farthest_from_start_m": 0.3880984982447038
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 69,
+          "terminated": true,
+          "mean_twist": [
+            -0.4309130450970616,
+            0.04062313700329179,
+            0.1468245615910292
+          ],
+          "yaw_abs_mean_error": 0.14682456159102922,
+          "planar_mean_error": 0.38307308334716533,
+          "farthest_from_start_m": 0.3944272598548623
+        }
+      ]
+    },
+    {
+      "seed": 1104,
+      "case": "switches_straight_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0003736422359196089,
+            -0.0005350457331933676,
+            0.0017374673129941388
+          ],
+          "yaw_abs_mean_error": 0.001737467312994138,
+          "planar_mean_error": 0.0006525967032336534,
+          "farthest_from_start_m": 0.010472329062564402
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09951147186765734,
+            6.256378473744097e-05,
+            0.01723312344892928
+          ],
+          "yaw_abs_mean_error": 0.01723312344892927,
+          "planar_mean_error": 0.0004925179826675506,
+          "farthest_from_start_m": 0.3891684077551859
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 81,
+          "terminated": true,
+          "mean_twist": [
+            -0.3002235194560791,
+            0.022324391018343295,
+            -0.15419941539025947
+          ],
+          "yaw_abs_mean_error": 0.1541994153902595,
+          "planar_mean_error": 0.25121741206239395,
+          "farthest_from_start_m": 0.3958762274111615
+        }
+      ]
+    },
+    {
+      "seed": 1105,
+      "case": "switches_straight_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.00041863448075400516,
+            -0.0005127186711611293,
+            0.002050319954107674
+          ],
+          "yaw_abs_mean_error": 0.0020503199541076736,
+          "planar_mean_error": 0.0006619178681931844,
+          "farthest_from_start_m": 0.009272350079421107
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09984465770567409,
+            0.0005785841585938607,
+            0.016294729693592833
+          ],
+          "yaw_abs_mean_error": 0.01629472969359283,
+          "planar_mean_error": 0.0005990750011327509,
+          "farthest_from_start_m": 0.38779786065423155
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 98,
+          "terminated": true,
+          "mean_twist": [
+            -0.19773127161542825,
+            0.03246477794879051,
+            -0.25163950601325097
+          ],
+          "yaw_abs_mean_error": 0.25163950601325097,
+          "planar_mean_error": 0.15125637315622673,
+          "farthest_from_start_m": 0.3950875281124352
+        }
+      ]
+    },
+    {
+      "seed": 1106,
+      "case": "switches_straight_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0005094997002580312,
+            -0.0005324007125270426,
+            0.0025446114154370893
+          ],
+          "yaw_abs_mean_error": 0.00254461141543709,
+          "planar_mean_error": 0.0007369127921690099,
+          "farthest_from_start_m": 0.011681961072264914
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.098015514655091,
+            0.00032908046908642214,
+            0.010335464356103035
+          ],
+          "yaw_abs_mean_error": 0.010335464356103028,
+          "planar_mean_error": 0.002011585454136307,
+          "farthest_from_start_m": 0.38538129183776526
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0140208583361998,
+            -0.010676725712393188,
+            0.06635263284188256
+          ],
+          "yaw_abs_mean_error": 0.06635263284188257,
+          "planar_mean_error": 0.03752986952817024,
+          "farthest_from_start_m": 0.43478511605989656
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0023522952079333905,
+            -0.0006334227605140581,
+            0.006238661263596783
+          ],
+          "yaw_abs_mean_error": 0.006238661263596782,
+          "planar_mean_error": 0.0024360864391075377,
+          "farthest_from_start_m": 0.3718869937148913
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.03561578021608521,
+            -0.011022590452267906,
+            0.10396028074706433
+          ],
+          "yaw_abs_mean_error": 0.10396028074706436,
+          "planar_mean_error": 0.018121900536930278,
+          "farthest_from_start_m": 0.3825243796564893
+        },
+        {
+          "segment": "forward_005",
+          "command": [
+            0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.049067903224386276,
+            0.0008375154650925558,
+            -0.017212396414305317
+          ],
+          "yaw_abs_mean_error": 0.017212396414305317,
+          "planar_mean_error": 0.0012530908001333028,
+          "farthest_from_start_m": 0.44428241680399966
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.002598117737985862,
+            -0.0003015777590237379,
+            0.0026721712567017728
+          ],
+          "yaw_abs_mean_error": 0.002672171256701773,
+          "planar_mean_error": 0.002615562066779252,
+          "farthest_from_start_m": 0.44625012082656934
+        }
+      ]
+    },
+    {
+      "seed": 1107,
+      "case": "switches_straight_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004891496512640998,
+            -0.0005504133809459566,
+            0.002492636772817899
+          ],
+          "yaw_abs_mean_error": 0.0024926367728178994,
+          "planar_mean_error": 0.0007363574344407403,
+          "farthest_from_start_m": 0.010555879214322371
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09903810985429022,
+            -9.783545476817895e-05,
+            0.020161978623693455
+          ],
+          "yaw_abs_mean_error": 0.02016197862369346,
+          "planar_mean_error": 0.0009668528474505521,
+          "farthest_from_start_m": 0.386947713915769
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 64,
+          "terminated": true,
+          "mean_twist": [
+            -0.48578061170919856,
+            -0.003008961465749057,
+            0.4719015702892945
+          ],
+          "yaw_abs_mean_error": 0.4719015702892945,
+          "planar_mean_error": 0.43579099966698,
+          "farthest_from_start_m": 0.3934288175799971
+        }
+      ]
+    },
+    {
+      "seed": 1108,
+      "case": "switches_straight_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0005063925615992708,
+            -0.0005500199739752691,
+            0.0028040978251468833
+          ],
+          "yaw_abs_mean_error": 0.002804097825146884,
+          "planar_mean_error": 0.0007476331976409468,
+          "farthest_from_start_m": 0.01119956856421314
+        },
+        {
+          "segment": "forward_010",
+          "command": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.09928582971470809,
+            0.00041239589129724177,
+            0.019391468592400294
+          ],
+          "yaw_abs_mean_error": 0.019391468592400287,
+          "planar_mean_error": 0.0008246875575348425,
+          "farthest_from_start_m": 0.3878571332541512
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 91,
+          "terminated": true,
+          "mean_twist": [
+            -0.22982058556728424,
+            0.014850746192359878,
+            -0.027937546386375946
+          ],
+          "yaw_abs_mean_error": 0.027937546386375984,
+          "planar_mean_error": 0.18043277877434266,
+          "farthest_from_start_m": 0.39478152568112074
+        }
+      ]
+    },
+    {
+      "seed": 1101,
+      "case": "switches_turn_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004489152195140942,
+            -0.0004971839138310191,
+            0.002131102065169877
+          ],
+          "yaw_abs_mean_error": 0.002131102065169878,
+          "planar_mean_error": 0.000669863208784986,
+          "farthest_from_start_m": 0.008448562423240115
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.005846772740153397,
+            0.0005507811946283976,
+            0.14507771090671015
+          ],
+          "yaw_abs_mean_error": 0.05492228909328979,
+          "planar_mean_error": 0.005872657950141243,
+          "farthest_from_start_m": 0.04069119205133009
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.022283261611194247,
+            -0.0012339469866682268,
+            0.08734193647072894
+          ],
+          "yaw_abs_mean_error": 0.08734193647072887,
+          "planar_mean_error": 0.027744192402724688,
+          "farthest_from_start_m": 0.09677185578197968
+        },
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.001657581308164863,
+            -0.0013563441872392183,
+            -0.09652342504077374
+          ],
+          "yaw_abs_mean_error": 0.10347657495922626,
+          "planar_mean_error": 0.0021417855512247614,
+          "farthest_from_start_m": 0.07596646417948137
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 124,
+          "terminated": true,
+          "mean_twist": [
+            -0.13028221115551544,
+            0.01318426319313639,
+            -0.14707266604936248
+          ],
+          "yaw_abs_mean_error": 0.14707266604936242,
+          "planar_mean_error": 0.08135759475282354,
+          "farthest_from_start_m": 0.20071181608491212
+        }
+      ]
+    },
+    {
+      "seed": 1102,
+      "case": "switches_turn_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.00037066918485190533,
+            -0.0005079059756904539,
+            0.0017252014215744067
+          ],
+          "yaw_abs_mean_error": 0.0017252014215744065,
+          "planar_mean_error": 0.000628779869859753,
+          "farthest_from_start_m": 0.009588507173941723
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.005644762948769813,
+            0.0005498437040464103,
+            0.14354155058761287
+          ],
+          "yaw_abs_mean_error": 0.05645844941238712,
+          "planar_mean_error": 0.0056714792467824435,
+          "farthest_from_start_m": 0.03984049120718036
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 81,
+          "terminated": true,
+          "mean_twist": [
+            -0.29883669227748955,
+            0.0011469295004962658,
+            -0.03424883872358474
+          ],
+          "yaw_abs_mean_error": 0.03424883872358476,
+          "planar_mean_error": 0.24883933545740133,
+          "farthest_from_start_m": 0.15452396475597308
+        }
+      ]
+    },
+    {
+      "seed": 1103,
+      "case": "switches_turn_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004064775050043005,
+            -0.0005188659889770656,
+            0.0024447868936921737
+          ],
+          "yaw_abs_mean_error": 0.0024447868936921732,
+          "planar_mean_error": 0.000659125084177252,
+          "farthest_from_start_m": 0.011150971022166679
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.006041732817548432,
+            0.0004701809311184943,
+            0.14304329970940055
+          ],
+          "yaw_abs_mean_error": 0.056956700290599425,
+          "planar_mean_error": 0.006060000457642653,
+          "farthest_from_start_m": 0.038880371154517465
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 78,
+          "terminated": true,
+          "mean_twist": [
+            -0.32442115146937667,
+            0.01594556402114498,
+            -0.04223672262173604
+          ],
+          "yaw_abs_mean_error": 0.042236722621736035,
+          "planar_mean_error": 0.2748840289753681,
+          "farthest_from_start_m": 0.15354248849833355
+        }
+      ]
+    },
+    {
+      "seed": 1104,
+      "case": "switches_turn_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0003736422359196089,
+            -0.0005350457331933676,
+            0.0017374673129941388
+          ],
+          "yaw_abs_mean_error": 0.001737467312994138,
+          "planar_mean_error": 0.0006525967032336534,
+          "farthest_from_start_m": 0.010472329062564402
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.005927717943393367,
+            0.0005225602678547543,
+            0.14500127674730767
+          ],
+          "yaw_abs_mean_error": 0.054998723252692304,
+          "planar_mean_error": 0.005950706617702482,
+          "farthest_from_start_m": 0.03961902063615976
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 75,
+          "terminated": true,
+          "mean_twist": [
+            -0.33278954416759826,
+            0.01931196502083774,
+            -0.046732976284021926
+          ],
+          "yaw_abs_mean_error": 0.046732976284021975,
+          "planar_mean_error": 0.28344819329726567,
+          "farthest_from_start_m": 0.140774823978712
+        }
+      ]
+    },
+    {
+      "seed": 1105,
+      "case": "switches_turn_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.00041863448075400516,
+            -0.0005127186711611293,
+            0.002050319954107674
+          ],
+          "yaw_abs_mean_error": 0.0020503199541076736,
+          "planar_mean_error": 0.0006619178681931844,
+          "farthest_from_start_m": 0.009272350079421107
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.006215359912406364,
+            0.00013860802481330926,
+            0.14894634030079926
+          ],
+          "yaw_abs_mean_error": 0.05105365969920079,
+          "planar_mean_error": 0.0062169052610837406,
+          "farthest_from_start_m": 0.03880820722343701
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.03527867206372808,
+            -0.006657648188519001,
+            0.056788768694180855
+          ],
+          "yaw_abs_mean_error": 0.05678876869418082,
+          "planar_mean_error": 0.0161567872923224,
+          "farthest_from_start_m": 0.07311991875514562
+        },
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0003866532104719897,
+            -0.0006145088676792132,
+            -0.11462531230684325
+          ],
+          "yaw_abs_mean_error": 0.0853746876931568,
+          "planar_mean_error": 0.0007260315789445288,
+          "farthest_from_start_m": 0.09379669704715574
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.02691594622385035,
+            -0.0014876741835684756,
+            0.018189850981428654
+          ],
+          "yaw_abs_mean_error": 0.018189850981428647,
+          "planar_mean_error": 0.023131941406129876,
+          "farthest_from_start_m": 0.16786365143169799
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.007918609915272726,
+            -0.00111094910984162,
+            0.1478294753129234
+          ],
+          "yaw_abs_mean_error": 0.052170524687076704,
+          "planar_mean_error": 0.007996161011067336,
+          "farthest_from_start_m": 0.173089490639955
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004728466587656623,
+            -0.00039943368761512406,
+            0.0017649854002430457
+          ],
+          "yaw_abs_mean_error": 0.0017649854002430457,
+          "planar_mean_error": 0.0006189759555165832,
+          "farthest_from_start_m": 0.1479903881720391
+        }
+      ]
+    },
+    {
+      "seed": 1106,
+      "case": "switches_turn_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0005094997002580312,
+            -0.0005324007125270426,
+            0.0025446114154370893
+          ],
+          "yaw_abs_mean_error": 0.00254461141543709,
+          "planar_mean_error": 0.0007369127921690099,
+          "farthest_from_start_m": 0.011681961072264914
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.005790727458662965,
+            1.9855070995733102e-05,
+            0.15044767068014997
+          ],
+          "yaw_abs_mean_error": 0.04955232931985006,
+          "planar_mean_error": 0.005790761497796079,
+          "farthest_from_start_m": 0.037536504821990384
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.03654000371395718,
+            -0.0028296744531543,
+            0.022036307262561044
+          ],
+          "yaw_abs_mean_error": 0.022036307262561058,
+          "planar_mean_error": 0.013754219626395392,
+          "farthest_from_start_m": 0.08377703393443345
+        },
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0005333950161297997,
+            -0.0004188662747387826,
+            -0.11536935280519135
+          ],
+          "yaw_abs_mean_error": 0.08463064719480859,
+          "planar_mean_error": 0.00067820291900408,
+          "farthest_from_start_m": 0.08512718556762158
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.012922819822692952,
+            0.0015546650058789933,
+            0.017701221655989308
+          ],
+          "yaw_abs_mean_error": 0.017701221655989325,
+          "planar_mean_error": 0.06294202282831073,
+          "farthest_from_start_m": 0.10108768890653726
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0041783774099761065,
+            -0.0011160045177169178,
+            0.11534511525019207
+          ],
+          "yaw_abs_mean_error": 0.08465488474980795,
+          "planar_mean_error": 0.004324847264790192,
+          "farthest_from_start_m": 0.06232656309862679
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004896588928008995,
+            -0.0003663055120726673,
+            0.002190334336535529
+          ],
+          "yaw_abs_mean_error": 0.00219033433653553,
+          "planar_mean_error": 0.0006115108825473361,
+          "farthest_from_start_m": 0.034711325926905116
+        }
+      ]
+    },
+    {
+      "seed": 1107,
+      "case": "switches_turn_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0004891496512640998,
+            -0.0005504133809459566,
+            0.002492636772817899
+          ],
+          "yaw_abs_mean_error": 0.0024926367728178994,
+          "planar_mean_error": 0.0007363574344407403,
+          "farthest_from_start_m": 0.010555879214322371
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.006069566730508981,
+            0.0006042709678240455,
+            0.14838132458642644
+          ],
+          "yaw_abs_mean_error": 0.051618675413573595,
+          "planar_mean_error": 0.006099572419330431,
+          "farthest_from_start_m": 0.03964694564809905
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.013273223234948471,
+            -0.010435896276161266,
+            0.07114340206202852
+          ],
+          "yaw_abs_mean_error": 0.07114340206202854,
+          "planar_mean_error": 0.03818067656075161,
+          "farthest_from_start_m": 0.07170118226638968
+        },
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0006424178997667268,
+            -0.0006243751097326073,
+            -0.11547569141545239
+          ],
+          "yaw_abs_mean_error": 0.08452430858454774,
+          "planar_mean_error": 0.0008958487794233453,
+          "farthest_from_start_m": 0.06968424720884707
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.004468650527348484,
+            -0.00495037616722646,
+            0.10351579614504192
+          ],
+          "yaw_abs_mean_error": 0.10351579614504189,
+          "planar_mean_error": 0.05469314504092325,
+          "farthest_from_start_m": 0.08004178000726976
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.009091078719807397,
+            -0.0013162080001422663,
+            0.150083423994213
+          ],
+          "yaw_abs_mean_error": 0.049916576005786986,
+          "planar_mean_error": 0.009185864999518194,
+          "farthest_from_start_m": 0.07414578153342831
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0003984929360916369,
+            -0.0004611737500207815,
+            0.0018975338331347026
+          ],
+          "yaw_abs_mean_error": 0.0018975338331347028,
+          "planar_mean_error": 0.0006094898258569733,
+          "farthest_from_start_m": 0.009921010366300984
+        }
+      ]
+    },
+    {
+      "seed": 1108,
+      "case": "switches_turn_reverse",
+      "segments": [
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.0005063925615992708,
+            -0.0005500199739752691,
+            0.0028040978251468833
+          ],
+          "yaw_abs_mean_error": 0.002804097825146884,
+          "planar_mean_error": 0.0007476331976409468,
+          "farthest_from_start_m": 0.01119956856421314
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.005999130604302418,
+            0.00019386452673249405,
+            0.14992056671132709
+          ],
+          "yaw_abs_mean_error": 0.05007943328867295,
+          "planar_mean_error": 0.006002262195389594,
+          "farthest_from_start_m": 0.03886672426705774
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.00395330439775455,
+            -0.004390856815938687,
+            0.029700572170019122
+          ],
+          "yaw_abs_mean_error": 0.029700572170019132,
+          "planar_mean_error": 0.04625557046955455,
+          "farthest_from_start_m": 0.08313795561076091
+        },
+        {
+          "segment": "right",
+          "command": [
+            0.0,
+            0.0,
+            -0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.0024340025727245763,
+            -0.0009899307662838887,
+            -0.10472288061715176
+          ],
+          "yaw_abs_mean_error": 0.09527711938284826,
+          "planar_mean_error": 0.0026276094546308177,
+          "farthest_from_start_m": 0.05015040193741575
+        },
+        {
+          "segment": "reverse",
+          "command": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.03074615410533202,
+            -0.0013075470276804717,
+            0.05151151245575504
+          ],
+          "yaw_abs_mean_error": 0.05151151245575499,
+          "planar_mean_error": 0.01929819320468162,
+          "farthest_from_start_m": 0.0974861492274278
+        },
+        {
+          "segment": "left",
+          "command": [
+            0.0,
+            0.0,
+            0.2
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            0.008731472032896264,
+            -0.0009289273651345219,
+            0.14649423052873392
+          ],
+          "yaw_abs_mean_error": 0.05350576947126617,
+          "planar_mean_error": 0.00878074654633337,
+          "farthest_from_start_m": 0.10379868347131159
+        },
+        {
+          "segment": "stop",
+          "command": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "steps": 200,
+          "terminated": false,
+          "mean_twist": [
+            -0.00039525000627137067,
+            -0.0004240201677097831,
+            0.0016134505936435473
+          ],
+          "yaw_abs_mean_error": 0.0016134505936435477,
+          "planar_mean_error": 0.0005796685864199915,
+          "farthest_from_start_m": 0.0729618458745354
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "stop": {
+      "survived": 8,
+      "cases": 8,
+      "mean_twist": [
+        -7.783824735541452e-05,
+        -0.000125727563394287,
+        0.0005780932078998456
+      ]
+    },
+    "forward_005": {
+      "survived": 8,
+      "cases": 8,
+      "mean_twist": [
+        0.05045538117999083,
+        0.0017092951215086825,
+        -0.011810244618724102
+      ]
+    },
+    "forward_010": {
+      "survived": 8,
+      "cases": 8,
+      "mean_twist": [
+        0.09881567265424573,
+        0.001081163554698994,
+        -0.001313975467429404
+      ]
+    },
+    "forward_015": {
+      "survived": 8,
+      "cases": 8,
+      "mean_twist": [
+        0.14092852194161323,
+        0.0005470689895355632,
+        -0.0004982466150893875
+      ]
+    },
+    "left": {
+      "survived": 8,
+      "cases": 8,
+      "mean_twist": [
+        0.009606747870407165,
+        -0.0004951356739338906,
+        0.15770104446159794
+      ]
+    },
+    "right": {
+      "survived": 8,
+      "cases": 8,
+      "mean_twist": [
+        0.004659539749474095,
+        -0.001202443639525008,
+        -0.08849842698399024
+      ]
+    },
+    "reverse": {
+      "survived": 8,
+      "cases": 8,
+      "mean_twist": [
+        -0.05257031890377389,
+        -0.009172909221411917,
+        0.015057631291401653
+      ]
+    },
+    "walk_left": {
+      "survived": 8,
+      "cases": 8,
+      "mean_twist": [
+        0.09373102794137378,
+        0.002389307626586071,
+        0.15511614066882895
+      ]
+    },
+    "walk_right": {
+      "survived": 8,
+      "cases": 8,
+      "mean_twist": [
+        0.0997030334372797,
+        -0.0013190480780696865,
+        -0.1426593706547319
+      ]
+    },
+    "switches": {
+      "survived": 8,
+      "cases": 8
+    },
+    "switches_repeated_arcs": {
+      "survived": 2,
+      "cases": 8
+    },
+    "switches_straight_reverse": {
+      "survived": 1,
+      "cases": 8
+    },
+    "switches_turn_reverse": {
+      "survived": 4,
+      "cases": 8
+    }
+  }
+}

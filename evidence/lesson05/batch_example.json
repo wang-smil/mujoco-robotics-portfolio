@@ -1,0 +1,20 @@
+{
+  "environment_steps": 1024,
+  "buffer_shape": [
+    256,
+    4,
+    2
+  ],
+  "observation": [
+    0.4726043939590454,
+    -0.006112155970185995
+  ],
+  "sampled_action_before_clipping": [
+    1.0470927953720093
+  ],
+  "reward": 0.10799644887447357,
+  "old_value": -0.1368037611246109,
+  "old_log_probability": -1.909334421157837,
+  "gae_advantage": 5.150407791137695,
+  "critic_target_return": 5.013604164123535
+}

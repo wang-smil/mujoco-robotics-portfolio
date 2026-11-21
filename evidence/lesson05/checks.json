@@ -1,0 +1,41 @@
+{
+  "save_load_same_actions": true,
+  "parameter_change_l2": 20.522733688354492,
+  "initial_probe_actions": [
+    [
+      -9.535298158880323e-05
+    ],
+    [
+      -0.000181840849108994
+    ],
+    [
+      0.0
+    ],
+    [
+      0.000181840849108994
+    ]
+  ],
+  "final_probe_actions": [
+    [
+      1.0
+    ],
+    [
+      -0.08102130889892578
+    ],
+    [
+      -0.9483201503753662
+    ],
+    [
+      -1.0
+    ]
+  ],
+  "actual_environment_steps": 200704,
+  "training_seconds": 48.453949793,
+  "teaching_acceptance_passed": true,
+  "acceptance": {
+    "complete_test_episodes": 10,
+    "mean_return_min": 350,
+    "worst_tail_error_max_rad": 0.05,
+    "worst_tail_rms_speed_max_rad_s": 0.1
+  }
+}

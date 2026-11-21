@@ -1,0 +1,4578 @@
+{
+  "checkpoint": "artifacts/lesson07/run_20261118T111214_690208Z_492a96/checkpoints/step_5079040",
+  "reference_environment": "artifacts/lesson07/run_20261117T132245_739130Z_b2c5bf",
+  "seeds": [
+    1201,
+    1202,
+    1203,
+    1204,
+    1205,
+    1206,
+    1207,
+    1208,
+    1209,
+    1210,
+    1211,
+    1212,
+    1213,
+    1214,
+    1215,
+    1216,
+    1217,
+    1218,
+    1219,
+    1220
+  ],
+  "seconds": 20,
+  "turn_acceptance": {
+    "mean_yaw_error_rad_s": 0.08,
+    "cycle_yaw_rmse_rad_s": 0.12,
+    "displacement_max_m": 0.25
+  },
+  "summary": {
+    "stop": {
+      "count": 20,
+      "survived": 20,
+      "passed": 20,
+      "heading_median_deg": -1.519327700138092,
+      "mean_vx": 0.0003266643769165967,
+      "mean_yaw_rad_s": 0.0007756912496006407,
+      "cycle_yaw_rmse": 0.0025946328508263854,
+      "median_displacement_m": 0.009848271767703103
+    },
+    "forward_005": {
+      "count": 20,
+      "survived": 20,
+      "passed": 20,
+      "heading_median_deg": -8.451807022094727,
+      "mean_vx": 0.04966626837849617,
+      "mean_yaw_rad_s": -0.0076146591163706034,
+      "cycle_yaw_rmse": 0.025217873412421647,
+      "median_displacement_m": 0.9844194459128852
+    },
+    "forward_010": {
+      "count": 20,
+      "survived": 20,
+      "passed": 20,
+      "heading_median_deg": -3.3942487239837646,
+      "mean_vx": 0.09951485805213452,
+      "mean_yaw_rad_s": -0.003847466415754752,
+      "cycle_yaw_rmse": 0.028815071882403738,
+      "median_displacement_m": 1.9691013975925804
+    },
+    "forward_015": {
+      "count": 20,
+      "survived": 20,
+      "passed": 20,
+      "heading_median_deg": -11.961921215057373,
+      "mean_vx": 0.14715305864810943,
+      "mean_yaw_rad_s": -0.00909014671924524,
+      "cycle_yaw_rmse": 0.04727187417662217,
+      "median_displacement_m": 2.9138269391497404
+    },
+    "left": {
+      "count": 20,
+      "survived": 20,
+      "passed": 20,
+      "heading_median_deg": 173.97115325927734,
+      "mean_vx": 0.010156301828101278,
+      "mean_yaw_rad_s": 0.15304549783468246,
+      "cycle_yaw_rmse": 0.05131507030374134,
+      "median_displacement_m": 0.20959374935881295,
+      "correct_direction": 20
+    },
+    "right": {
+      "count": 20,
+      "survived": 20,
+      "passed": 20,
+      "heading_median_deg": -169.48597717285156,
+      "mean_vx": 0.009202606743201613,
+      "mean_yaw_rad_s": -0.1448535814881325,
+      "cycle_yaw_rmse": 0.06285961707748654,
+      "median_displacement_m": 0.21690840009317708,
+      "correct_direction": 20
+    }
+  },
+  "episodes": [
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00029638607520610094,
+        -2.569594289525412e-05,
+        0.00011778670159401372
+      ],
+      "rms_planar_error": 0.0022714399260625614,
+      "rms_yaw_error": 0.012887829914689064,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0009979794835780686,
+      "cycle_rms_yaw_error": 0.002198389014803556,
+      "max_tilt_degrees": 8.247930526733398,
+      "world_xy_displacement_m": [
+        -0.006850671023130417,
+        0.008470986038446426
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0013478038185521176,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1201,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -6.484068870544434,
+      "mean_yaw_rad_s": 0.0002651152608450502,
+      "displacement_m": 0.010894461800874472,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00036392267793416977,
+        -5.718597094528377e-05,
+        4.5132284867577255e-05
+      ],
+      "rms_planar_error": 0.002183098487808568,
+      "rms_yaw_error": 0.016054438427090645,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.000840085784284004,
+      "cycle_rms_yaw_error": 0.0030928549858955548,
+      "max_tilt_degrees": 7.926844120025635,
+      "world_xy_displacement_m": [
+        0.00033946335315704346,
+        -0.0054623521864414215
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0012765721270912571,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1202,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 6.084325313568115,
+      "mean_yaw_rad_s": 0.0016101303044706583,
+      "displacement_m": 0.005472890166708811,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0003742531407624483,
+        -5.3873816796112806e-05,
+        7.076864130795002e-05
+      ],
+      "rms_planar_error": 0.0021405191335312317,
+      "rms_yaw_error": 0.01581069454550743,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.000821218041552905,
+      "cycle_rms_yaw_error": 0.0030728457091189704,
+      "max_tilt_degrees": 7.941243648529053,
+      "world_xy_displacement_m": [
+        -0.007294107228517532,
+        0.008025091141462326
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0012674763328150698,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1203,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 2.695629596710205,
+      "mean_yaw_rad_s": 0.0013482033973559737,
+      "displacement_m": 0.010844634068971107,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0004476534959394485,
+        2.148784915334545e-06,
+        9.785981819732115e-05
+      ],
+      "rms_planar_error": 0.0022821792334865865,
+      "rms_yaw_error": 0.016878949478268623,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0009724604704298671,
+      "cycle_rms_yaw_error": 0.002238205218044091,
+      "max_tilt_degrees": 8.419628143310547,
+      "world_xy_displacement_m": [
+        -0.007922805845737457,
+        -0.009385477751493454
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.001378208838011089,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1204,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -2.7353198528289795,
+      "mean_yaw_rad_s": 0.0005076212692074478,
+      "displacement_m": 0.012282428306040717,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0003186838875990361,
+        -1.6739162674639374e-05,
+        6.36793629382737e-05
+      ],
+      "rms_planar_error": 0.0022683110688096566,
+      "rms_yaw_error": 0.01576877571642399,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0009232656936256691,
+      "cycle_rms_yaw_error": 0.0018302011704321585,
+      "max_tilt_degrees": 8.32880973815918,
+      "world_xy_displacement_m": [
+        0.0006880834698677063,
+        0.008260101079940796
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0013518714904785156,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1205,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -1.5899996757507324,
+      "mean_yaw_rad_s": 0.0006993439164943993,
+      "displacement_m": 0.008288710919820058,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0002206705539720133,
+        -6.381857474480057e-06,
+        8.378486381843686e-05
+      ],
+      "rms_planar_error": 0.0022953605839623917,
+      "rms_yaw_error": 0.013086704537272453,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0010104048517916733,
+      "cycle_rms_yaw_error": 0.0020373754094528446,
+      "max_tilt_degrees": 8.018952369689941,
+      "world_xy_displacement_m": [
+        0.009016919881105423,
+        0.0062089343555271626
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.001280415183619449,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1206,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -7.064027309417725,
+      "mean_yaw_rad_s": 0.00010859584290301427,
+      "displacement_m": 0.010947863260633087,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00037288505700416863,
+        -1.2042326488881372e-05,
+        6.781812408007681e-05
+      ],
+      "rms_planar_error": 0.002317911824287461,
+      "rms_yaw_error": 0.01434781402349472,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.000982735629399019,
+      "cycle_rms_yaw_error": 0.0021406677635801325,
+      "max_tilt_degrees": 8.391383171081543,
+      "world_xy_displacement_m": [
+        -0.007460355758666992,
+        -0.00321618327870965
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0013414167103014494,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1207,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -1.4486557245254517,
+      "mean_yaw_rad_s": 0.00048306756070815027,
+      "displacement_m": 0.008124084128572729,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00047281873412430286,
+        1.713912388368044e-05,
+        8.026004798011854e-05
+      ],
+      "rms_planar_error": 0.0024940727416772604,
+      "rms_yaw_error": 0.019115708768367767,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0009519086347800171,
+      "cycle_rms_yaw_error": 0.002213104392943966,
+      "max_tilt_degrees": 8.478015899658203,
+      "world_xy_displacement_m": [
+        -0.010034110397100449,
+        -0.00012975744903087616
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0014090341015865929,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1208,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -2.3915224075317383,
+      "mean_yaw_rad_s": 0.0008279944304376841,
+      "displacement_m": 0.010034949349985695,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00033832257031463087,
+        -6.593760917894542e-05,
+        7.096031913533807e-05
+      ],
+      "rms_planar_error": 0.002112565249146696,
+      "rms_yaw_error": 0.015315281227231026,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0008280002032436106,
+      "cycle_rms_yaw_error": 0.0025935270401028724,
+      "max_tilt_degrees": 7.957664489746094,
+      "world_xy_displacement_m": [
+        -0.0031396299600601196,
+        -0.010153360664844513
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0012999140588860762,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1209,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 2.8356826305389404,
+      "mean_yaw_rad_s": 0.0012849188642576337,
+      "displacement_m": 0.01062770008405012,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0002791789884213358,
+        -5.358302587410435e-05,
+        1.2387211427267175e-05
+      ],
+      "rms_planar_error": 0.0021986610044664053,
+      "rms_yaw_error": 0.016589000821113586,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0007741882808097446,
+      "cycle_rms_yaw_error": 0.0022914320194271014,
+      "max_tilt_degrees": 7.834236145019531,
+      "world_xy_displacement_m": [
+        0.003894129768013954,
+        -0.005384314805269241
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0013024696550871196,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1210,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 1.756039023399353,
+      "mean_yaw_rad_s": 0.0011625232873484492,
+      "displacement_m": 0.006644929839537356,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0001805906358640641,
+        -2.3931876057758927e-05,
+        7.871267735026777e-05
+      ],
+      "rms_planar_error": 0.002141350638575678,
+      "rms_yaw_error": 0.012758225202560425,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0009296437253032122,
+      "cycle_rms_yaw_error": 0.0022075952074178886,
+      "max_tilt_degrees": 7.804591178894043,
+      "world_xy_displacement_m": [
+        -0.0028957780450582504,
+        0.009123370051383972
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0012708696566129986,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1211,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -6.411375045776367,
+      "mean_yaw_rad_s": 0.0005614468245767057,
+      "displacement_m": 0.00957190741601335,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00030048139160498977,
+        -6.120332545833662e-05,
+        9.040098666446283e-05
+      ],
+      "rms_planar_error": 0.0022950690077262388,
+      "rms_yaw_error": 0.015737302601337433,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0009454704655157232,
+      "cycle_rms_yaw_error": 0.0024650758272275856,
+      "max_tilt_degrees": 8.109538078308105,
+      "world_xy_displacement_m": [
+        -0.010836172848939896,
+        -0.0019296184182167053
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0013635368096201043,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1212,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -0.33265751600265503,
+      "mean_yaw_rad_s": 0.0012429376365616918,
+      "displacement_m": 0.011006637508886323,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0003904357727151364,
+        -6.433820817619562e-05,
+        8.635917765786871e-05
+      ],
+      "rms_planar_error": 0.002153556244857763,
+      "rms_yaw_error": 0.01709100790321827,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0009197155680930657,
+      "cycle_rms_yaw_error": 0.0032259747523299205,
+      "max_tilt_degrees": 8.332934379577637,
+      "world_xy_displacement_m": [
+        0.0036529144272208214,
+        -0.008944418281316757
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0012784117146542198,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1213,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 3.9131245613098145,
+      "mean_yaw_rad_s": 0.0015931811649352312,
+      "displacement_m": 0.009661594185420511,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0003680297522805631,
+        2.004568523261696e-05,
+        5.482323103933595e-05
+      ],
+      "rms_planar_error": 0.0022451772409878986,
+      "rms_yaw_error": 0.014653638936579227,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.000858698570330451,
+      "cycle_rms_yaw_error": 0.0037462606448828407,
+      "max_tilt_degrees": 9.572858810424805,
+      "world_xy_displacement_m": [
+        -0.0074475351721048355,
+        -0.01978539302945137
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0012213502432170667,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1214,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -9.870569229125977,
+      "mean_yaw_rad_s": -0.00045063559082336724,
+      "displacement_m": 0.02114066123539189,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00027631514240056276,
+        1.7780264897737652e-05,
+        4.054242162965238e-05
+      ],
+      "rms_planar_error": 0.0022803473038649044,
+      "rms_yaw_error": 0.015773221850395203,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0009184964170596025,
+      "cycle_rms_yaw_error": 0.0029412716022886665,
+      "max_tilt_degrees": 8.18719482421875,
+      "world_xy_displacement_m": [
+        0.007755260914564133,
+        0.0067411623895168304
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.001320863773948268,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1215,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -6.418492317199707,
+      "mean_yaw_rad_s": 0.00026469791191630065,
+      "displacement_m": 0.0102755701649496,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0002714442671276629,
+        5.247788976703305e-06,
+        3.511641261866316e-05
+      ],
+      "rms_planar_error": 0.0022432196355751262,
+      "rms_yaw_error": 0.015031545422971249,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0009409585083577832,
+      "cycle_rms_yaw_error": 0.0029473120031758104,
+      "max_tilt_degrees": 8.228172302246094,
+      "world_xy_displacement_m": [
+        -0.018211882561445236,
+        -0.012419641017913818
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0013055598108392013,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1216,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -7.454536437988281,
+      "mean_yaw_rad_s": -1.7874319382826798e-05,
+      "displacement_m": 0.022043596563304284,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0003235404146835208,
+        -2.3921988031361252e-05,
+        3.4033568226732314e-05
+      ],
+      "rms_planar_error": 0.0024630042288793746,
+      "rms_yaw_error": 0.016443448141217232,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0010096613563685545,
+      "cycle_rms_yaw_error": 0.0031089979781704757,
+      "max_tilt_degrees": 8.249454498291016,
+      "world_xy_displacement_m": [
+        -0.004547879099845886,
+        0.0013077016919851303
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0013435683752361096,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1217,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 0.33125048875808716,
+      "mean_yaw_rad_s": 0.0012168224202468991,
+      "displacement_m": 0.004732154691262301,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00031521046184934676,
+        -2.9320943212951533e-05,
+        7.486079266527668e-05
+      ],
+      "rms_planar_error": 0.0020355348715879297,
+      "rms_yaw_error": 0.01308281347155571,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0008433937198833858,
+      "cycle_rms_yaw_error": 0.0016874781206738607,
+      "max_tilt_degrees": 7.923129081726074,
+      "world_xy_displacement_m": [
+        -0.007119178771972656,
+        -0.0003269203007221222
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0012613544966045178,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1218,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 0.23133166134357452,
+      "mean_yaw_rad_s": 0.0006527732475660741,
+      "displacement_m": 0.007126681083809654,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00028125045355409384,
+        1.5838135368539952e-05,
+        4.0622559026815e-05
+      ],
+      "rms_planar_error": 0.002478282726757759,
+      "rms_yaw_error": 0.015410589054226875,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0010430204174181812,
+      "cycle_rms_yaw_error": 0.0017620393480588955,
+      "max_tilt_degrees": 8.423126220703125,
+      "world_xy_displacement_m": [
+        -0.0013013780117034912,
+        0.005682408809661865
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.0013605237007141113,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1219,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -1.6332210302352905,
+      "mean_yaw_rad_s": 0.00043478200677782297,
+      "displacement_m": 0.0058295243896451885,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0003412140649743378,
+        -0.00010100637882715091,
+        5.72027092857752e-05
+      ],
+      "rms_planar_error": 0.002633166918495829,
+      "rms_yaw_error": 0.01884000189602375,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0010728926833981913,
+      "cycle_rms_yaw_error": 0.004092048808500517,
+      "max_tilt_degrees": 8.24954891204834,
+      "world_xy_displacement_m": [
+        -0.002629704773426056,
+        -0.004233978688716888
+      ],
+      "contact_samples": 1900,
+      "contact_slip_speed": 0.001388445778896934,
+      "contact_transitions": 0,
+      "near_still_fraction": 1.0,
+      "case": "stop",
+      "seed": 1220,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 1.0661104917526245,
+      "mean_yaw_rad_s": 0.0017181795556098223,
+      "displacement_m": 0.004984167205450532,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0504283532500267,
+        -0.0005806885310448706,
+        -3.3542452001711354e-05
+      ],
+      "rms_planar_error": 0.04885902364400741,
+      "rms_yaw_error": 0.19916890561580658,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004655675686020046,
+      "cycle_rms_yaw_error": 0.02540205231305174,
+      "max_tilt_degrees": 4.413883686065674,
+      "world_xy_displacement_m": [
+        0.17124299705028534,
+        -0.969887912273407
+      ],
+      "contact_samples": 1604,
+      "contact_slip_speed": 0.021885372456767017,
+      "contact_transitions": 150,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1201,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -12.976279258728027,
+      "mean_yaw_rad_s": -0.009059373289346695,
+      "displacement_m": 0.9848891949924276,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0499478317797184,
+        -0.001114102196879685,
+        -0.0005581125733442605
+      ],
+      "rms_planar_error": 0.04694049605620083,
+      "rms_yaw_error": 0.2102867215871811,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0048018853246071065,
+      "cycle_rms_yaw_error": 0.028226423137477512,
+      "max_tilt_degrees": 4.361792087554932,
+      "world_xy_displacement_m": [
+        0.07893452793359756,
+        -0.9936056137084961
+      ],
+      "contact_samples": 1612,
+      "contact_slip_speed": 0.023603604981680366,
+      "contact_transitions": 158,
+      "near_still_fraction": 0.0010526315789473684,
+      "case": "forward_005",
+      "seed": 1202,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -5.894555568695068,
+      "mean_yaw_rad_s": -0.009172738529741764,
+      "displacement_m": 0.996736060997663,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.04955952987074852,
+        0.0007492188597097993,
+        -6.212176231201738e-05
+      ],
+      "rms_planar_error": 0.04871714399903223,
+      "rms_yaw_error": 0.19027313590049744,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0041869609435242205,
+      "cycle_rms_yaw_error": 0.026392744103071995,
+      "max_tilt_degrees": 4.246024131774902,
+      "world_xy_displacement_m": [
+        -0.8173766732215881,
+        0.5576491355895996
+      ],
+      "contact_samples": 1615,
+      "contact_slip_speed": 0.022009789906788167,
+      "contact_transitions": 151,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1203,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -2.6113996505737305,
+      "mean_yaw_rad_s": -0.0038253224920481443,
+      "displacement_m": 0.9894832915974976,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.05015135556459427,
+        0.0002547302865423262,
+        -0.00020545734150800854
+      ],
+      "rms_planar_error": 0.04756115215348527,
+      "rms_yaw_error": 0.21495142579078674,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004197445463779293,
+      "cycle_rms_yaw_error": 0.025448559656325576,
+      "max_tilt_degrees": 4.430757999420166,
+      "world_xy_displacement_m": [
+        -0.19674396514892578,
+        -0.9800064563751221
+      ],
+      "contact_samples": 1604,
+      "contact_slip_speed": 0.024100957665954742,
+      "contact_transitions": 163,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1204,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -3.575016498565674,
+      "mean_yaw_rad_s": -0.00224534934386611,
+      "displacement_m": 0.9995603245224601,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.049978937953710556,
+        -0.0004523598472587764,
+        8.884243288775906e-05
+      ],
+      "rms_planar_error": 0.04946072407836548,
+      "rms_yaw_error": 0.17976221442222595,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004671088076356687,
+      "cycle_rms_yaw_error": 0.026134751353462007,
+      "max_tilt_degrees": 3.984575033187866,
+      "world_xy_displacement_m": [
+        -0.6025215983390808,
+        0.793212354183197
+      ],
+      "contact_samples": 1612,
+      "contact_slip_speed": 0.022047738579307537,
+      "contact_transitions": 150,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1205,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -15.569114685058594,
+      "mean_yaw_rad_s": -0.01288002822548151,
+      "displacement_m": 0.996101458333402,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.04986298456788063,
+        0.0005764503730461001,
+        -0.0002901471161749214
+      ],
+      "rms_planar_error": 0.047870153889199775,
+      "rms_yaw_error": 0.1969347596168518,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004112213794947055,
+      "cycle_rms_yaw_error": 0.024518874782070668,
+      "max_tilt_degrees": 4.1804351806640625,
+      "world_xy_displacement_m": [
+        -0.9599819183349609,
+        0.21585115790367126
+      ],
+      "contact_samples": 1612,
+      "contact_slip_speed": 0.022556747455454936,
+      "contact_transitions": 149,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1206,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -4.571063041687012,
+      "mean_yaw_rad_s": -0.0012342497939243913,
+      "displacement_m": 0.9839496968333428,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.04960092529654503,
+        9.945310739567503e-05,
+        -6.754516107321251e-06
+      ],
+      "rms_planar_error": 0.04807476863530778,
+      "rms_yaw_error": 0.18839482963085175,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004273693931688945,
+      "cycle_rms_yaw_error": 0.021062753054702565,
+      "max_tilt_degrees": 4.44726037979126,
+      "world_xy_displacement_m": [
+        -0.5081525444984436,
+        -0.8421660661697388
+      ],
+      "contact_samples": 1617,
+      "contact_slip_speed": 0.02233276650281917,
+      "contact_transitions": 147,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1207,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -7.581727981567383,
+      "mean_yaw_rad_s": -0.007795328740030527,
+      "displacement_m": 0.9835968134800231,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.04901465028524399,
+        0.00023433957539964467,
+        -0.00010516196198295802
+      ],
+      "rms_planar_error": 0.04865393638177643,
+      "rms_yaw_error": 0.17575037479400635,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004281034413566666,
+      "cycle_rms_yaw_error": 0.023672215001727077,
+      "max_tilt_degrees": 5.239776611328125,
+      "world_xy_displacement_m": [
+        -0.7932361960411072,
+        -0.5689733028411865
+      ],
+      "contact_samples": 1623,
+      "contact_slip_speed": 0.02218153149128254,
+      "contact_transitions": 146,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1208,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -10.66400146484375,
+      "mean_yaw_rad_s": -0.008924395777285099,
+      "displacement_m": 0.9761937728011659,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.05010557919740677,
+        0.0006008594064041972,
+        5.4741893109166995e-05
+      ],
+      "rms_planar_error": 0.04731597088549743,
+      "rms_yaw_error": 0.2065614014863968,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004723305919725028,
+      "cycle_rms_yaw_error": 0.02405341678639103,
+      "max_tilt_degrees": 4.263423442840576,
+      "world_xy_displacement_m": [
+        -0.15293268859386444,
+        -0.9920709133148193
+      ],
+      "contact_samples": 1600,
+      "contact_slip_speed": 0.022103796005249022,
+      "contact_transitions": 155,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1209,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -8.457289695739746,
+      "mean_yaw_rad_s": -0.008769039064645767,
+      "displacement_m": 1.0037893724710616,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0493612140417099,
+        0.0008463060366921127,
+        -0.0003576851449906826
+      ],
+      "rms_planar_error": 0.04769889692500205,
+      "rms_yaw_error": 0.18739096820354462,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004115550580960819,
+      "cycle_rms_yaw_error": 0.02262788113605838,
+      "max_tilt_degrees": 4.290258884429932,
+      "world_xy_displacement_m": [
+        0.9436026215553284,
+        -0.2716670334339142
+      ],
+      "contact_samples": 1598,
+      "contact_slip_speed": 0.02026228015503388,
+      "contact_transitions": 153,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1210,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -3.212695360183716,
+      "mean_yaw_rad_s": -0.004246192518621683,
+      "displacement_m": 0.98193120149065,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.049464404582977295,
+        0.00021369736350607127,
+        -0.0003280488890595734
+      ],
+      "rms_planar_error": 0.04976674298607649,
+      "rms_yaw_error": 0.1831933856010437,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004227769530808897,
+      "cycle_rms_yaw_error": 0.02474332237784982,
+      "max_tilt_degrees": 4.78098201751709,
+      "world_xy_displacement_m": [
+        -0.6472671627998352,
+        -0.7260306477546692
+      ],
+      "contact_samples": 1618,
+      "contact_slip_speed": 0.02313845885551462,
+      "contact_transitions": 149,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1211,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -8.677481651306152,
+      "mean_yaw_rad_s": -0.0054111238569021225,
+      "displacement_m": 0.9726640126569981,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.050330907106399536,
+        -0.00048643082845956087,
+        -0.00022898030874785036
+      ],
+      "rms_planar_error": 0.04857064744040674,
+      "rms_yaw_error": 0.19040626287460327,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004106653005032874,
+      "cycle_rms_yaw_error": 0.025704209960068326,
+      "max_tilt_degrees": 4.196193218231201,
+      "world_xy_displacement_m": [
+        -0.9219647645950317,
+        -0.3999711275100708
+      ],
+      "contact_samples": 1626,
+      "contact_slip_speed": 0.023782509572684837,
+      "contact_transitions": 150,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1212,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -13.679816246032715,
+      "mean_yaw_rad_s": -0.012902145273983479,
+      "displacement_m": 1.0049855372076006,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.049749381840229034,
+        -0.0011685682693496346,
+        3.3991087548201904e-05
+      ],
+      "rms_planar_error": 0.04823632317456958,
+      "rms_yaw_error": 0.18496571481227875,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004064538098209046,
+      "cycle_rms_yaw_error": 0.02432120920599754,
+      "max_tilt_degrees": 4.0709733963012695,
+      "world_xy_displacement_m": [
+        0.454710990190506,
+        -0.8825775980949402
+      ],
+      "contact_samples": 1615,
+      "contact_slip_speed": 0.02256897728509578,
+      "contact_transitions": 149,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1213,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -8.446324348449707,
+      "mean_yaw_rad_s": -0.009389977902173996,
+      "displacement_m": 0.9928269241207474,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.04905545711517334,
+        5.5997534218477085e-05,
+        4.01381439587567e-05
+      ],
+      "rms_planar_error": 0.04858366972368917,
+      "rms_yaw_error": 0.1855124533176422,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004169301232636901,
+      "cycle_rms_yaw_error": 0.027739949319731436,
+      "max_tilt_degrees": 9.41940975189209,
+      "world_xy_displacement_m": [
+        0.6792227625846863,
+        -0.6849513053894043
+      ],
+      "contact_samples": 1616,
+      "contact_slip_speed": 0.022349414258900257,
+      "contact_transitions": 147,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1214,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -13.466967582702637,
+      "mean_yaw_rad_s": -0.007624092046171427,
+      "displacement_m": 0.9646252391306285,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.04917117953300476,
+        -0.0003703855036292225,
+        -0.0002761375508271158
+      ],
+      "rms_planar_error": 0.049375159626769555,
+      "rms_yaw_error": 0.1818869411945343,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0042875998294020804,
+      "cycle_rms_yaw_error": 0.029441576458948467,
+      "max_tilt_degrees": 5.080835819244385,
+      "world_xy_displacement_m": [
+        -0.7695688009262085,
+        0.5858421325683594
+      ],
+      "contact_samples": 1612,
+      "contact_slip_speed": 0.02150780983065849,
+      "contact_transitions": 155,
+      "near_still_fraction": 0.0010526315789473684,
+      "case": "forward_005",
+      "seed": 1215,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -12.49374008178711,
+      "mean_yaw_rad_s": -0.01136654894798994,
+      "displacement_m": 0.9671851651319128,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.05014848709106445,
+        0.0007330404478125274,
+        -0.0003795555967371911
+      ],
+      "rms_planar_error": 0.047769261841245324,
+      "rms_yaw_error": 0.17752701044082642,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004247271569652584,
+      "cycle_rms_yaw_error": 0.023059451481843223,
+      "max_tilt_degrees": 5.832639217376709,
+      "world_xy_displacement_m": [
+        -0.459849089384079,
+        -0.894080400466919
+      ],
+      "contact_samples": 1620,
+      "contact_slip_speed": 0.023375334563078703,
+      "contact_transitions": 147,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1216,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -11.877896308898926,
+      "mean_yaw_rad_s": -0.007618605624884367,
+      "displacement_m": 1.005405862080808,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0487615205347538,
+        0.00026682185125537217,
+        -0.00039653806015849113
+      ],
+      "rms_planar_error": 0.049195843713998766,
+      "rms_yaw_error": 0.17831651866436005,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0041338857566408736,
+      "cycle_rms_yaw_error": 0.023601033831428517,
+      "max_tilt_degrees": 4.268840789794922,
+      "world_xy_displacement_m": [
+        -0.6379868388175964,
+        -0.7293457984924316
+      ],
+      "contact_samples": 1619,
+      "contact_slip_speed": 0.022603648175716105,
+      "contact_transitions": 146,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1217,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -5.299475193023682,
+      "mean_yaw_rad_s": -0.00646948954090476,
+      "displacement_m": 0.969005934080402,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.049463529139757156,
+        0.0006619753548875451,
+        -2.0857782146777026e-05
+      ],
+      "rms_planar_error": 0.047127995881435236,
+      "rms_yaw_error": 0.1797625720500946,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004026111664121127,
+      "cycle_rms_yaw_error": 0.024319855860158154,
+      "max_tilt_degrees": 4.612525463104248,
+      "world_xy_displacement_m": [
+        0.83815598487854,
+        -0.4843002259731293
+      ],
+      "contact_samples": 1607,
+      "contact_slip_speed": 0.020947070023845868,
+      "contact_transitions": 159,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1218,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -1.5585159063339233,
+      "mean_yaw_rad_s": -0.004604031331837177,
+      "displacement_m": 0.9680145473417946,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.04924919456243515,
+        0.0004323884204495698,
+        -0.00040951702976599336
+      ],
+      "rms_planar_error": 0.047474352942577965,
+      "rms_yaw_error": 0.18663297593593597,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004505696024809239,
+      "cycle_rms_yaw_error": 0.027389668016282134,
+      "max_tilt_degrees": 4.265122890472412,
+      "world_xy_displacement_m": [
+        -0.8584880828857422,
+        0.4771798253059387
+      ],
+      "contact_samples": 1621,
+      "contact_slip_speed": 0.02230240517674516,
+      "contact_transitions": 143,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1219,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -10.3512601852417,
+      "mean_yaw_rad_s": -0.00997745618224144,
+      "displacement_m": 0.9821926359609112,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.04991994425654411,
+        0.0005520634003914893,
+        -0.00030338700162246823
+      ],
+      "rms_planar_error": 0.048748036537692586,
+      "rms_yaw_error": 0.19045454263687134,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004270197374430364,
+      "cycle_rms_yaw_error": 0.026497520411786865,
+      "max_tilt_degrees": 4.742103576660156,
+      "world_xy_displacement_m": [
+        -0.10850654542446136,
+        -0.9856992959976196
+      ],
+      "contact_samples": 1608,
+      "contact_slip_speed": 0.022792270527550236,
+      "contact_transitions": 151,
+      "near_still_fraction": 0.0,
+      "case": "forward_005",
+      "seed": 1220,
+      "command": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -6.482511520385742,
+      "mean_yaw_rad_s": -0.008777693845331669,
+      "displacement_m": 0.9916535546904239,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.09961945563554764,
+        -0.001179018523544073,
+        0.0038716113194823265
+      ],
+      "rms_planar_error": 0.06279468643098546,
+      "rms_yaw_error": 0.24192845821380615,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004648628580225645,
+      "cycle_rms_yaw_error": 0.024429329419896128,
+      "max_tilt_degrees": 5.714910984039307,
+      "world_xy_displacement_m": [
+        0.5024617314338684,
+        -1.9011948108673096
+      ],
+      "contact_samples": 1499,
+      "contact_slip_speed": 0.033572903786443564,
+      "contact_transitions": 156,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1201,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -3.777763843536377,
+      "mean_yaw_rad_s": -0.003190578194335103,
+      "displacement_m": 1.966471332215221,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.09988957643508911,
+        -0.0013963835081085563,
+        0.0037884656339883804
+      ],
+      "rms_planar_error": 0.061015926213637627,
+      "rms_yaw_error": 0.22989757359027863,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004809650038540556,
+      "cycle_rms_yaw_error": 0.026813818195684246,
+      "max_tilt_degrees": 5.793187618255615,
+      "world_xy_displacement_m": [
+        0.5859431624412537,
+        -1.8903855085372925
+      ],
+      "contact_samples": 1501,
+      "contact_slip_speed": 0.032918046904277354,
+      "contact_transitions": 163,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1202,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 10.145829200744629,
+      "mean_yaw_rad_s": 0.003545347834005952,
+      "displacement_m": 1.9791126194583912,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.09867480397224426,
+        0.002556889085099101,
+        0.004320206120610237
+      ],
+      "rms_planar_error": 0.062048674843984714,
+      "rms_yaw_error": 0.23167133331298828,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.005731579212490321,
+      "cycle_rms_yaw_error": 0.03148170393646561,
+      "max_tilt_degrees": 6.208546161651611,
+      "world_xy_displacement_m": [
+        -1.6429630517959595,
+        1.054621696472168
+      ],
+      "contact_samples": 1500,
+      "contact_slip_speed": 0.033923487345377604,
+      "contact_transitions": 164,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1203,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -3.0107336044311523,
+      "mean_yaw_rad_s": -0.007826065644621849,
+      "displacement_m": 1.9523202893573908,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.10003498196601868,
+        0.00011903804261237383,
+        0.003770343493670225
+      ],
+      "rms_planar_error": 0.061427280930543865,
+      "rms_yaw_error": 0.2448268085718155,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004302299760516701,
+      "cycle_rms_yaw_error": 0.02512926097501582,
+      "max_tilt_degrees": 5.5488481521606445,
+      "world_xy_displacement_m": [
+        -0.18461227416992188,
+        -1.9753129482269287
+      ],
+      "contact_samples": 1497,
+      "contact_slip_speed": 0.03354225591890161,
+      "contact_transitions": 159,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1204,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 6.477075099945068,
+      "mean_yaw_rad_s": 0.004625344183295965,
+      "displacement_m": 1.9839211010539586,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.09921669214963913,
+        0.00016332679660990834,
+        0.004155274014919996
+      ],
+      "rms_planar_error": 0.06320877063498538,
+      "rms_yaw_error": 0.23479405045509338,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004362656096795505,
+      "cycle_rms_yaw_error": 0.022356998834211644,
+      "max_tilt_degrees": 5.498503684997559,
+      "world_xy_displacement_m": [
+        -1.3136357069015503,
+        1.4700850248336792
+      ],
+      "contact_samples": 1498,
+      "contact_slip_speed": 0.034981443662350585,
+      "contact_transitions": 158,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1205,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -10.367037773132324,
+      "mean_yaw_rad_s": -0.009217426180839539,
+      "displacement_m": 1.9714940402362304,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.10047892481088638,
+        0.0025712400674819946,
+        0.0036060367710888386
+      ],
+      "rms_planar_error": 0.06238496114692568,
+      "rms_yaw_error": 0.24411047995090485,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004894313182391622,
+      "cycle_rms_yaw_error": 0.029337671081253392,
+      "max_tilt_degrees": 7.856428146362305,
+      "world_xy_displacement_m": [
+        -1.9451042413711548,
+        0.3416811525821686
+      ],
+      "contact_samples": 1501,
+      "contact_slip_speed": 0.03561513444568855,
+      "contact_transitions": 165,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1206,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 3.475473165512085,
+      "mean_yaw_rad_s": 0.006297160405665636,
+      "displacement_m": 1.9748864574526646,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.09927928447723389,
+        0.0017133905785158277,
+        0.004667120054364204
+      ],
+      "rms_planar_error": 0.062029478395903406,
+      "rms_yaw_error": 0.23682935535907745,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.005151722356031995,
+      "cycle_rms_yaw_error": 0.030143020941356995,
+      "max_tilt_degrees": 6.245163917541504,
+      "world_xy_displacement_m": [
+        -0.978133499622345,
+        -1.7062233686447144
+      ],
+      "contact_samples": 1497,
+      "contact_slip_speed": 0.0327287698158361,
+      "contact_transitions": 171,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1207,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -5.307384490966797,
+      "mean_yaw_rad_s": -0.0054082502610981464,
+      "displacement_m": 1.9667087549489306,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0983087345957756,
+        0.0006894430262036622,
+        0.004121669102460146
+      ],
+      "rms_planar_error": 0.06473822328413795,
+      "rms_yaw_error": 0.2350139617919922,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.005094776077820254,
+      "cycle_rms_yaw_error": 0.03030032781430581,
+      "max_tilt_degrees": 6.346747398376465,
+      "world_xy_displacement_m": [
+        -1.5082827806472778,
+        -1.2346856594085693
+      ],
+      "contact_samples": 1495,
+      "contact_slip_speed": 0.03411766996351771,
+      "contact_transitions": 157,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1208,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -6.044935703277588,
+      "mean_yaw_rad_s": -0.004685417748987675,
+      "displacement_m": 1.9491961481457576,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.10056988149881363,
+        0.001091016223654151,
+        0.004541544243693352
+      ],
+      "rms_planar_error": 0.05947648690553974,
+      "rms_yaw_error": 0.24739740788936615,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0043308993841427845,
+      "cycle_rms_yaw_error": 0.028357612528571906,
+      "max_tilt_degrees": 5.935509204864502,
+      "world_xy_displacement_m": [
+        -0.21399599313735962,
+        -1.9910013675689697
+      ],
+      "contact_samples": 1501,
+      "contact_slip_speed": 0.03194557103532541,
+      "contact_transitions": 169,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1209,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -2.2042248249053955,
+      "mean_yaw_rad_s": -0.0018801104743033648,
+      "displacement_m": 2.002468659115631,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.1004553809762001,
+        0.0021732349414378405,
+        0.004171241540461779
+      ],
+      "rms_planar_error": 0.06104178391547203,
+      "rms_yaw_error": 0.2439201921224594,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004600190446958226,
+      "cycle_rms_yaw_error": 0.025249348854625046,
+      "max_tilt_degrees": 5.446292877197266,
+      "world_xy_displacement_m": [
+        1.9560192823410034,
+        -0.3442668914794922
+      ],
+      "contact_samples": 1500,
+      "contact_slip_speed": 0.03401364898681641,
+      "contact_transitions": 171,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1210,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 8.774333953857422,
+      "mean_yaw_rad_s": 0.006208989769220352,
+      "displacement_m": 1.9860843701763444,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.09924617409706116,
+        0.0010983505053445697,
+        0.0037923865020275116
+      ],
+      "rms_planar_error": 0.06336654595665508,
+      "rms_yaw_error": 0.2402290403842926,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004980458992753611,
+      "cycle_rms_yaw_error": 0.03179513970653685,
+      "max_tilt_degrees": 5.885797023773193,
+      "world_xy_displacement_m": [
+        -1.3090741634368896,
+        -1.4488869905471802
+      ],
+      "contact_samples": 1498,
+      "contact_slip_speed": 0.03189323741062302,
+      "contact_transitions": 157,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1211,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -11.174175262451172,
+      "mean_yaw_rad_s": -0.008998450823128223,
+      "displacement_m": 1.9526773099400876,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.09826342016458511,
+        0.0007623226265423,
+        0.0044237165711820126
+      ],
+      "rms_planar_error": 0.060992327303566206,
+      "rms_yaw_error": 0.23589853942394257,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.005096077806299341,
+      "cycle_rms_yaw_error": 0.025716434134357216,
+      "max_tilt_degrees": 5.67367696762085,
+      "world_xy_displacement_m": [
+        -1.679437279701233,
+        -1.0063155889511108
+      ],
+      "contact_samples": 1506,
+      "contact_slip_speed": 0.033032096872924965,
+      "contact_transitions": 149,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1212,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -0.7468674778938293,
+      "mean_yaw_rad_s": -0.00022906078083906323,
+      "displacement_m": 1.9578510262571813,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.09952821582555771,
+        -0.001209616893902421,
+        0.0043764254078269005
+      ],
+      "rms_planar_error": 0.06297824923899606,
+      "rms_yaw_error": 0.23153874278068542,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0045742294147700134,
+      "cycle_rms_yaw_error": 0.03076498381359653,
+      "max_tilt_degrees": 5.740233898162842,
+      "world_xy_displacement_m": [
+        0.929320752620697,
+        -1.7420203685760498
+      ],
+      "contact_samples": 1503,
+      "contact_slip_speed": 0.03461745637143682,
+      "contact_transitions": 155,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1213,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -7.422759056091309,
+      "mean_yaw_rad_s": -0.009003769606351852,
+      "displacement_m": 1.9744042204638175,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.09903549402952194,
+        0.002041339408606291,
+        0.00439395010471344
+      ],
+      "rms_planar_error": 0.06305251704665302,
+      "rms_yaw_error": 0.24081744253635406,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004962136519487889,
+      "cycle_rms_yaw_error": 0.03669689765799462,
+      "max_tilt_degrees": 9.210915565490723,
+      "world_xy_displacement_m": [
+        1.495456576347351,
+        -1.2249083518981934
+      ],
+      "contact_samples": 1508,
+      "contact_slip_speed": 0.03503981066635496,
+      "contact_transitions": 147,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1214,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -10.262460708618164,
+      "mean_yaw_rad_s": -0.006072929594665766,
+      "displacement_m": 1.9330780745460048,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.09928525239229202,
+        0.0014072791673243046,
+        0.004105576779693365
+      ],
+      "rms_planar_error": 0.06227589251251013,
+      "rms_yaw_error": 0.231665700674057,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.00463722157540599,
+      "cycle_rms_yaw_error": 0.028275653904764938,
+      "max_tilt_degrees": 5.836939334869385,
+      "world_xy_displacement_m": [
+        -1.585445523262024,
+        1.1490697860717773
+      ],
+      "contact_samples": 1495,
+      "contact_slip_speed": 0.03494029986021112,
+      "contact_transitions": 159,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1215,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -14.479276657104492,
+      "mean_yaw_rad_s": -0.013121627271175385,
+      "displacement_m": 1.9580599787786463,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0998307392001152,
+        0.0027819087263196707,
+        0.004177913535386324
+      ],
+      "rms_planar_error": 0.06313590113804564,
+      "rms_yaw_error": 0.23206599056720734,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.005319087678355596,
+      "cycle_rms_yaw_error": 0.033096920709797355,
+      "max_tilt_degrees": 5.845898628234863,
+      "world_xy_displacement_m": [
+        -1.0340288877487183,
+        -1.6970233917236328
+      ],
+      "contact_samples": 1496,
+      "contact_slip_speed": 0.03310540653167562,
+      "contact_transitions": 157,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1216,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -19.965734481811523,
+      "mean_yaw_rad_s": -0.016363399103283882,
+      "displacement_m": 1.987235298789762,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.0986289232969284,
+        0.0017103123245760798,
+        0.0035390756092965603
+      ],
+      "rms_planar_error": 0.06405370518349708,
+      "rms_yaw_error": 0.23720388114452362,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.005412716043791738,
+      "cycle_rms_yaw_error": 0.026643240897174358,
+      "max_tilt_degrees": 5.823322772979736,
+      "world_xy_displacement_m": [
+        -1.3144835233688354,
+        -1.4398072957992554
+      ],
+      "contact_samples": 1494,
+      "contact_slip_speed": 0.033497967394480264,
+      "contact_transitions": 163,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1217,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -7.759709358215332,
+      "mean_yaw_rad_s": -0.009012305177748203,
+      "displacement_m": 1.9495927734388308,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.09965166449546814,
+        0.002448149025440216,
+        0.004228542093187571
+      ],
+      "rms_planar_error": 0.0629138528906434,
+      "rms_yaw_error": 0.23304465413093567,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.005377432571683437,
+      "cycle_rms_yaw_error": 0.03126060215582473,
+      "max_tilt_degrees": 6.010010242462158,
+      "world_xy_displacement_m": [
+        1.6695235967636108,
+        -1.0223281383514404
+      ],
+      "contact_samples": 1496,
+      "contact_slip_speed": 0.03278117511361678,
+      "contact_transitions": 156,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1218,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -0.16467243432998657,
+      "mean_yaw_rad_s": -0.003335727145895362,
+      "displacement_m": 1.957667965364818,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.09981922060251236,
+        0.0024398488458245993,
+        0.003994237631559372
+      ],
+      "rms_planar_error": 0.06192711894502566,
+      "rms_yaw_error": 0.22723838686943054,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004857398076915344,
+      "cycle_rms_yaw_error": 0.03176118132589011,
+      "max_tilt_degrees": 5.411821365356445,
+      "world_xy_displacement_m": [
+        -1.8144385814666748,
+        0.7928576469421387
+      ],
+      "contact_samples": 1497,
+      "contact_slip_speed": 0.031891771213325086,
+      "contact_transitions": 163,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1219,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -2.937732458114624,
+      "mean_yaw_rad_s": -0.0015791300684213638,
+      "displacement_m": 1.9801036877470393,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.1004803404211998,
+        0.0004416860465425998,
+        0.003777474397793412
+      ],
+      "rms_planar_error": 0.06255178388634945,
+      "rms_yaw_error": 0.23994962871074677,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.004429174915071376,
+      "cycle_rms_yaw_error": 0.02669129076075138,
+      "max_tilt_degrees": 5.903653621673584,
+      "world_xy_displacement_m": [
+        0.12392399460077286,
+        -1.9846824407577515
+      ],
+      "contact_samples": 1495,
+      "contact_slip_speed": 0.033434438545967025,
+      "contact_transitions": 161,
+      "near_still_fraction": 0.0,
+      "case": "forward_010",
+      "seed": 1220,
+      "command": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 9.952247619628906,
+      "mean_yaw_rad_s": 0.002298077568411827,
+      "displacement_m": 1.9885475973911104,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14879971742630005,
+        -8.592917583882809e-05,
+        0.011929870583117008
+      ],
+      "rms_planar_error": 0.06596932809028268,
+      "rms_yaw_error": 0.29668667912483215,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0068992860278650325,
+      "cycle_rms_yaw_error": 0.04128492841782512,
+      "max_tilt_degrees": 9.0133638381958,
+      "world_xy_displacement_m": [
+        0.41828209161758423,
+        -2.9217326641082764
+      ],
+      "contact_samples": 1406,
+      "contact_slip_speed": 0.04409378724620488,
+      "contact_transitions": 182,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1201,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -8.89155387878418,
+      "mean_yaw_rad_s": -0.007170645520091057,
+      "displacement_m": 2.95152192414104,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14719951152801514,
+        -0.0006198354531079531,
+        0.012563876807689667
+      ],
+      "rms_planar_error": 0.06715970765425756,
+      "rms_yaw_error": 0.3255636990070343,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.007251144953839835,
+      "cycle_rms_yaw_error": 0.04901613144844394,
+      "max_tilt_degrees": 9.148858070373535,
+      "world_xy_displacement_m": [
+        1.038722276687622,
+        -2.7271995544433594
+      ],
+      "contact_samples": 1412,
+      "contact_slip_speed": 0.049104847246121415,
+      "contact_transitions": 184,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1202,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 16.568788528442383,
+      "mean_yaw_rad_s": 0.006506758276373148,
+      "displacement_m": 2.9183148181515945,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14678843319416046,
+        0.003295602509751916,
+        0.01338080782443285
+      ],
+      "rms_planar_error": 0.06471605890193534,
+      "rms_yaw_error": 0.29323217272758484,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.008325789305680302,
+      "cycle_rms_yaw_error": 0.049527328146261144,
+      "max_tilt_degrees": 9.030524253845215,
+      "world_xy_displacement_m": [
+        -2.5525243282318115,
+        1.3869372606277466
+      ],
+      "contact_samples": 1415,
+      "contact_slip_speed": 0.047762306671681756,
+      "contact_transitions": 182,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1203,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -5.594033718109131,
+      "mean_yaw_rad_s": -0.008221648633480072,
+      "displacement_m": 2.904991464898453,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14762109518051147,
+        0.0017254902049899101,
+        0.011070112697780132
+      ],
+      "rms_planar_error": 0.06477169841751519,
+      "rms_yaw_error": 0.2909470200538635,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.006349686137880535,
+      "cycle_rms_yaw_error": 0.04401297935627466,
+      "max_tilt_degrees": 8.585219383239746,
+      "world_xy_displacement_m": [
+        -0.27696385979652405,
+        -2.923553943634033
+      ],
+      "contact_samples": 1402,
+      "contact_slip_speed": 0.04507065635604967,
+      "contact_transitions": 188,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1204,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 1.7263370752334595,
+      "mean_yaw_rad_s": 0.0014747647801414132,
+      "displacement_m": 2.936643771547972,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14692217111587524,
+        0.0007763126050122082,
+        0.012635918334126472
+      ],
+      "rms_planar_error": 0.0663564187531616,
+      "rms_yaw_error": 0.31529971957206726,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.007892763357382357,
+      "cycle_rms_yaw_error": 0.04485443973342376,
+      "max_tilt_degrees": 9.59910774230957,
+      "world_xy_displacement_m": [
+        -1.8420746326446533,
+        2.2596499919891357
+      ],
+      "contact_samples": 1410,
+      "contact_slip_speed": 0.048657848818082335,
+      "contact_transitions": 173,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1205,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -15.682209014892578,
+      "mean_yaw_rad_s": -0.010636771097779274,
+      "displacement_m": 2.915348527797223,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14769351482391357,
+        0.0038911206647753716,
+        0.01132877729833126
+      ],
+      "rms_planar_error": 0.06669095824148415,
+      "rms_yaw_error": 0.2939101457595825,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.008647956085689456,
+      "cycle_rms_yaw_error": 0.04471882732264449,
+      "max_tilt_degrees": 9.264885902404785,
+      "world_xy_displacement_m": [
+        -2.7714457511901855,
+        0.9250033497810364
+      ],
+      "contact_samples": 1401,
+      "contact_slip_speed": 0.04839994769535432,
+      "contact_transitions": 190,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1206,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -13.441865921020508,
+      "mean_yaw_rad_s": -0.00576923368498683,
+      "displacement_m": 2.921736255875309,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14645586907863617,
+        0.003044088836759329,
+        0.012699850834906101
+      ],
+      "rms_planar_error": 0.06440894795539889,
+      "rms_yaw_error": 0.2945367991924286,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.008297946010510386,
+      "cycle_rms_yaw_error": 0.04879596555301843,
+      "max_tilt_degrees": 9.015325546264648,
+      "world_xy_displacement_m": [
+        -1.436363935470581,
+        -2.5261287689208984
+      ],
+      "contact_samples": 1418,
+      "contact_slip_speed": 0.04728378597200337,
+      "contact_transitions": 189,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1207,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -10.917291641235352,
+      "mean_yaw_rad_s": -0.01129414327442646,
+      "displacement_m": 2.9059366669441284,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14618657529354095,
+        0.0022140087094157934,
+        0.012883193790912628
+      ],
+      "rms_planar_error": 0.0666373115818116,
+      "rms_yaw_error": 0.31330054998397827,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.008075746608971134,
+      "cycle_rms_yaw_error": 0.046455474378080064,
+      "max_tilt_degrees": 9.194430351257324,
+      "world_xy_displacement_m": [
+        -2.307992935180664,
+        -1.7646174430847168
+      ],
+      "contact_samples": 1403,
+      "contact_slip_speed": 0.04875970515538689,
+      "contact_transitions": 178,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1208,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -9.883707046508789,
+      "mean_yaw_rad_s": -0.006483045406639576,
+      "displacement_m": 2.905289333144412,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14824877679347992,
+        0.0018467255868017673,
+        0.012073282152414322
+      ],
+      "rms_planar_error": 0.06489776103788976,
+      "rms_yaw_error": 0.3061709702014923,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.006844341361490842,
+      "cycle_rms_yaw_error": 0.05048350567128119,
+      "max_tilt_degrees": 9.604759216308594,
+      "world_xy_displacement_m": [
+        -0.6955296993255615,
+        -2.848477840423584
+      ],
+      "contact_samples": 1415,
+      "contact_slip_speed": 0.04632645462090051,
+      "contact_transitions": 178,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1209,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -17.978321075439453,
+      "mean_yaw_rad_s": -0.015192083083093166,
+      "displacement_m": 2.932164314977609,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14704881608486176,
+        0.0035379149485379457,
+        0.012540653347969055
+      ],
+      "rms_planar_error": 0.06540680382638869,
+      "rms_yaw_error": 0.30458512902259827,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.007321673439732822,
+      "cycle_rms_yaw_error": 0.045496071740369126,
+      "max_tilt_degrees": 9.54524040222168,
+      "world_xy_displacement_m": [
+        2.8063316345214844,
+        -0.7889581918716431
+      ],
+      "contact_samples": 1419,
+      "contact_slip_speed": 0.049400722081599055,
+      "contact_transitions": 193,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1210,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": 1.2269785404205322,
+      "mean_yaw_rad_s": 0.0015317595098167658,
+      "displacement_m": 2.9151247437180796,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14618447422981262,
+        0.0010748434578999877,
+        0.012358753941953182
+      ],
+      "rms_planar_error": 0.06630167247347368,
+      "rms_yaw_error": 0.3056054413318634,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.007741310719999719,
+      "cycle_rms_yaw_error": 0.04313553936509157,
+      "max_tilt_degrees": 10.035168647766113,
+      "world_xy_displacement_m": [
+        -2.1662070751190186,
+        -1.904449701309204
+      ],
+      "contact_samples": 1417,
+      "contact_slip_speed": 0.04507177618076537,
+      "contact_transitions": 170,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1211,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -21.645469665527344,
+      "mean_yaw_rad_s": -0.015569441951811314,
+      "displacement_m": 2.884333849801789,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.146775484085083,
+        0.002190289320424199,
+        0.012314355932176113
+      ],
+      "rms_planar_error": 0.06402409554205094,
+      "rms_yaw_error": 0.30290719866752625,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.006860685218376673,
+      "cycle_rms_yaw_error": 0.05293914413335682,
+      "max_tilt_degrees": 9.26134204864502,
+      "world_xy_displacement_m": [
+        -2.6044039726257324,
+        -1.3038043975830078
+      ],
+      "contact_samples": 1430,
+      "contact_slip_speed": 0.0457516596867488,
+      "contact_transitions": 162,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1212,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -13.006550788879395,
+      "mean_yaw_rad_s": -0.008625373244285583,
+      "displacement_m": 2.9125291345814013,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.146711528301239,
+        0.00023441182565875351,
+        0.01326228678226471
+      ],
+      "rms_planar_error": 0.0665384405504023,
+      "rms_yaw_error": 0.31182244420051575,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.00753400416667445,
+      "cycle_rms_yaw_error": 0.05787068115796797,
+      "max_tilt_degrees": 8.96019458770752,
+      "world_xy_displacement_m": [
+        1.4273900985717773,
+        -2.5333149433135986
+      ],
+      "contact_samples": 1418,
+      "contact_slip_speed": 0.046398668598557055,
+      "contact_transitions": 164,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1213,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -4.447679042816162,
+      "mean_yaw_rad_s": -0.0043900697492063046,
+      "displacement_m": 2.9077701242561678,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14568930864334106,
+        0.0020416821353137493,
+        0.012545118108391762
+      ],
+      "rms_planar_error": 0.06631158782095779,
+      "rms_yaw_error": 0.3175641894340515,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.008333260291416835,
+      "cycle_rms_yaw_error": 0.04916209577753309,
+      "max_tilt_degrees": 9.402095794677734,
+      "world_xy_displacement_m": [
+        1.7620214223861694,
+        -2.2366154193878174
+      ],
+      "contact_samples": 1416,
+      "contact_slip_speed": 0.04662554142838818,
+      "contact_transitions": 165,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1214,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -20.94007110595703,
+      "mean_yaw_rad_s": -0.014235555194318295,
+      "displacement_m": 2.847308909688431,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.1470024287700653,
+        0.0017846744740381837,
+        0.01224160473793745
+      ],
+      "rms_planar_error": 0.06439700468652748,
+      "rms_yaw_error": 0.2832266688346863,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.007416267712809598,
+      "cycle_rms_yaw_error": 0.041945569109736215,
+      "max_tilt_degrees": 8.70923900604248,
+      "world_xy_displacement_m": [
+        -2.066741466522217,
+        2.0270347595214844
+      ],
+      "contact_samples": 1413,
+      "contact_slip_speed": 0.04437684844085197,
+      "contact_transitions": 177,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1215,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -22.44349479675293,
+      "mean_yaw_rad_s": -0.020681023597717285,
+      "displacement_m": 2.8948730897486206,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.1474064737558365,
+        0.004080303944647312,
+        0.01213252916932106
+      ],
+      "rms_planar_error": 0.06646559241677942,
+      "rms_yaw_error": 0.28548678755760193,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.008250260213224767,
+      "cycle_rms_yaw_error": 0.04894400695005827,
+      "max_tilt_degrees": 9.016676902770996,
+      "world_xy_displacement_m": [
+        -1.4832091331481934,
+        -2.5138790607452393
+      ],
+      "contact_samples": 1404,
+      "contact_slip_speed": 0.04790193606645633,
+      "contact_transitions": 182,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1216,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -22.653488159179688,
+      "mean_yaw_rad_s": -0.01982180029153824,
+      "displacement_m": 2.9188177854582804,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14629150927066803,
+        0.0021556077990680933,
+        0.012598319910466671
+      ],
+      "rms_planar_error": 0.06589375196133727,
+      "rms_yaw_error": 0.30505362153053284,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.007540280724552827,
+      "cycle_rms_yaw_error": 0.0485649705873515,
+      "max_tilt_degrees": 9.75485610961914,
+      "world_xy_displacement_m": [
+        -2.188387155532837,
+        -1.893608570098877
+      ],
+      "contact_samples": 1420,
+      "contact_slip_speed": 0.04630926427706866,
+      "contact_transitions": 165,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1217,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -22.906801223754883,
+      "mean_yaw_rad_s": -0.017672495916485786,
+      "displacement_m": 2.893923246952658,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14686129987239838,
+        0.003882413962855935,
+        0.013330844230949879
+      ],
+      "rms_planar_error": 0.06889125152055972,
+      "rms_yaw_error": 0.33949726819992065,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.008951066349435908,
+      "cycle_rms_yaw_error": 0.048760197887346604,
+      "max_tilt_degrees": 12.308135032653809,
+      "world_xy_displacement_m": [
+        2.433001756668091,
+        -1.5709080696105957
+      ],
+      "contact_samples": 1405,
+      "contact_slip_speed": 0.04821121921742938,
+      "contact_transitions": 182,
+      "near_still_fraction": 0.0010526315789473684,
+      "case": "forward_015",
+      "seed": 1218,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -1.1653189659118652,
+      "mean_yaw_rad_s": -0.001549754524603486,
+      "displacement_m": 2.896074880095075,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14775581657886505,
+        0.0039015437941998243,
+        0.012657582759857178
+      ],
+      "rms_planar_error": 0.06632646480762612,
+      "rms_yaw_error": 0.2934615910053253,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.008198967644971049,
+      "cycle_rms_yaw_error": 0.04548954380085309,
+      "max_tilt_degrees": 8.963262557983398,
+      "world_xy_displacement_m": [
+        -2.6348319053649902,
+        1.292534351348877
+      ],
+      "contact_samples": 1409,
+      "contact_slip_speed": 0.0443291538907248,
+      "contact_transitions": 177,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1219,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -6.18339729309082,
+      "mean_yaw_rad_s": -0.004602475557476282,
+      "displacement_m": 2.934788615717692,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.14941836893558502,
+        0.0014794254675507545,
+        0.011163133196532726
+      ],
+      "rms_planar_error": 0.06611230923419523,
+      "rms_yaw_error": 0.29053714871406555,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0068736624627637,
+      "cycle_rms_yaw_error": 0.043980082995526214,
+      "max_tilt_degrees": 8.67427921295166,
+      "world_xy_displacement_m": [
+        -0.5276975631713867,
+        -2.9020864963531494
+      ],
+      "contact_samples": 1415,
+      "contact_slip_speed": 0.05007744779013913,
+      "contact_transitions": 180,
+      "near_still_fraction": 0.0,
+      "case": "forward_015",
+      "seed": 1220,
+      "command": [
+        0.15,
+        0.0,
+        0.0
+      ],
+      "heading_change_deg": -16.283599853515625,
+      "mean_yaw_rad_s": -0.01940065622329712,
+      "displacement_m": 2.9496729904334003,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.010398405604064465,
+        -0.0004838307504542172,
+        -0.002049177885055542
+      ],
+      "rms_planar_error": 0.03250585326827185,
+      "rms_yaw_error": 0.13714247941970825,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011099703941662297,
+      "cycle_rms_yaw_error": 0.04590552176778786,
+      "max_tilt_degrees": 9.96920108795166,
+      "world_xy_displacement_m": [
+        0.08986295759677887,
+        0.2213631570339203
+      ],
+      "contact_samples": 1726,
+      "contact_slip_speed": 0.021167423606333283,
+      "contact_transitions": 167,
+      "near_still_fraction": 0.5515789473684211,
+      "case": "left",
+      "seed": 1201,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 172.3662567138672,
+      "mean_yaw_rad_s": 0.15705621242523193,
+      "displacement_m": 0.23890792879279776,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00993787869811058,
+        -0.0006890007643960416,
+        -0.0021374975331127644
+      ],
+      "rms_planar_error": 0.03201302929124953,
+      "rms_yaw_error": 0.1450858861207962,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011338129726508096,
+      "cycle_rms_yaw_error": 0.048155659831551755,
+      "max_tilt_degrees": 9.969339370727539,
+      "world_xy_displacement_m": [
+        0.09334935992956161,
+        0.195999413728714
+      ],
+      "contact_samples": 1721,
+      "contact_slip_speed": 0.021209273485164874,
+      "contact_transitions": 177,
+      "near_still_fraction": 0.5168421052631579,
+      "case": "left",
+      "seed": 1202,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 183.03468322753906,
+      "mean_yaw_rad_s": 0.15749022364616394,
+      "displacement_m": 0.2170941574093104,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00973444152623415,
+        -0.0016597580397501588,
+        -0.001786345150321722
+      ],
+      "rms_planar_error": 0.03195362438639821,
+      "rms_yaw_error": 0.14771196246147156,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011112341524274613,
+      "cycle_rms_yaw_error": 0.05393552523561732,
+      "max_tilt_degrees": 10.303776741027832,
+      "world_xy_displacement_m": [
+        0.056044094264507294,
+        -0.18323171138763428
+      ],
+      "contact_samples": 1725,
+      "contact_slip_speed": 0.021530783832937047,
+      "contact_transitions": 171,
+      "near_still_fraction": 0.5368421052631579,
+      "case": "left",
+      "seed": 1203,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 174.0935821533203,
+      "mean_yaw_rad_s": 0.1497235894203186,
+      "displacement_m": 0.19161106585990875,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.01061250176280737,
+        -0.00101765850558877,
+        -0.001959592569619417
+      ],
+      "rms_planar_error": 0.03308341933190907,
+      "rms_yaw_error": 0.1347145289182663,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011763976029332521,
+      "cycle_rms_yaw_error": 0.05134415475904576,
+      "max_tilt_degrees": 10.364733695983887,
+      "world_xy_displacement_m": [
+        0.14655517041683197,
+        0.1413520723581314
+      ],
+      "contact_samples": 1709,
+      "contact_slip_speed": 0.021084479102619635,
+      "contact_transitions": 176,
+      "near_still_fraction": 0.5273684210526316,
+      "case": "left",
+      "seed": 1204,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 173.302734375,
+      "mean_yaw_rad_s": 0.15204095840454102,
+      "displacement_m": 0.20361440601255373,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.010362185537815094,
+        -0.001155331963673234,
+        -0.001738741178996861
+      ],
+      "rms_planar_error": 0.032850402501103416,
+      "rms_yaw_error": 0.13570141792297363,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011825121480783714,
+      "cycle_rms_yaw_error": 0.04803803884679862,
+      "max_tilt_degrees": 10.540475845336914,
+      "world_xy_displacement_m": [
+        0.04474007710814476,
+        -0.19437652826309204
+      ],
+      "contact_samples": 1708,
+      "contact_slip_speed": 0.020871459460649333,
+      "contact_transitions": 186,
+      "near_still_fraction": 0.5431578947368421,
+      "case": "left",
+      "seed": 1205,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 177.50640869140625,
+      "mean_yaw_rad_s": 0.15468662977218628,
+      "displacement_m": 0.199459041507913,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.011121334508061409,
+        -0.0012065654154866934,
+        -0.0021407476160675287
+      ],
+      "rms_planar_error": 0.03397706508786711,
+      "rms_yaw_error": 0.1370743215084076,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.012504048804916746,
+      "cycle_rms_yaw_error": 0.04891477492979569,
+      "max_tilt_degrees": 10.892870903015137,
+      "world_xy_displacement_m": [
+        0.15433718264102936,
+        -0.16878071427345276
+      ],
+      "contact_samples": 1703,
+      "contact_slip_speed": 0.02166758350813592,
+      "contact_transitions": 194,
+      "near_still_fraction": 0.5189473684210526,
+      "case": "left",
+      "seed": 1206,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 174.4976348876953,
+      "mean_yaw_rad_s": 0.1564301699399948,
+      "displacement_m": 0.22870700788613224,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00955379568040371,
+        -0.002203630981966853,
+        -0.0019588072318583727
+      ],
+      "rms_planar_error": 0.03258835502468328,
+      "rms_yaw_error": 0.14108434319496155,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011537712583370472,
+      "cycle_rms_yaw_error": 0.05587522476613696,
+      "max_tilt_degrees": 10.02016544342041,
+      "world_xy_displacement_m": [
+        0.17734357714653015,
+        0.057469360530376434
+      ],
+      "contact_samples": 1723,
+      "contact_slip_speed": 0.021630219090351586,
+      "contact_transitions": 178,
+      "near_still_fraction": 0.5789473684210527,
+      "case": "left",
+      "seed": 1207,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 168.80140686035156,
+      "mean_yaw_rad_s": 0.1472846418619156,
+      "displacement_m": 0.18642283056240103,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.010130517184734344,
+        -0.0007243236759677529,
+        -0.0020513844210654497
+      ],
+      "rms_planar_error": 0.03256690963323344,
+      "rms_yaw_error": 0.12878121435642242,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011590746925233566,
+      "cycle_rms_yaw_error": 0.04997766371750996,
+      "max_tilt_degrees": 10.120572090148926,
+      "world_xy_displacement_m": [
+        0.21019622683525085,
+        0.007544912397861481
+      ],
+      "contact_samples": 1730,
+      "contact_slip_speed": 0.021984309819392388,
+      "contact_transitions": 185,
+      "near_still_fraction": 0.54,
+      "case": "left",
+      "seed": 1208,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 174.50730895996094,
+      "mean_yaw_rad_s": 0.15325169265270233,
+      "displacement_m": 0.21033159410527852,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.010067670606076717,
+        -0.0010243066353723407,
+        -0.001959185115993023
+      ],
+      "rms_planar_error": 0.03223017190239127,
+      "rms_yaw_error": 0.14098888635635376,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011082440907060119,
+      "cycle_rms_yaw_error": 0.050877673090272996,
+      "max_tilt_degrees": 10.134148597717285,
+      "world_xy_displacement_m": [
+        0.14059677720069885,
+        0.16537277400493622
+      ],
+      "contact_samples": 1705,
+      "contact_slip_speed": 0.021366837577036748,
+      "contact_transitions": 191,
+      "near_still_fraction": 0.5557894736842105,
+      "case": "left",
+      "seed": 1209,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 178.07260131835938,
+      "mean_yaw_rad_s": 0.15367114543914795,
+      "displacement_m": 0.2170613004229696,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009558811783790588,
+        -0.00038110942114144564,
+        -0.0019713102374225855
+      ],
+      "rms_planar_error": 0.031940185613804704,
+      "rms_yaw_error": 0.14472050964832306,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011336324718639336,
+      "cycle_rms_yaw_error": 0.05660219102842867,
+      "max_tilt_degrees": 9.994991302490234,
+      "world_xy_displacement_m": [
+        -0.12916725873947144,
+        0.1641237586736679
+      ],
+      "contact_samples": 1714,
+      "contact_slip_speed": 0.022631989059537266,
+      "contact_transitions": 190,
+      "near_still_fraction": 0.5347368421052632,
+      "case": "left",
+      "seed": 1210,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 173.65518188476562,
+      "mean_yaw_rad_s": 0.15105552971363068,
+      "displacement_m": 0.20885590461234738,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.01060837134718895,
+        -0.001990267774090171,
+        -0.002063400810584426
+      ],
+      "rms_planar_error": 0.03244815543602002,
+      "rms_yaw_error": 0.13863921165466309,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011995221515030472,
+      "cycle_rms_yaw_error": 0.05223361883839882,
+      "max_tilt_degrees": 10.114876747131348,
+      "world_xy_displacement_m": [
+        0.2207368165254593,
+        0.04150894284248352
+      ],
+      "contact_samples": 1729,
+      "contact_slip_speed": 0.022781941296393778,
+      "contact_transitions": 166,
+      "near_still_fraction": 0.5357894736842105,
+      "case": "left",
+      "seed": 1211,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 170.49697875976562,
+      "mean_yaw_rad_s": 0.1527724266052246,
+      "displacement_m": 0.22460573123964322,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009991993196308613,
+        -0.0009814301738515496,
+        -0.0018976085120812058
+      ],
+      "rms_planar_error": 0.03302643661038437,
+      "rms_yaw_error": 0.1292939931154251,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011437232618918018,
+      "cycle_rms_yaw_error": 0.048408749070924455,
+      "max_tilt_degrees": 9.910957336425781,
+      "world_xy_displacement_m": [
+        0.20390303432941437,
+        -0.023066408932209015
+      ],
+      "contact_samples": 1721,
+      "contact_slip_speed": 0.020735900807976375,
+      "contact_transitions": 177,
+      "near_still_fraction": 0.5536842105263158,
+      "case": "left",
+      "seed": 1212,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 177.50486755371094,
+      "mean_yaw_rad_s": 0.1553325355052948,
+      "displacement_m": 0.20520357362816619,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009446634911000729,
+        -0.0013157367939129472,
+        -0.0018647596007212996
+      ],
+      "rms_planar_error": 0.03111339783351766,
+      "rms_yaw_error": 0.14511683583259583,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.010927622390551492,
+      "cycle_rms_yaw_error": 0.057871346219277434,
+      "max_tilt_degrees": 9.93687629699707,
+      "world_xy_displacement_m": [
+        0.027583837509155273,
+        0.21718278527259827
+      ],
+      "contact_samples": 1713,
+      "contact_slip_speed": 0.0213963652798396,
+      "contact_transitions": 188,
+      "near_still_fraction": 0.5842105263157895,
+      "case": "left",
+      "seed": 1213,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 170.7686004638672,
+      "mean_yaw_rad_s": 0.14681898057460785,
+      "displacement_m": 0.21892745444666142,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.010114451870322227,
+        -0.0007699293782934546,
+        -0.002170405350625515
+      ],
+      "rms_planar_error": 0.03364096246777079,
+      "rms_yaw_error": 0.13956743478775024,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011418345132438027,
+      "cycle_rms_yaw_error": 0.04980023045941297,
+      "max_tilt_degrees": 10.431715965270996,
+      "world_xy_displacement_m": [
+        -0.04825431853532791,
+        0.1832537204027176
+      ],
+      "contact_samples": 1731,
+      "contact_slip_speed": 0.02234511042109533,
+      "contact_transitions": 165,
+      "near_still_fraction": 0.5526315789473685,
+      "case": "left",
+      "seed": 1214,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 168.29281616210938,
+      "mean_yaw_rad_s": 0.15498974919319153,
+      "displacement_m": 0.18950040975878202,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.010623237118124962,
+        -0.0015393769135698676,
+        -0.002009760355576873
+      ],
+      "rms_planar_error": 0.033606099072911004,
+      "rms_yaw_error": 0.13236351311206818,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011973593338969966,
+      "cycle_rms_yaw_error": 0.05087889333931709,
+      "max_tilt_degrees": 10.26099681854248,
+      "world_xy_displacement_m": [
+        0.06296423822641373,
+        -0.1923031508922577
+      ],
+      "contact_samples": 1714,
+      "contact_slip_speed": 0.0204664005559968,
+      "contact_transitions": 173,
+      "near_still_fraction": 0.5347368421052632,
+      "case": "left",
+      "seed": 1215,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 171.33212280273438,
+      "mean_yaw_rad_s": 0.1531030237674713,
+      "displacement_m": 0.20234870184541093,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.010365382768213749,
+        -0.0008509976323693991,
+        -0.0018653195584192872
+      ],
+      "rms_planar_error": 0.03150066189856234,
+      "rms_yaw_error": 0.1366572380065918,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011399992094529568,
+      "cycle_rms_yaw_error": 0.05126387634171808,
+      "max_tilt_degrees": 9.708407402038574,
+      "world_xy_displacement_m": [
+        0.17931342124938965,
+        0.08509904146194458
+      ],
+      "contact_samples": 1714,
+      "contact_slip_speed": 0.020918829438288544,
+      "contact_transitions": 186,
+      "near_still_fraction": 0.5484210526315789,
+      "case": "left",
+      "seed": 1216,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 168.2859649658203,
+      "mean_yaw_rad_s": 0.15228509902954102,
+      "displacement_m": 0.19848211480610242,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.010022548027336597,
+        -0.0014452514005824924,
+        -0.0019951702561229467
+      ],
+      "rms_planar_error": 0.03173583564837808,
+      "rms_yaw_error": 0.14439715445041656,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011294664346112782,
+      "cycle_rms_yaw_error": 0.05273668440167671,
+      "max_tilt_degrees": 10.564586639404297,
+      "world_xy_displacement_m": [
+        0.19352835416793823,
+        0.04830310493707657
+      ],
+      "contact_samples": 1715,
+      "contact_slip_speed": 0.02138550872357872,
+      "contact_transitions": 189,
+      "near_still_fraction": 0.5557894736842105,
+      "case": "left",
+      "seed": 1217,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 174.73388671875,
+      "mean_yaw_rad_s": 0.15153703093528748,
+      "displacement_m": 0.19946531982656324,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.010564390569925308,
+        -0.00046022594324313104,
+        -0.0020377435721457005
+      ],
+      "rms_planar_error": 0.03258619861714777,
+      "rms_yaw_error": 0.12920445203781128,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011513321914063847,
+      "cycle_rms_yaw_error": 0.04731119431453428,
+      "max_tilt_degrees": 10.028189659118652,
+      "world_xy_displacement_m": [
+        -0.09750309586524963,
+        0.1994057297706604
+      ],
+      "contact_samples": 1710,
+      "contact_slip_speed": 0.02120775367781433,
+      "contact_transitions": 187,
+      "near_still_fraction": 0.5568421052631579,
+      "case": "left",
+      "seed": 1218,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 179.39785766601562,
+      "mean_yaw_rad_s": 0.15731088817119598,
+      "displacement_m": 0.2219673371662545,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009950094856321812,
+        -0.0005533097428269684,
+        -0.001895091263577342
+      ],
+      "rms_planar_error": 0.03174761365926349,
+      "rms_yaw_error": 0.14314228296279907,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.01118533541843252,
+      "cycle_rms_yaw_error": 0.05126731984664553,
+      "max_tilt_degrees": 10.009069442749023,
+      "world_xy_displacement_m": [
+        0.1105383038520813,
+        -0.18322701752185822
+      ],
+      "contact_samples": 1713,
+      "contact_slip_speed": 0.020411877206244527,
+      "contact_transitions": 184,
+      "near_still_fraction": 0.5705263157894737,
+      "case": "left",
+      "seed": 1219,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 174.98504638671875,
+      "mean_yaw_rad_s": 0.15293478965759277,
+      "displacement_m": 0.2139879822991244,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009961389005184174,
+        -0.0012588032986968756,
+        -0.001996900187805295
+      ],
+      "rms_planar_error": 0.032602004270314205,
+      "rms_yaw_error": 0.1404830664396286,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011328827476572276,
+      "cycle_rms_yaw_error": 0.054903065269975855,
+      "max_tilt_degrees": 9.873226165771484,
+      "world_xy_displacement_m": [
+        0.13945595920085907,
+        0.15817707777023315
+      ],
+      "contact_samples": 1710,
+      "contact_slip_speed": 0.021924256441885965,
+      "contact_transitions": 196,
+      "near_still_fraction": 0.5684210526315789,
+      "case": "left",
+      "seed": 1220,
+      "command": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "heading_change_deg": 173.84872436523438,
+      "mean_yaw_rad_s": 0.1511346399784088,
+      "displacement_m": 0.21087425752936761,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00897170975804329,
+        0.0014764162478968501,
+        -0.0016992350574582815
+      ],
+      "rms_planar_error": 0.034667931552831585,
+      "rms_yaw_error": 0.232722207903862,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.01142830585587898,
+      "cycle_rms_yaw_error": 0.06234302778345394,
+      "max_tilt_degrees": 10.470724105834961,
+      "world_xy_displacement_m": [
+        -0.1726391613483429,
+        0.13916166126728058
+      ],
+      "contact_samples": 1754,
+      "contact_slip_speed": 0.02237403243270404,
+      "contact_transitions": 142,
+      "near_still_fraction": 0.31684210526315787,
+      "case": "right",
+      "seed": 1201,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -177.0824737548828,
+      "mean_yaw_rad_s": -0.14762435853481293,
+      "displacement_m": 0.22174365379358327,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009030613116919994,
+        0.001287374529056251,
+        -0.001481704879552126
+      ],
+      "rms_planar_error": 0.03342898535052095,
+      "rms_yaw_error": 0.23883625864982605,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.010566619977321716,
+      "cycle_rms_yaw_error": 0.061860704705440285,
+      "max_tilt_degrees": 10.788007736206055,
+      "world_xy_displacement_m": [
+        -0.16724161803722382,
+        0.12732885777950287
+      ],
+      "contact_samples": 1766,
+      "contact_slip_speed": 0.02318426112761449,
+      "contact_transitions": 138,
+      "near_still_fraction": 0.35578947368421054,
+      "case": "right",
+      "seed": 1202,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -165.77622985839844,
+      "mean_yaw_rad_s": -0.14524205029010773,
+      "displacement_m": 0.21019609136980053,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009065615944564342,
+        0.0025722382124513388,
+        -0.0014358368935063481
+      ],
+      "rms_planar_error": 0.033107837263676845,
+      "rms_yaw_error": 0.22730803489685059,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.010817903003443177,
+      "cycle_rms_yaw_error": 0.06668810053356945,
+      "max_tilt_degrees": 11.357577323913574,
+      "world_xy_displacement_m": [
+        0.18492306768894196,
+        0.06713978201150894
+      ],
+      "contact_samples": 1761,
+      "contact_slip_speed": 0.022669155850862658,
+      "contact_transitions": 134,
+      "near_still_fraction": 0.3726315789473684,
+      "case": "right",
+      "seed": 1203,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -161.64730834960938,
+      "mean_yaw_rad_s": -0.13974247872829437,
+      "displacement_m": 0.19673406235840796,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009286228567361832,
+        0.0014717327430844307,
+        -0.0012952752877026796
+      ],
+      "rms_planar_error": 0.03429701230683782,
+      "rms_yaw_error": 0.2395971566438675,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.0110684178498541,
+      "cycle_rms_yaw_error": 0.06615873750798507,
+      "max_tilt_degrees": 10.503652572631836,
+      "world_xy_displacement_m": [
+        -0.1403719186782837,
+        0.14932438731193542
+      ],
+      "contact_samples": 1738,
+      "contact_slip_speed": 0.02160071668196877,
+      "contact_transitions": 170,
+      "near_still_fraction": 0.3410526315789474,
+      "case": "right",
+      "seed": 1204,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -164.90646362304688,
+      "mean_yaw_rad_s": -0.1400691121816635,
+      "displacement_m": 0.20494401235339274,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009830801747739315,
+        0.0026874346658587456,
+        -0.0018636005697771907
+      ],
+      "rms_planar_error": 0.03358378690707615,
+      "rms_yaw_error": 0.22469870746135712,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.01118751368110058,
+      "cycle_rms_yaw_error": 0.05507042813933448,
+      "max_tilt_degrees": 10.84456729888916,
+      "world_xy_displacement_m": [
+        0.21792282164096832,
+        0.0055845677852630615
+      ],
+      "contact_samples": 1762,
+      "contact_slip_speed": 0.02204342949268631,
+      "contact_transitions": 132,
+      "near_still_fraction": 0.3452631578947368,
+      "case": "right",
+      "seed": 1205,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -180.48760986328125,
+      "mean_yaw_rad_s": -0.1535944938659668,
+      "displacement_m": 0.21799436595772262,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009285994805395603,
+        0.0018143607303500175,
+        -0.00144060084130615
+      ],
+      "rms_planar_error": 0.034112576633533245,
+      "rms_yaw_error": 0.23048138618469238,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.010873882038667619,
+      "cycle_rms_yaw_error": 0.059642071186071975,
+      "max_tilt_degrees": 10.177958488464355,
+      "world_xy_displacement_m": [
+        0.19977647066116333,
+        0.11257995665073395
+      ],
+      "contact_samples": 1757,
+      "contact_slip_speed": 0.02246791120951462,
+      "contact_transitions": 142,
+      "near_still_fraction": 0.36947368421052634,
+      "case": "right",
+      "seed": 1206,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -182.01075744628906,
+      "mean_yaw_rad_s": -0.15084493160247803,
+      "displacement_m": 0.22931394390510096,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.008935313671827316,
+        0.0014177699340507388,
+        -0.0016706398455426097
+      ],
+      "rms_planar_error": 0.03444303411510406,
+      "rms_yaw_error": 0.2302287220954895,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.01103227005940798,
+      "cycle_rms_yaw_error": 0.06923310907867411,
+      "max_tilt_degrees": 10.655064582824707,
+      "world_xy_displacement_m": [
+        -0.07633533328771591,
+        0.20797351002693176
+      ],
+      "contact_samples": 1755,
+      "contact_slip_speed": 0.022547790875122417,
+      "contact_transitions": 151,
+      "near_still_fraction": 0.33789473684210525,
+      "case": "right",
+      "seed": 1207,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -164.52879333496094,
+      "mean_yaw_rad_s": -0.14002074301242828,
+      "displacement_m": 0.22154020849739434,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009147169068455696,
+        0.0017886888235807419,
+        -0.0015040577854961157
+      ],
+      "rms_planar_error": 0.0335406575754342,
+      "rms_yaw_error": 0.2428276091814041,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.010616721469630771,
+      "cycle_rms_yaw_error": 0.06569420427719358,
+      "max_tilt_degrees": 10.76234245300293,
+      "world_xy_displacement_m": [
+        0.012874964624643326,
+        0.20380252599716187
+      ],
+      "contact_samples": 1764,
+      "contact_slip_speed": 0.02180637523971177,
+      "contact_transitions": 132,
+      "near_still_fraction": 0.35157894736842105,
+      "case": "right",
+      "seed": 1208,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -170.09356689453125,
+      "mean_yaw_rad_s": -0.142935112118721,
+      "displacement_m": 0.20420880078221323,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00875985436141491,
+        0.0017957235686481,
+        -0.0015487467171624303
+      ],
+      "rms_planar_error": 0.03305482514086316,
+      "rms_yaw_error": 0.22553539276123047,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.010536638749800901,
+      "cycle_rms_yaw_error": 0.06953459721630119,
+      "max_tilt_degrees": 10.703146934509277,
+      "world_xy_displacement_m": [
+        -0.16652429103851318,
+        0.1306307017803192
+      ],
+      "contact_samples": 1768,
+      "contact_slip_speed": 0.02197397887976461,
+      "contact_transitions": 135,
+      "near_still_fraction": 0.3757894736842105,
+      "case": "right",
+      "seed": 1209,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -156.08641052246094,
+      "mean_yaw_rad_s": -0.1358092874288559,
+      "displacement_m": 0.21164763110769308,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009596239775419235,
+        0.0013829205418005586,
+        -0.0015546407084912062
+      ],
+      "rms_planar_error": 0.03514091821571209,
+      "rms_yaw_error": 0.2394132763147354,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011003180094963837,
+      "cycle_rms_yaw_error": 0.056444030474516745,
+      "max_tilt_degrees": 10.354972839355469,
+      "world_xy_displacement_m": [
+        -0.19031748175621033,
+        -0.10337015986442566
+      ],
+      "contact_samples": 1750,
+      "contact_slip_speed": 0.021672816685267857,
+      "contact_transitions": 152,
+      "near_still_fraction": 0.31473684210526315,
+      "case": "right",
+      "seed": 1210,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -174.04910278320312,
+      "mean_yaw_rad_s": -0.149380162358284,
+      "displacement_m": 0.21657823947114901,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.008622659370303154,
+        0.0015083036851137877,
+        -0.001556506147608161
+      ],
+      "rms_planar_error": 0.03363593911052047,
+      "rms_yaw_error": 0.23293671011924744,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.010103573017703473,
+      "cycle_rms_yaw_error": 0.06785700128548393,
+      "max_tilt_degrees": 10.573040008544922,
+      "world_xy_displacement_m": [
+        -0.01351967640221119,
+        0.2182282954454422
+      ],
+      "contact_samples": 1767,
+      "contact_slip_speed": 0.02198405068812562,
+      "contact_transitions": 136,
+      "near_still_fraction": 0.35578947368421054,
+      "case": "right",
+      "seed": 1211,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -168.87838745117188,
+      "mean_yaw_rad_s": -0.13897863030433655,
+      "displacement_m": 0.21864667978966365,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009577756747603416,
+        0.0017287344671785831,
+        -0.0016099817585200071
+      ],
+      "rms_planar_error": 0.03478439399344889,
+      "rms_yaw_error": 0.24038134515285492,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011217274735528611,
+      "cycle_rms_yaw_error": 0.05986681524735924,
+      "max_tilt_degrees": 10.699725151062012,
+      "world_xy_displacement_m": [
+        0.05060097202658653,
+        0.21155719459056854
+      ],
+      "contact_samples": 1747,
+      "contact_slip_speed": 0.02295589610789255,
+      "contact_transitions": 160,
+      "near_still_fraction": 0.3357894736842105,
+      "case": "right",
+      "seed": 1212,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -176.32186889648438,
+      "mean_yaw_rad_s": -0.14887230098247528,
+      "displacement_m": 0.2175244927659115,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009569214656949043,
+        0.002255434636026621,
+        -0.0014766730600968003
+      ],
+      "rms_planar_error": 0.03364985423038325,
+      "rms_yaw_error": 0.2398899644613266,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011285537561166115,
+      "cycle_rms_yaw_error": 0.06576560977633272,
+      "max_tilt_degrees": 10.6548433303833,
+      "world_xy_displacement_m": [
+        -0.20205795764923096,
+        0.021170776337385178
+      ],
+      "contact_samples": 1753,
+      "contact_slip_speed": 0.02187738674270447,
+      "contact_transitions": 147,
+      "near_still_fraction": 0.3294736842105263,
+      "case": "right",
+      "seed": 1213,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -165.68106079101562,
+      "mean_yaw_rad_s": -0.143679678440094,
+      "displacement_m": 0.20316402245502524,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.00929251592606306,
+        0.002199543872848153,
+        -0.0014130388153716922
+      ],
+      "rms_planar_error": 0.0327503684017706,
+      "rms_yaw_error": 0.2435120791196823,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.010808913262947556,
+      "cycle_rms_yaw_error": 0.06261767223349367,
+      "max_tilt_degrees": 11.209656715393066,
+      "world_xy_displacement_m": [
+        -0.22143800556659698,
+        -0.04340397194027901
+      ],
+      "contact_samples": 1760,
+      "contact_slip_speed": 0.021926853873512963,
+      "contact_transitions": 132,
+      "near_still_fraction": 0.39263157894736844,
+      "case": "right",
+      "seed": 1214,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -173.8400115966797,
+      "mean_yaw_rad_s": -0.14356891810894012,
+      "displacement_m": 0.22565171191352562,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009692874737083912,
+        0.002140442607924342,
+        -0.0016251589404419065
+      ],
+      "rms_planar_error": 0.033387495574388824,
+      "rms_yaw_error": 0.23312807083129883,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011026077455359296,
+      "cycle_rms_yaw_error": 0.057957141956322976,
+      "max_tilt_degrees": 10.817106246948242,
+      "world_xy_displacement_m": [
+        0.21956591308116913,
+        0.030263718217611313
+      ],
+      "contact_samples": 1748,
+      "contact_slip_speed": 0.021873921496917234,
+      "contact_transitions": 150,
+      "near_still_fraction": 0.3547368421052632,
+      "case": "right",
+      "seed": 1215,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -180.9867706298828,
+      "mean_yaw_rad_s": -0.1512906551361084,
+      "displacement_m": 0.2216417894430617,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.009519615210592747,
+        0.0017606244655326009,
+        -0.001661963644437492
+      ],
+      "rms_planar_error": 0.0348420503876205,
+      "rms_yaw_error": 0.23684357106685638,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011126349529709922,
+      "cycle_rms_yaw_error": 0.06036190057874606,
+      "max_tilt_degrees": 10.909863471984863,
+      "world_xy_displacement_m": [
+        -0.0762549638748169,
+        0.19307208061218262
+      ],
+      "contact_samples": 1760,
+      "contact_slip_speed": 0.022617088664661753,
+      "contact_transitions": 140,
+      "near_still_fraction": 0.3368421052631579,
+      "case": "right",
+      "seed": 1216,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -178.70590209960938,
+      "mean_yaw_rad_s": -0.14753906428813934,
+      "displacement_m": 0.2075852784459119,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.008477617986500263,
+        0.0019571396987885237,
+        -0.001637754961848259
+      ],
+      "rms_planar_error": 0.03317686052675695,
+      "rms_yaw_error": 0.24243591725826263,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.010209912063914904,
+      "cycle_rms_yaw_error": 0.06511477758729421,
+      "max_tilt_degrees": 11.210588455200195,
+      "world_xy_displacement_m": [
+        -0.02898835763335228,
+        0.20049907267093658
+      ],
+      "contact_samples": 1762,
+      "contact_slip_speed": 0.02220217459047558,
+      "contact_transitions": 126,
+      "near_still_fraction": 0.35578947368421054,
+      "case": "right",
+      "seed": 1217,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -164.20648193359375,
+      "mean_yaw_rad_s": -0.14088766276836395,
+      "displacement_m": 0.20258381727123378,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.008916284888982773,
+        0.0020006040576845407,
+        -0.0016211444744840264
+      ],
+      "rms_planar_error": 0.033045449133982795,
+      "rms_yaw_error": 0.23380550742149353,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.010872345159221607,
+      "cycle_rms_yaw_error": 0.06509091398876132,
+      "max_tilt_degrees": 11.313410758972168,
+      "world_xy_displacement_m": [
+        -0.2099108099937439,
+        -0.055946797132492065
+      ],
+      "contact_samples": 1770,
+      "contact_slip_speed": 0.02235033714165122,
+      "contact_transitions": 124,
+      "near_still_fraction": 0.3568421052631579,
+      "case": "right",
+      "seed": 1218,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -165.65782165527344,
+      "mean_yaw_rad_s": -0.14162003993988037,
+      "displacement_m": 0.21723856071520514,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.008441152051091194,
+        0.0022200183011591434,
+        -0.0016628591110929847
+      ],
+      "rms_planar_error": 0.033959496169489845,
+      "rms_yaw_error": 0.2495511919260025,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.01054783908046137,
+      "cycle_rms_yaw_error": 0.06727630261923227,
+      "max_tilt_degrees": 11.50033187866211,
+      "world_xy_displacement_m": [
+        0.18580317497253418,
+        0.08625493943691254
+      ],
+      "contact_samples": 1757,
+      "contact_slip_speed": 0.023485606003024732,
+      "contact_transitions": 143,
+      "near_still_fraction": 0.3178947368421053,
+      "case": "right",
+      "seed": 1219,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -163.422607421875,
+      "mean_yaw_rad_s": -0.1383754312992096,
+      "displacement_m": 0.2048480764057588,
+      "correct_direction": true,
+      "task_pass": true
+    },
+    {
+      "steps": 1000,
+      "duration_s": 20.0,
+      "terminated": false,
+      "finite": true,
+      "settle_applied": true,
+      "mean_body_velocity": [
+        0.010032902471721172,
+        0.002163809025660157,
+        -0.0015322401886805892
+      ],
+      "rms_planar_error": 0.033808786461122835,
+      "rms_yaw_error": 0.23388397693634033,
+      "cycle_window_samples": 27,
+      "cycle_rms_planar_error": 0.011589666345188172,
+      "cycle_rms_yaw_error": 0.05261519537416333,
+      "max_tilt_degrees": 10.276935577392578,
+      "world_xy_displacement_m": [
+        -0.13876190781593323,
+        0.1675284504890442
+      ],
+      "contact_samples": 1754,
+      "contact_slip_speed": 0.022041118539181646,
+      "contact_transitions": 143,
+      "near_still_fraction": 0.3389473684210526,
+      "case": "right",
+      "seed": 1220,
+      "command": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "heading_change_deg": -182.21575927734375,
+      "mean_yaw_rad_s": -0.15699651837348938,
+      "displacement_m": 0.21753309813446248,
+      "correct_direction": true,
+      "task_pass": true
+    }
+  ]
+}

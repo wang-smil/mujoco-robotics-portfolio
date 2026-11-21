@@ -1,0 +1,84 @@
+{
+  "all240_seed_command_records_exact": true,
+  "reset_positions_and_controls_identical": true,
+  "original_source_hashes": {
+    "duck_training/playground/open_duck_mini_v2/joystick.py": "254b51e17c6e0aece2a6efe5921ba32cbf11234b9bf0194f17bbeed128df55f8",
+    "duck_training/playground/common/rewards.py": "f7e939a5dd221b9b5f6f9a0d04e5622cb94cf447d04cffcf14c9ff1e808f1340",
+    "duck_training/playground/open_duck_mini_v2/custom_rewards.py": "9584cccab861f15b4311b6b9d64b395670327dc9c747abded96e1adedb48ed06"
+  },
+  "default_view_run": "artifacts/lesson07/run_20261117T132245_739130Z_b2c5bf",
+  "selected_checkpoint": "artifacts/lesson07/run_20261117T132245_739130Z_b2c5bf/checkpoints/step_81920000",
+  "entry_update": "description only;functional AST identical",
+  "tests": 44,
+  "contact_comparison": [
+    {
+      "source": "artifacts/neck_validation/frozen_cap_05/evaluations/fixed_20261117T130130_923839Z_401ea7/baseline_step_77824000.npz",
+      "case_index": 8,
+      "samples": 950,
+      "method": "native forward + contact force>0.1N support; contact-point Jacobian velocity, force-weighted tangential speed",
+      "force_weighted_contact_point_speed_mps": 0.052727419328097144,
+      "support_fraction_per_foot": [
+        0.7610526315789473,
+        0.7536842105263157
+      ],
+      "support_transitions_per_foot": [
+        112,
+        119
+      ],
+      "max_foot_site_height_m": [
+        0.018993419662118247,
+        0.01738337894823879
+      ],
+      "min_foot_site_height_m": [
+        0.0014288291196776978,
+        0.001047553929551935
+      ]
+    },
+    {
+      "source": "artifacts/neck_validation/frozen_cap_05/evaluations/fixed_20261117T130130_923839Z_401ea7/new_step_77824000.npz",
+      "case_index": 8,
+      "samples": 950,
+      "method": "native forward + contact force>0.1N support; contact-point Jacobian velocity, force-weighted tangential speed",
+      "force_weighted_contact_point_speed_mps": 0.06142499249226172,
+      "support_fraction_per_foot": [
+        0.7494736842105263,
+        0.7557894736842106
+      ],
+      "support_transitions_per_foot": [
+        112,
+        133
+      ],
+      "max_foot_site_height_m": [
+        0.018209734154830966,
+        0.018015802557505498
+      ],
+      "min_foot_site_height_m": [
+        0.00010565386242310237,
+        0.0011172868921178677
+      ]
+    },
+    {
+      "source": "artifacts/lesson07/run_20261117T132245_739130Z_b2c5bf/evaluations/fixed_20261117T141058_251967Z_4f9e3f/new_step_81920000.npz",
+      "case_index": 8,
+      "samples": 950,
+      "method": "native forward + contact force>0.1N support; contact-point Jacobian velocity, force-weighted tangential speed",
+      "force_weighted_contact_point_speed_mps": 0.053771983291312636,
+      "support_fraction_per_foot": [
+        0.7378947368421053,
+        0.7442105263157894
+      ],
+      "support_transitions_per_foot": [
+        130,
+        125
+      ],
+      "max_foot_site_height_m": [
+        0.02035367284225567,
+        0.018866722638098854
+      ],
+      "min_foot_site_height_m": [
+        0.0005700665829816084,
+        0.0006396365385581901
+      ]
+    }
+  ]
+}

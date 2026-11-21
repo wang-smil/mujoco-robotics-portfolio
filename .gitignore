@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv*
+.duck-setup-*/
+artifacts/
+duck_training/
+third_party/
+references/
+demo/author_moving_entry_matched.json
+MJDATA.TXT
+MJMODEL.TXT

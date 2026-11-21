@@ -1,0 +1,118 @@
+{
+  "mode": "train",
+  "status": "passed",
+  "smoke": {
+    "gpu_jit": true,
+    "devices": [
+      "cuda:0"
+    ],
+    "observation_shapes": {
+      "privileged_state": [
+        212
+      ],
+      "state": [
+        101
+      ]
+    },
+    "action_size": 14,
+    "control_dt": 0.020000001415610313,
+    "imitation_enabled": true,
+    "reference_sha256": "5850c0610ed89e2860e7047f9ee27d8412462e1199752952c3c2a0efd2cb7a25",
+    "allocator_bytes_limit": 4187252172,
+    "reward_after_zero_action": -0.022903770208358765
+  },
+  "warm_start": {
+    "checkpoint": "artifacts/lesson07/run_20261119T030322_693568Z_ba0196/checkpoints/step_5038080",
+    "source_run": "artifacts/lesson07/run_20261119T030322_693568Z_ba0196",
+    "source_task_profile": "neck_combined_snapshot_reset",
+    "prior_environment_steps": 291594240,
+    "optimizer_state_restored": false,
+    "initial_max_parameter_difference": 0.0
+  },
+  "training": {
+    "policy_weight_l2": 0.7390223766061268,
+    "probe_action_l2": 0.0785275250673294,
+    "initial_action": [
+      -0.00787222757935524,
+      -0.24034880101680756,
+      -0.34455645084381104,
+      0.4323626160621643,
+      0.11578943580389023,
+      0.43379032611846924,
+      0.08154881000518799,
+      -0.5017664432525635,
+      -0.43816283345222473,
+      0.023104151710867882,
+      -0.05877511203289032,
+      0.7494515180587769,
+      -0.03650401905179024,
+      0.799379825592041
+    ],
+    "final_action": [
+      0.006999606266617775,
+      -0.26247087121009827,
+      -0.3379494249820709,
+      0.43328332901000977,
+      0.07278826832771301,
+      0.42022567987442017,
+      0.06346143782138824,
+      -0.4973439574241638,
+      -0.4296301603317261,
+      0.03974822908639908,
+      -0.02420276589691639,
+      0.7314208745956421,
+      -0.06862835586071014,
+      0.7879979610443115
+    ],
+    "restore_max_action_error": 0.0,
+    "final_metrics": {
+      "eval/walltime": 201.23068618774414,
+      "training/sps": 37542.48687331877,
+      "training/walltime": 375.1314356327057,
+      "training/demonstration_mse": 0.002319382270798087,
+      "training/entropy_loss": 0.14639626443386078,
+      "training/policy_loss": -0.00695819454267621,
+      "training/total_loss": 0.1997852474451065,
+      "training/v_loss": 0.018598314374685287,
+      "eval/episode_cost/action_rate": 8.240264892578125,
+      "eval/episode_cost/ang_vel_xy": 25.43618392944336,
+      "eval/episode_cost/feet_slip": 1.1217474937438965,
+      "eval/episode_cost/lin_vel_z": 2.557828187942505,
+      "eval/episode_cost/orientation": 2.93386173248291,
+      "eval/episode_cost/reverse_overspeed": 46.60163116455078,
+      "eval/episode_cost/stand_motion": 1.7787524461746216,
+      "eval/episode_cost/stand_pose": 0.8030493855476379,
+      "eval/episode_cost/termination": 6.25,
+      "eval/episode_cost/torques": 4.507866382598877,
+      "eval/episode_reward": 111.66511535644531,
+      "eval/episode_reward/alive": 268.1875,
+      "eval/episode_reward/imitation": 1032.724609375,
+      "eval/episode_reward/tracking_ang_vel": 929.9243774414062,
+      "eval/episode_reward/tracking_lin_vel": 3452.650390625,
+      "eval/episode_swing_peak": 0.6628388166427612,
+      "eval/episode_cost/action_rate_std": 6.38370418548584,
+      "eval/episode_cost/ang_vel_xy_std": 6.705767631530762,
+      "eval/episode_cost/feet_slip_std": 1.1317499876022339,
+      "eval/episode_cost/lin_vel_z_std": 1.3094985485076904,
+      "eval/episode_cost/orientation_std": 2.1809723377227783,
+      "eval/episode_cost/reverse_overspeed_std": 46.864192962646484,
+      "eval/episode_cost/stand_motion_std": 2.3907346725463867,
+      "eval/episode_cost/stand_pose_std": 2.0537703037261963,
+      "eval/episode_cost/termination_std": 4.84122896194458,
+      "eval/episode_cost/torques_std": 3.8972814083099365,
+      "eval/episode_reward_std": 96.89265441894531,
+      "eval/episode_reward/alive_std": 186.96755981445312,
+      "eval/episode_reward/imitation_std": 1088.5313720703125,
+      "eval/episode_reward/tracking_ang_vel_std": 637.1849365234375,
+      "eval/episode_reward/tracking_lin_vel_std": 2935.525634765625,
+      "eval/episode_swing_peak_std": 0.6212762594223022,
+      "eval/avg_episode_length": 536.375,
+      "eval/epoch_eval_time": 12.096821069717407,
+      "eval/sps": 661.3307706126868
+    }
+  },
+  "evaluation": {
+    "skipped": true,
+    "reason": "capacity/update/reload check only; no walking-quality evidence"
+  }
+}

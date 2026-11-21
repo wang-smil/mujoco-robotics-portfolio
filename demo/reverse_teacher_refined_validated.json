@@ -1,0 +1,1590 @@
+[
+  {
+    "parameters": [
+      1.7891340656024635,
+      0.5145529315963759,
+      1.1464143841402616,
+      -0.00010774490082440975,
+      -0.09649263653171,
+      0.85,
+      -0.030540767326705666,
+      0.021895445211843848
+    ],
+    "trials": [
+      {
+        "seed": 2401,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05174833807197329,
+          -0.0030888251076149186,
+          -0.00556559304010252
+        ],
+        "yaw_abs_mean_error": 0.0055655930401025235,
+        "planar_mean_error": 0.0035492994462772245,
+        "farthest_from_start_m": 0.7689991469511558
+      },
+      {
+        "seed": 2402,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.053505608034889025,
+          -0.004707854452180172,
+          0.010496716803489113
+        ],
+        "yaw_abs_mean_error": 0.010496716803489127,
+        "planar_mean_error": 0.005869683231418159,
+        "farthest_from_start_m": 0.8073603444816653
+      },
+      {
+        "seed": 2403,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05595566952199685,
+          -0.0077066694118823375,
+          0.03607825362950156
+        ],
+        "yaw_abs_mean_error": 0.03607825362950159,
+        "planar_mean_error": 0.009739751171322817,
+        "farthest_from_start_m": 0.8503703342042755
+      },
+      {
+        "seed": 2404,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05412036927802993,
+          -0.006260950634746565,
+          0.023736510261595213
+        ],
+        "yaw_abs_mean_error": 0.0237365102615952,
+        "planar_mean_error": 0.007495128140203248,
+        "farthest_from_start_m": 0.8268048915464496
+      },
+      {
+        "seed": 2405,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.053476147612726364,
+          -0.00653241837864472,
+          0.028342274636898625
+        ],
+        "yaw_abs_mean_error": 0.02834227463689865,
+        "planar_mean_error": 0.007399735947932083,
+        "farthest_from_start_m": 0.8027817132412658
+      },
+      {
+        "seed": 2406,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05216086460570764,
+          -0.005300334578444676,
+          0.0015218638126279604
+        ],
+        "yaw_abs_mean_error": 0.001521863812627952,
+        "planar_mean_error": 0.005723887008638107,
+        "farthest_from_start_m": 0.7811148576256868
+      },
+      {
+        "seed": 2407,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05282460664498195,
+          -0.00633343701713196,
+          0.013645645583599547
+        ],
+        "yaw_abs_mean_error": 0.013645645583599524,
+        "planar_mean_error": 0.00693475501721968,
+        "farthest_from_start_m": 0.8016416332446148
+      },
+      {
+        "seed": 2408,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05000900815708439,
+          -0.006549933769245103,
+          0.008787297773608392
+        ],
+        "yaw_abs_mean_error": 0.008787297773608389,
+        "planar_mean_error": 0.006549939963724204,
+        "farthest_from_start_m": 0.7289500883570768
+      },
+      {
+        "seed": 2409,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05459565210770138,
+          -0.007919860312539335,
+          0.04000740519877009
+        ],
+        "yaw_abs_mean_error": 0.0400074051987701,
+        "planar_mean_error": 0.009156648167596896,
+        "farthest_from_start_m": 0.8394872153996606
+      },
+      {
+        "seed": 2410,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.052110307572711095,
+          -0.004161312897005012,
+          0.00958551904226611
+        ],
+        "yaw_abs_mean_error": 0.009585519042266075,
+        "planar_mean_error": 0.004665825015816821,
+        "farthest_from_start_m": 0.7794742817113254
+      },
+      {
+        "seed": 2411,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05254531848867425,
+          -0.005877122746241097,
+          0.008776105627408597
+        ],
+        "yaw_abs_mean_error": 0.008776105627408598,
+        "planar_mean_error": 0.006404624733984926,
+        "farthest_from_start_m": 0.7919586121335027
+      },
+      {
+        "seed": 2412,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05202404412724785,
+          -0.0071450209778721125,
+          0.0364250564272318
+        ],
+        "yaw_abs_mean_error": 0.03642505642723179,
+        "planar_mean_error": 0.007426175287675275,
+        "farthest_from_start_m": 0.7731114677011667
+      },
+      {
+        "seed": 2413,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 113,
+        "terminated": true,
+        "mean_twist": [
+          0.12689405461092246,
+          -0.022638613319090777,
+          -0.14127082982085593
+        ],
+        "yaw_abs_mean_error": 0.1412708298208559,
+        "planar_mean_error": 0.17833679757611254,
+        "farthest_from_start_m": 0.12219122106911126
+      },
+      {
+        "seed": 2414,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05301455289033456,
+          -0.005417246175399124,
+          0.01287443187748296
+        ],
+        "yaw_abs_mean_error": 0.01287443187748296,
+        "planar_mean_error": 0.006199522985964378,
+        "farthest_from_start_m": 0.7896896522115415
+      },
+      {
+        "seed": 2415,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.052292156668962926,
+          -0.00517671169246874,
+          0.0074610522886799585
+        ],
+        "yaw_abs_mean_error": 0.007461052288679957,
+        "planar_mean_error": 0.005661477381568669,
+        "farthest_from_start_m": 0.787754141828902
+      },
+      {
+        "seed": 2416,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05407150479231784,
+          -0.006369477030448235,
+          0.018098351292471865
+        ],
+        "yaw_abs_mean_error": 0.018098351292471834,
+        "planar_mean_error": 0.007559589202812215,
+        "farthest_from_start_m": 0.807014145282121
+      },
+      {
+        "seed": 2417,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05355182511623088,
+          -0.006316725337094391,
+          0.03539453709904323
+        ],
+        "yaw_abs_mean_error": 0.03539453709904324,
+        "planar_mean_error": 0.007246825556102374,
+        "farthest_from_start_m": 0.7941275918511764
+      },
+      {
+        "seed": 2418,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05255049743441754,
+          -0.006964804702014358,
+          0.027945417964180378
+        ],
+        "yaw_abs_mean_error": 0.027945417964180375,
+        "planar_mean_error": 0.007417111412145014,
+        "farthest_from_start_m": 0.7650342549308887
+      },
+      {
+        "seed": 2419,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.053315318358691494,
+          -0.004907111727813368,
+          0.013211334264270628
+        ],
+        "yaw_abs_mean_error": 0.013211334264270647,
+        "planar_mean_error": 0.005922084204798198,
+        "farthest_from_start_m": 0.8069693418645888
+      },
+      {
+        "seed": 2420,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05346448351186681,
+          -0.006515755721519414,
+          0.01933962176234863
+        ],
+        "yaw_abs_mean_error": 0.01933962176234862,
+        "planar_mean_error": 0.0073795473185358975,
+        "farthest_from_start_m": 0.7995817553410797
+      }
+    ],
+    "passed": 19,
+    "mean_vx": -0.04402211091928118,
+    "clipped_fraction": 0.18541081145727442
+  },
+  {
+    "parameters": [
+      1.7680294430620247,
+      0.4068650827033579,
+      1.15,
+      -0.0023680952065776076,
+      -0.04934078597069969,
+      0.8397882430517178,
+      -0.022274632046180756,
+      0.1796075739836094
+    ],
+    "trials": [
+      {
+        "seed": 2401,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.047843945119056465,
+          -0.006144816981169366,
+          0.008790135944286568
+        ],
+        "yaw_abs_mean_error": 0.008790135944286563,
+        "planar_mean_error": 0.006512092473368913,
+        "farthest_from_start_m": 0.7896340105286709
+      },
+      {
+        "seed": 2402,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04502132167728406,
+          -0.006924322669206758,
+          0.004065699362289298
+        ],
+        "yaw_abs_mean_error": 0.004065699362289292,
+        "planar_mean_error": 0.00852839271307159,
+        "farthest_from_start_m": 0.7271482169573222
+      },
+      {
+        "seed": 2403,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04478230041387558,
+          -0.0075937242678369675,
+          0.009448692339196131
+        ],
+        "yaw_abs_mean_error": 0.009448692339196154,
+        "planar_mean_error": 0.009213524690745547,
+        "farthest_from_start_m": 0.7225214048976376
+      },
+      {
+        "seed": 2404,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.0459914598554023,
+          -0.007321709874679457,
+          0.010004755433426401
+        ],
+        "yaw_abs_mean_error": 0.010004755433426401,
+        "planar_mean_error": 0.008347204896241016,
+        "farthest_from_start_m": 0.7288507491832763
+      },
+      {
+        "seed": 2405,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.047413051057853366,
+          -0.001372779139546122,
+          0.016733633313724107
+        ],
+        "yaw_abs_mean_error": 0.016733633313724135,
+        "planar_mean_error": 0.0029286220984016576,
+        "farthest_from_start_m": 0.7699136632547571
+      },
+      {
+        "seed": 2406,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.048572164860326984,
+          -0.0030717848695276267,
+          -0.016382022180756028
+        ],
+        "yaw_abs_mean_error": 0.016382022180755983,
+        "planar_mean_error": 0.0033874142750398915,
+        "farthest_from_start_m": 0.7732719643270808
+      },
+      {
+        "seed": 2407,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04550847753222765,
+          -0.003381530976157321,
+          -0.01898403957937475
+        ],
+        "yaw_abs_mean_error": 0.01898403957937479,
+        "planar_mean_error": 0.005622146015643435,
+        "farthest_from_start_m": 0.7189372036263298
+      },
+      {
+        "seed": 2408,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.0493635600304353,
+          -0.002786309280678658,
+          -0.005253543716845822
+        ],
+        "yaw_abs_mean_error": 0.005253543716845888,
+        "planar_mean_error": 0.0028580719449404234,
+        "farthest_from_start_m": 0.8149936110475579
+      },
+      {
+        "seed": 2409,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.043359582677887205,
+          -0.007309205448526669,
+          -0.0038615701411556205
+        ],
+        "yaw_abs_mean_error": 0.0038615701411556244,
+        "planar_mean_error": 0.00987520260554625,
+        "farthest_from_start_m": 0.6874040355761456
+      },
+      {
+        "seed": 2410,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04746670072078565,
+          -0.007220731833247156,
+          0.027838565781287725
+        ],
+        "yaw_abs_mean_error": 0.02783856578128774,
+        "planar_mean_error": 0.007652226698532712,
+        "farthest_from_start_m": 0.7619166974249346
+      },
+      {
+        "seed": 2411,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04454460807399921,
+          -0.008384256459034787,
+          0.06393524428962662
+        ],
+        "yaw_abs_mean_error": 0.06393524428962659,
+        "planar_mean_error": 0.010002852465029207,
+        "farthest_from_start_m": 0.643277864135549
+      },
+      {
+        "seed": 2412,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04580324862051969,
+          -0.002570587993446205,
+          -0.023966107897025628
+        ],
+        "yaw_abs_mean_error": 0.023966107897025635,
+        "planar_mean_error": 0.004921447426643907,
+        "farthest_from_start_m": 0.7307589056311214
+      },
+      {
+        "seed": 2413,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 93,
+        "terminated": true,
+        "mean_twist": [
+          0.2030607816510758,
+          -0.020922760286512177,
+          -0.22544052441616091
+        ],
+        "yaw_abs_mean_error": 0.22544052441616091,
+        "planar_mean_error": 0.2539242428518009,
+        "farthest_from_start_m": 0.13663400059067934
+      },
+      {
+        "seed": 2414,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04530926979969684,
+          -0.006483146880689906,
+          0.015480489828250388
+        ],
+        "yaw_abs_mean_error": 0.015480489828250394,
+        "planar_mean_error": 0.008002133671005222,
+        "farthest_from_start_m": 0.7284741073839173
+      },
+      {
+        "seed": 2415,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.045219141098491976,
+          -0.00852862577348401,
+          0.01273411140689603
+        ],
+        "yaw_abs_mean_error": 0.01273411140689605,
+        "planar_mean_error": 0.009777221968446062,
+        "farthest_from_start_m": 0.7182394083261409
+      },
+      {
+        "seed": 2416,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.044727979115234455,
+          -0.003703797293389757,
+          -0.01180349096864209
+        ],
+        "yaw_abs_mean_error": 0.011803490968642092,
+        "planar_mean_error": 0.006443005401202502,
+        "farthest_from_start_m": 0.7306708299629107
+      },
+      {
+        "seed": 2417,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04769208992747274,
+          -0.002567087038076412,
+          -0.009139447889039407
+        ],
+        "yaw_abs_mean_error": 0.009139447889039413,
+        "planar_mean_error": 0.003452011698116427,
+        "farthest_from_start_m": 0.7669127766147579
+      },
+      {
+        "seed": 2418,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04654730924272374,
+          -0.003284694419141226,
+          0.005364204170942761
+        ],
+        "yaw_abs_mean_error": 0.005364204170942777,
+        "planar_mean_error": 0.0047655315435445956,
+        "farthest_from_start_m": 0.7544932336321356
+      },
+      {
+        "seed": 2419,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.043042224622088295,
+          -0.008116890130948518,
+          0.00934897080600975
+        ],
+        "yaw_abs_mean_error": 0.009348970806009748,
+        "planar_mean_error": 0.010690862622228538,
+        "farthest_from_start_m": 0.6859719939379081
+      },
+      {
+        "seed": 2420,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04561354173506339,
+          -0.006547270931232114,
+          -0.0033119582261078397
+        ],
+        "yaw_abs_mean_error": 0.003311958226107822,
+        "planar_mean_error": 0.007880848479509567,
+        "farthest_from_start_m": 0.7280491189528949
+      }
+    ],
+    "passed": 19,
+    "mean_vx": -0.03353805972646746,
+    "clipped_fraction": 0.1869855736134806
+  },
+  {
+    "parameters": [
+      1.847002169579731,
+      0.4609531599391324,
+      1.15,
+      0.01210504715200409,
+      0.030806133647819305,
+      0.85,
+      0.013837185798103242,
+      0.031118799928277582
+    ],
+    "trials": [
+      {
+        "seed": 2401,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05233782373718202,
+          -0.0012460890328795438,
+          -0.022241218449822426
+        ],
+        "yaw_abs_mean_error": 0.022241218449822422,
+        "planar_mean_error": 0.002649180572175908,
+        "farthest_from_start_m": 0.7922751357998965
+      },
+      {
+        "seed": 2402,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.0515497621713646,
+          -0.006253364538311143,
+          0.001216092583343399
+        ],
+        "yaw_abs_mean_error": 0.001216092583343403,
+        "planar_mean_error": 0.006442540712855447,
+        "farthest_from_start_m": 0.7948214524357133
+      },
+      {
+        "seed": 2403,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.053505112220668324,
+          0.00026310224731140213,
+          -0.05451770570358781
+        ],
+        "yaw_abs_mean_error": 0.05451770570358784,
+        "planar_mean_error": 0.0035149728977645566,
+        "farthest_from_start_m": 0.7966873529066937
+      },
+      {
+        "seed": 2404,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05242845235968213,
+          -0.003407744254702017,
+          -0.019414096703779745
+        ],
+        "yaw_abs_mean_error": 0.019414096703779762,
+        "planar_mean_error": 0.004184507350776288,
+        "farthest_from_start_m": 0.7836920829786375
+      },
+      {
+        "seed": 2405,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04822754651414472,
+          -0.009075156029069855,
+          0.046708108125522195
+        ],
+        "yaw_abs_mean_error": 0.04670810812552221,
+        "planar_mean_error": 0.009246623616838917,
+        "farthest_from_start_m": 0.704940353651307
+      },
+      {
+        "seed": 2406,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04784310904309256,
+          -0.004802426674051134,
+          0.012057766912307448
+        ],
+        "yaw_abs_mean_error": 0.01205776691230746,
+        "planar_mean_error": 0.005264549416581342,
+        "farthest_from_start_m": 0.7233241492841189
+      },
+      {
+        "seed": 2407,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05032057866267298,
+          -0.0017455191855435441,
+          -0.03134089041553362
+        ],
+        "yaw_abs_mean_error": 0.03134089041553367,
+        "planar_mean_error": 0.001774713471538953,
+        "farthest_from_start_m": 0.7588431104078561
+      },
+      {
+        "seed": 2408,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.0518002973691316,
+          -0.004326313326930289,
+          0.006351690329523452
+        ],
+        "yaw_abs_mean_error": 0.0063516903295234425,
+        "planar_mean_error": 0.004685942554073518,
+        "farthest_from_start_m": 0.7735349201365581
+      },
+      {
+        "seed": 2409,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05186465875258607,
+          -0.006751503825584119,
+          0.01315587089932921
+        ],
+        "yaw_abs_mean_error": 0.013155870899329191,
+        "planar_mean_error": 0.0070042669973718686,
+        "farthest_from_start_m": 0.8021211381287864
+      },
+      {
+        "seed": 2410,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05130765582004133,
+          -0.002555467401745796,
+          -0.0009609592921125992
+        ],
+        "yaw_abs_mean_error": 0.0009609592921125965,
+        "planar_mean_error": 0.0028706057522887296,
+        "farthest_from_start_m": 0.7962101031007965
+      },
+      {
+        "seed": 2411,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 91,
+        "terminated": true,
+        "mean_twist": [
+          0.21745966117927676,
+          -0.06353843675610228,
+          -0.22481512156944855
+        ],
+        "yaw_abs_mean_error": 0.22481512156944855,
+        "planar_mean_error": 0.2749032617186321,
+        "farthest_from_start_m": 0.13703310735750956
+      },
+      {
+        "seed": 2412,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05282353471947365,
+          -0.006772252219959025,
+          -0.006074379352201894
+        ],
+        "yaw_abs_mean_error": 0.006074379352201898,
+        "planar_mean_error": 0.0073372848140721095,
+        "farthest_from_start_m": 0.8235797489748122
+      },
+      {
+        "seed": 2413,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 98,
+        "terminated": true,
+        "mean_twist": [
+          0.1793447611440128,
+          0.005184234100290298,
+          -0.1545210163571966
+        ],
+        "yaw_abs_mean_error": 0.1545210163571966,
+        "planar_mean_error": 0.22940334728902914,
+        "farthest_from_start_m": 0.1291547520180906
+      },
+      {
+        "seed": 2414,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.053391944951770784,
+          -0.005520119440620207,
+          0.011561749379534893
+        ],
+        "yaw_abs_mean_error": 0.011561749379534907,
+        "planar_mean_error": 0.006478966676450496,
+        "farthest_from_start_m": 0.8262414716744032
+      },
+      {
+        "seed": 2415,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05105685922705121,
+          -0.006452554252580043,
+          0.01246800153222394
+        ],
+        "yaw_abs_mean_error": 0.012468001532223943,
+        "planar_mean_error": 0.006538532542420518,
+        "farthest_from_start_m": 0.7918813431361637
+      },
+      {
+        "seed": 2416,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05375312837259297,
+          -0.007512209611944044,
+          0.024550939094908287
+        ],
+        "yaw_abs_mean_error": 0.02455093909490831,
+        "planar_mean_error": 0.008397574997280256,
+        "farthest_from_start_m": 0.8142755983703864
+      },
+      {
+        "seed": 2417,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05407481681824748,
+          -0.0048252559003753685,
+          0.004199763072598808
+        ],
+        "yaw_abs_mean_error": 0.004199763072598799,
+        "planar_mean_error": 0.006315633507921387,
+        "farthest_from_start_m": 0.8303743550057479
+      },
+      {
+        "seed": 2418,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04954720437784278,
+          -0.0028281457348668694,
+          -0.013091355591253573
+        ],
+        "yaw_abs_mean_error": 0.013091355591253614,
+        "planar_mean_error": 0.002864163433376375,
+        "farthest_from_start_m": 0.7352686928205483
+      },
+      {
+        "seed": 2419,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.049607391877594324,
+          -0.009411864104212415,
+          0.03083775503963365
+        ],
+        "yaw_abs_mean_error": 0.030837755039633617,
+        "planar_mean_error": 0.009420049206556253,
+        "farthest_from_start_m": 0.755403534712865
+      },
+      {
+        "seed": 2420,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04954493600997409,
+          -0.005956199867685101,
+          0.0001686616326579811
+        ],
+        "yaw_abs_mean_error": 0.00016866163265798906,
+        "planar_mean_error": 0.005973558411770186,
+        "farthest_from_start_m": 0.7512037178236002
+      }
+    ],
+    "passed": 18,
+    "mean_vx": -0.026409019534091204,
+    "clipped_fraction": 0.19400435161693202
+  },
+  {
+    "parameters": [
+      1.661516114333721,
+      0.47037778437859673,
+      1.15,
+      -0.01246282411566764,
+      0.10736443684204362,
+      0.6498333418265692,
+      0.007449721337645588,
+      -0.0033945226381718874
+    ],
+    "trials": [
+      {
+        "seed": 2401,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05068631804082931,
+          -0.007555726892370268,
+          0.043602928420744286
+        ],
+        "yaw_abs_mean_error": 0.043602928420744334,
+        "planar_mean_error": 0.007586833418841821,
+        "farthest_from_start_m": 0.7412489051982745
+      },
+      {
+        "seed": 2402,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.048666172414231136,
+          -0.008364395087150615,
+          0.04316072767038741
+        ],
+        "yaw_abs_mean_error": 0.04316072767038738,
+        "planar_mean_error": 0.008470076812078354,
+        "farthest_from_start_m": 0.6673747134426239
+      },
+      {
+        "seed": 2403,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05355762748457666,
+          -0.006897848926468657,
+          0.0385318289354462
+        ],
+        "yaw_abs_mean_error": 0.03853182893544622,
+        "planar_mean_error": 0.007761252033750735,
+        "farthest_from_start_m": 0.8069866957209038
+      },
+      {
+        "seed": 2404,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.047856322468416326,
+          -0.006922701681367216,
+          0.03206408365404983
+        ],
+        "yaw_abs_mean_error": 0.03206408365404982,
+        "planar_mean_error": 0.007247009861220105,
+        "farthest_from_start_m": 0.7021512536602117
+      },
+      {
+        "seed": 2405,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04921111010207137,
+          -0.007473435305163316,
+          0.04253057147397025
+        ],
+        "yaw_abs_mean_error": 0.042530571473970255,
+        "planar_mean_error": 0.007514957254137603,
+        "farthest_from_start_m": 0.7210349577383355
+      },
+      {
+        "seed": 2406,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.050797075799321904,
+          -0.005073031240927219,
+          0.023210772248195434
+        ],
+        "yaw_abs_mean_error": 0.023210772248195417,
+        "planar_mean_error": 0.005135267841241405,
+        "farthest_from_start_m": 0.7588897490970924
+      },
+      {
+        "seed": 2407,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.0500588226089214,
+          -0.008363442970151475,
+          0.07831944549468645
+        ],
+        "yaw_abs_mean_error": 0.07831944549468645,
+        "planar_mean_error": 0.008363649826140287,
+        "farthest_from_start_m": 0.7156716256711627
+      },
+      {
+        "seed": 2408,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05254677699350372,
+          -0.0064362046996091805,
+          0.020052863591390933
+        ],
+        "yaw_abs_mean_error": 0.020052863591390933,
+        "planar_mean_error": 0.006921763069472344,
+        "farthest_from_start_m": 0.7862705398010105
+      },
+      {
+        "seed": 2409,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05252463343371412,
+          -0.005102181420473813,
+          0.0353101911283114
+        ],
+        "yaw_abs_mean_error": 0.0353101911283114,
+        "planar_mean_error": 0.005692629376839426,
+        "farthest_from_start_m": 0.7969189620877446
+      },
+      {
+        "seed": 2410,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04859461962724324,
+          -0.006164315631089587,
+          0.03183031990554501
+        ],
+        "yaw_abs_mean_error": 0.03183031990554504,
+        "planar_mean_error": 0.006322490110061478,
+        "farthest_from_start_m": 0.7098007001345793
+      },
+      {
+        "seed": 2411,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04876385794753767,
+          -0.0073674575472117915,
+          0.030016776446084945
+        ],
+        "yaw_abs_mean_error": 0.030016776446085015,
+        "planar_mean_error": 0.007470440273761238,
+        "farthest_from_start_m": 0.7125956203088276
+      },
+      {
+        "seed": 2412,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05087852821764732,
+          -0.006468067759638388,
+          0.035668081229771186
+        ],
+        "yaw_abs_mean_error": 0.03566808122977119,
+        "planar_mean_error": 0.006527458339390311,
+        "farthest_from_start_m": 0.752471569245065
+      },
+      {
+        "seed": 2413,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05162568375167122,
+          -0.008373577007410945,
+          0.031702757499103666
+        ],
+        "yaw_abs_mean_error": 0.03170275749910372,
+        "planar_mean_error": 0.00852992611688339,
+        "farthest_from_start_m": 0.7804142871336185
+      },
+      {
+        "seed": 2414,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.051244406297247816,
+          -0.007603077709720755,
+          0.021839345487614216
+        ],
+        "yaw_abs_mean_error": 0.021839345487614244,
+        "planar_mean_error": 0.007704241539092784,
+        "farthest_from_start_m": 0.7724944063928829
+      },
+      {
+        "seed": 2415,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05186545955514602,
+          -0.00892437806876379,
+          0.07779319609808352
+        ],
+        "yaw_abs_mean_error": 0.0777931960980836,
+        "planar_mean_error": 0.009117261829415545,
+        "farthest_from_start_m": 0.7227357128124442
+      },
+      {
+        "seed": 2416,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.0487281539832762,
+          -0.005799882496424463,
+          0.029745842546174215
+        ],
+        "yaw_abs_mean_error": 0.029745842546174253,
+        "planar_mean_error": 0.005937695618890128,
+        "farthest_from_start_m": 0.716332914006978
+      },
+      {
+        "seed": 2417,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04639986822620439,
+          -0.006635178106523593,
+          0.025359518591399368
+        ],
+        "yaw_abs_mean_error": 0.02535951859139939,
+        "planar_mean_error": 0.0075489427931321905,
+        "farthest_from_start_m": 0.6691621582156558
+      },
+      {
+        "seed": 2418,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.04916904253745626,
+          -0.0057079695049960955,
+          0.01941430235054865
+        ],
+        "yaw_abs_mean_error": 0.019414302350548664,
+        "planar_mean_error": 0.0057681371494203,
+        "farthest_from_start_m": 0.7201041525561723
+      },
+      {
+        "seed": 2419,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 92,
+        "terminated": true,
+        "mean_twist": [
+          -0.25440175045998775,
+          0.006569522472842183,
+          -0.31621509007650983
+        ],
+        "yaw_abs_mean_error": 0.31621509007650994,
+        "planar_mean_error": 0.20450729624301492,
+        "farthest_from_start_m": 0.18326134317900847
+      },
+      {
+        "seed": 2420,
+        "segment": "reverse",
+        "command": [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        "steps": 1000,
+        "terminated": false,
+        "mean_twist": [
+          -0.05209577591460646,
+          -0.006343358001694656,
+          0.05302472188416884
+        ],
+        "yaw_abs_mean_error": 0.05302472188416881,
+        "planar_mean_error": 0.006680603821654758,
+        "farthest_from_start_m": 0.7632420649049374
+      }
+    ],
+    "passed": 17,
+    "mean_vx": -0.06048360029318052,
+    "clipped_fraction": 0.17213047284808847
+  }
+]

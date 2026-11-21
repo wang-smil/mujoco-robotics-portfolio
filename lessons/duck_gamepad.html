@@ -1,0 +1,46 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>小鸭子 · 电脑手柄</title>
+<style>
+:root{font-family:"Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif;color:#253240;background:#f4f6fa}*{box-sizing:border-box}body{margin:0;padding:24px;max-width:860px;margin-inline:auto}header{display:flex;justify-content:space-between;align-items:center;gap:16px}h1{font-size:27px;margin:0 0 8px}p{line-height:1.65;color:#637184;margin:6px 0}.pill{padding:7px 12px;border-radius:24px;background:#e3e9f1;font-size:13px;white-space:nowrap}.online{background:#d9f1e7;color:#17724c}.card{background:white;border-radius:20px;padding:22px;margin-top:18px;box-shadow:0 7px 25px #25324008}button,select{font:inherit}button{cursor:pointer;border:1px solid #dce3ed;border-radius:14px;background:#fff;color:#253240;padding:14px;transition:background .15s,transform .1s}button:hover{background:#eef4ff}button:active{transform:translateY(1px)}button:focus-visible{outline:3px solid #82b1fa}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:15px}.drive{min-height:88px;font-weight:600;font-size:17px}.drive small{display:block;font-size:11px;color:#7a8797;margin-top:7px;font-weight:400}.forward{background:#e8f2ff;border-color:#98bfee}.stop{background:#203f6b;color:white;border-color:#203f6b}.stop:hover{background:#2e5489}.experimental{border-style:dashed}.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.metric{background:#f5f7fb;padding:14px;border-radius:12px}.metric b{display:block;font-variant-numeric:tabular-nums;font-size:20px;margin-top:8px}.metric label{font-size:12px;color:#6b7788}.row{display:flex;align-items:center;justify-content:space-between;gap:12px}.warn{color:#9b6508;background:#fff3d9;border-radius:10px;padding:10px 12px;margin-top:12px;font-size:13px}#error{color:#af293b;min-height:20px;font-size:13px}#note{color:#1c5f49;font-size:14px}kbd{border:1px solid #d9e1eb;border-radius:5px;padding:1px 5px;background:white;font:12px monospace}select{padding:9px;border:1px solid #dce3ed;border-radius:8px;background:white}.muted{font-size:12px}.axis{font-family:ui-monospace,monospace;font-size:15px;white-space:nowrap}.footer{display:flex;justify-content:space-between;align-items:center;margin:18px 2px}.footer button{padding:8px 12px;font-size:12px}@media(max-width:540px){body{padding:13px}.card{padding:16px}.metrics{grid-template-columns:repeat(2,1fr)}h1{font-size:23px}.drive{font-size:15px}.axis{font-size:12px}}
+</style>
+<header><div><h1>小鸭子 · 电脑手柄</h1><p>一个策略，实时接收你的速度命令。</p></div><span id="connection" class="pill">连接中…</span></header>
+<section class="card"><div class="row"><strong>点击按键，切换指令</strong><label>前进速度 <select id="speed"><option value="0.05">0.05 m/s</option><option value="0.10" selected>0.10 m/s</option><option value="0.15">0.15 m/s</option></select></label></div>
+<div class="grid">
+ <button class="drive experimental" data-action="forward_left">↖ 前进左转<small>Q · 未训练方向</small></button>
+ <button class="drive forward" data-action="forward">↑ 前进<small>W / ↑ · 已训练范围</small></button>
+ <button class="drive experimental" data-action="forward_right">前进右转 ↗<small>E · 未训练方向</small></button>
+ <button class="drive experimental" data-action="left">↶ 原地左转<small>A / ← · 未训练方向</small></button>
+ <button class="drive stop" data-action="stop">■ 停稳<small style="color:#d4e2f6">空格 · 速度命令归零</small></button>
+ <button class="drive experimental" data-action="right">原地右转 ↷<small>D / → · 未训练方向</small></button>
+ <button class="drive experimental" data-action="slide_left">← 横移<small>仅屏幕按键 · 未训练方向</small></button>
+ <button class="drive experimental" data-action="backward">↓ 后退<small>S / ↓ · 未训练方向</small></button>
+ <button class="drive experimental" data-action="slide_right">横移 →<small>仅屏幕按键 · 未训练方向</small></button>
+</div>
+<p class="muted">按一下会保持该指令，直到再次切换；无需一直按住。停稳时 PPO 继续维持平衡。</p>
+<div class="actions"><button data-action="pause" id="pause">开始 / 暂停 · P</button><button data-action="reset">重置姿态 · R</button><button data-action="stop">速度归零 · 空格</button></div>
+<div id="range" class="warn">本模型正式训练了前进和停稳；虚线按钮可探索，但后退、横移、转弯可能跌倒，按 R 重置。</div><p id="note">等待连接…</p><p id="error"></p></section>
+<section class="card"><div class="row"><strong>实时状态</strong><span class="muted" id="time">仿真 0.00 s</span></div>
+<p class="muted">速度采用机器人本体坐标。位置和距离采用世界坐标，可用来检查是否真正回到起点。</p>
+<div class="metrics">
+ <div class="metric"><label>目标 vx / vy / wz</label><b class="axis" id="target">0 / 0 / 0</b></div>
+ <div class="metric"><label>平滑后发送给策略</label><b class="axis" id="applied">0 / 0 / 0</b></div>
+ <div class="metric"><label>实际前进速度</label><b id="velocity">0.000 m/s</b></div>
+ <div class="metric"><label>实际转向角速度</label><b id="yaw">0.000 rad/s</b></div>
+ <div class="metric"><label>距起点</label><b id="distance">0.000 m</b></div>
+ <div class="metric"><label>累计转向</label><b id="heading">0.0°</b></div>
+</div><p class="muted" id="position">相对位置 x=0.000 m，y=0.000 m</p></section>
+<div class="footer"><span class="muted">本机控制 · 断连超过 1.5 秒会归零并暂停</span><button data-action="close">结束本次仿真</button></div>
+<script>
+const token=new URLSearchParams(location.hash.slice(1)).get('token')||'';
+const headers={'X-Control-Token':token,'Content-Type':'application/json'};
+const el=id=>document.getElementById(id);let pending=Promise.resolve(),lastState=null;
+function draw(s){lastState=s;el('connection').textContent=s.failed?'已跌倒':s.paused?'已暂停':'运行中';el('connection').className='pill online';el('note').textContent=s.note;el('target').textContent=s.target.map(x=>x.toFixed(2)).join(' / ');el('applied').textContent=(s.applied||[0,0,0]).map(x=>x.toFixed(2)).join(' / ');el('velocity').textContent=((s.actual_velocity||[0])[0]).toFixed(3)+' m/s';el('yaw').textContent=(s.actual_yaw_rate||0).toFixed(3)+' rad/s';el('distance').textContent=(s.distance||0).toFixed(3)+' m';el('heading').textContent=(s.heading_deg||0).toFixed(1)+'°';el('time').textContent='仿真 '+(s.sim_seconds||0).toFixed(2)+' s · 种子 '+(s.seed??11);el('position').textContent='相对位置 x='+((s.position||[0,0])[0]).toFixed(3)+' m，y='+((s.position||[0,0])[1]).toFixed(3)+' m';el('pause').textContent=s.paused?'继续运行 · P':'暂停仿真 · P';el('range').style.background=s.experimental?'#ffebcf':'#fff3d9';}
+async function request(action){const r=await fetch('/api/control',{method:'POST',headers,body:JSON.stringify({action,speed:Number(el('speed').value)})});const s=await r.json();if(!r.ok)throw Error(s.error||'控制请求失败');draw(s);el('error').textContent='';}
+function send(action){pending=pending.catch(()=>{}).then(()=>request(action)).catch(e=>{el('error').textContent=e.message;});}
+document.querySelectorAll('[data-action]').forEach(b=>b.addEventListener('click',()=>send(b.dataset.action)));
+const keymap={KeyW:'forward',ArrowUp:'forward',KeyS:'backward',ArrowDown:'backward',KeyA:'left',ArrowLeft:'left',KeyD:'right',ArrowRight:'right',KeyQ:'forward_left',KeyE:'forward_right',Space:'stop',KeyP:'pause',KeyR:'reset'};
+document.addEventListener('keydown',e=>{if(e.repeat)return;if(e.target.tagName==='SELECT'&&e.code.startsWith('Arrow'))return;if(keymap[e.code]){e.preventDefault();send(keymap[e.code]);}});
+let polling=false;
+async function poll(){if(polling)return;polling=true;try{await request('heartbeat');const r=await fetch('/api/state',{headers});if(!r.ok)throw Error('连接失效');draw(await r.json());}catch(e){el('connection').textContent='连接已断开';el('connection').className='pill';el('note').textContent='请保持仿真窗口打开，或重新启动控制器。';}finally{polling=false;}}
+poll();setInterval(poll,250);
+</script></html>

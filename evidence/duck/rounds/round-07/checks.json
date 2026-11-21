@@ -1,0 +1,115 @@
+{
+  "mode": "train",
+  "status": "passed",
+  "smoke": {
+    "gpu_jit": true,
+    "devices": [
+      "cuda:0"
+    ],
+    "observation_shapes": {
+      "privileged_state": [
+        212
+      ],
+      "state": [
+        101
+      ]
+    },
+    "action_size": 14,
+    "control_dt": 0.020000001415610313,
+    "imitation_enabled": true,
+    "reference_sha256": "5850c0610ed89e2860e7047f9ee27d8412462e1199752952c3c2a0efd2cb7a25",
+    "allocator_bytes_limit": 4187252172,
+    "reward_after_zero_action": -0.07235586643218994
+  },
+  "warm_start": {
+    "checkpoint": "artifacts/lesson07/run_20261118T115903_876339Z_78ff8b/checkpoints/step_5079040",
+    "source_run": "artifacts/lesson07/run_20261118T115903_876339Z_78ff8b",
+    "source_task_profile": "neck_reverse_tracking",
+    "prior_environment_steps": 271319040,
+    "optimizer_state_restored": false,
+    "initial_max_parameter_difference": 0.0
+  },
+  "training": {
+    "policy_weight_l2": 2.4284854650867778,
+    "probe_action_l2": 0.32524174451828003,
+    "initial_action": [
+      -0.10214658081531525,
+      -0.34592944383621216,
+      -0.2904825806617737,
+      -0.032003432512283325,
+      0.322549968957901,
+      0.5527249574661255,
+      0.15214961767196655,
+      -0.3619228005409241,
+      -0.2620733976364136,
+      -0.09405259788036346,
+      -0.28029105067253113,
+      0.8105393052101135,
+      0.010713272728025913,
+      0.6854848265647888
+    ],
+    "final_action": [
+      -0.06754419952630997,
+      -0.2534543573856354,
+      -0.18967154622077942,
+      -0.15615376830101013,
+      0.31647440791130066,
+      0.47841089963912964,
+      0.11623070389032364,
+      -0.3412550687789917,
+      -0.08061524480581284,
+      -0.03865255415439606,
+      -0.39234286546707153,
+      0.8327319025993347,
+      -0.07462029159069061,
+      0.768274188041687
+    ],
+    "restore_max_action_error": 0.0,
+    "final_metrics": {
+      "eval/walltime": 131.44457268714905,
+      "training/sps": 35138.379524627606,
+      "training/walltime": 364.61873173713684,
+      "training/entropy_loss": 0.08202596753835678,
+      "training/policy_loss": 0.0019060118356719613,
+      "training/total_loss": 0.08667824417352676,
+      "training/v_loss": 0.0027462688740342855,
+      "eval/episode_cost/action_rate": 38.26454162597656,
+      "eval/episode_cost/ang_vel_xy": 44.37131881713867,
+      "eval/episode_cost/feet_slip": 4.41206169128418,
+      "eval/episode_cost/lin_vel_z": 5.439258575439453,
+      "eval/episode_cost/orientation": 1.33770751953125,
+      "eval/episode_cost/stand_motion": 0.0,
+      "eval/episode_cost/stand_pose": 0.0,
+      "eval/episode_cost/termination": 2.5,
+      "eval/episode_cost/torques": 11.508244514465332,
+      "eval/episode_reward": 193.27960205078125,
+      "eval/episode_reward/alive": 397.8125,
+      "eval/episode_reward/imitation": 2026.6099853515625,
+      "eval/episode_reward/tracking_ang_vel": 1470.8013916015625,
+      "eval/episode_reward/tracking_lin_vel": 5876.58837890625,
+      "eval/episode_swing_peak": 2.352771282196045,
+      "eval/episode_cost/action_rate_std": 18.141782760620117,
+      "eval/episode_cost/ang_vel_xy_std": 19.920610427856445,
+      "eval/episode_cost/feet_slip_std": 2.7113661766052246,
+      "eval/episode_cost/lin_vel_z_std": 1.8828049898147583,
+      "eval/episode_cost/orientation_std": 2.2331881523132324,
+      "eval/episode_cost/stand_motion_std": 0.0,
+      "eval/episode_cost/stand_pose_std": 0.0,
+      "eval/episode_cost/termination_std": 4.330126762390137,
+      "eval/episode_cost/torques_std": 5.588326930999756,
+      "eval/episode_reward_std": 84.86249542236328,
+      "eval/episode_reward/alive_std": 178.16282653808594,
+      "eval/episode_reward/imitation_std": 956.4060668945312,
+      "eval/episode_reward/tracking_ang_vel_std": 662.8453979492188,
+      "eval/episode_reward/tracking_lin_vel_std": 2493.81689453125,
+      "eval/episode_swing_peak_std": 1.4449795484542847,
+      "eval/avg_episode_length": 795.625,
+      "eval/epoch_eval_time": 8.628415584564209,
+      "eval/sps": 927.1690638443039
+    }
+  },
+  "evaluation": {
+    "skipped": true,
+    "reason": "capacity/update/reload check only; no walking-quality evidence"
+  }
+}

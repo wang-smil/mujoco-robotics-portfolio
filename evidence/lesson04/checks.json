@@ -1,0 +1,29 @@
+{
+  "checks": "passed",
+  "physics_dt": 0.002,
+  "action_dt": 0.02,
+  "cases": [
+    {
+      "controller": "random",
+      "environment_steps": 400,
+      "simulated_seconds": 8.0,
+      "episode_return": -6.484365141123628,
+      "terminated": false,
+      "truncated": true,
+      "final_q_rad": 0.05583984717141848,
+      "final_dq_rad_s": 0.8918720631254006,
+      "last_50_steps_max_error_rad": 0.7618060111999512
+    },
+    {
+      "controller": "pd",
+      "environment_steps": 400,
+      "simulated_seconds": 8.0,
+      "episode_return": 373.9747816859801,
+      "terminated": false,
+      "truncated": true,
+      "final_q_rad": 0.5000001444332873,
+      "final_dq_rad_s": -1.9866067417166022e-07,
+      "last_50_steps_max_error_rad": 2.1629129776101763e-07
+    }
+  ]
+}

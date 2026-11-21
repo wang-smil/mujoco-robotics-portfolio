@@ -1,0 +1,115 @@
+{
+  "mode": "train",
+  "status": "passed",
+  "smoke": {
+    "gpu_jit": true,
+    "devices": [
+      "cuda:0"
+    ],
+    "observation_shapes": {
+      "privileged_state": [
+        212
+      ],
+      "state": [
+        101
+      ]
+    },
+    "action_size": 14,
+    "control_dt": 0.020000001415610313,
+    "imitation_enabled": true,
+    "reference_sha256": "5850c0610ed89e2860e7047f9ee27d8412462e1199752952c3c2a0efd2cb7a25",
+    "allocator_bytes_limit": 4187252172,
+    "reward_after_zero_action": -0.07235586643218994
+  },
+  "warm_start": {
+    "checkpoint": "artifacts/lesson07/run_20261118T130332_065366Z_66bcc5/checkpoints/step_10158080",
+    "source_run": "artifacts/lesson07/run_20261118T130332_065366Z_66bcc5",
+    "source_task_profile": "neck_arc",
+    "prior_environment_steps": 266240000,
+    "optimizer_state_restored": false,
+    "initial_max_parameter_difference": 0.0
+  },
+  "training": {
+    "policy_weight_l2": 2.0856650194900763,
+    "probe_action_l2": 0.4258918762207031,
+    "initial_action": [
+      -0.08422218263149261,
+      -0.34061679244041443,
+      -0.13555461168289185,
+      0.08091273903846741,
+      0.30422696471214294,
+      0.4264596998691559,
+      -0.17466285824775696,
+      -0.3855297863483429,
+      -0.272221177816391,
+      0.02357991598546505,
+      -0.3268972635269165,
+      0.8157058358192444,
+      0.06640604883432388,
+      0.7792993783950806
+    ],
+    "final_action": [
+      -0.03398403525352478,
+      -0.33464038372039795,
+      -0.09029535949230194,
+      -0.15820206701755524,
+      0.3090779483318329,
+      0.6003348231315613,
+      0.054842423647642136,
+      -0.37445056438446045,
+      -0.31214094161987305,
+      0.0540505051612854,
+      -0.29924488067626953,
+      0.8773666024208069,
+      -0.10475137084722519,
+      0.7921397686004639
+    ],
+    "restore_max_action_error": 0.0,
+    "final_metrics": {
+      "eval/walltime": 130.4864604473114,
+      "training/sps": 35163.03617117877,
+      "training/walltime": 366.1464214324951,
+      "training/entropy_loss": 0.08380269259214401,
+      "training/policy_loss": -0.0005389993893913925,
+      "training/total_loss": 0.09345658868551254,
+      "training/v_loss": 0.010192900896072388,
+      "eval/episode_cost/action_rate": 46.4769401550293,
+      "eval/episode_cost/ang_vel_xy": 51.614654541015625,
+      "eval/episode_cost/feet_slip": 4.276246070861816,
+      "eval/episode_cost/lin_vel_z": 5.402039527893066,
+      "eval/episode_cost/orientation": 0.05973183363676071,
+      "eval/episode_cost/stand_motion": 0.0,
+      "eval/episode_cost/stand_pose": 0.0,
+      "eval/episode_cost/termination": 0.0,
+      "eval/episode_cost/torques": 12.346086502075195,
+      "eval/episode_reward": 236.70626831054688,
+      "eval/episode_reward/alive": 500.0,
+      "eval/episode_reward/imitation": 2508.67724609375,
+      "eval/episode_reward/tracking_ang_vel": 1798.5460205078125,
+      "eval/episode_reward/tracking_lin_vel": 7148.265625,
+      "eval/episode_swing_peak": 2.792849540710449,
+      "eval/episode_cost/action_rate_std": 4.186305522918701,
+      "eval/episode_cost/ang_vel_xy_std": 8.808427810668945,
+      "eval/episode_cost/feet_slip_std": 0.6868074536323547,
+      "eval/episode_cost/lin_vel_z_std": 0.421997606754303,
+      "eval/episode_cost/orientation_std": 0.031867895275354385,
+      "eval/episode_cost/stand_motion_std": 0.0,
+      "eval/episode_cost/stand_pose_std": 0.0,
+      "eval/episode_cost/termination_std": 0.0,
+      "eval/episode_cost/torques_std": 0.9154068827629089,
+      "eval/episode_reward_std": 9.387518882751465,
+      "eval/episode_reward/alive_std": 0.0,
+      "eval/episode_reward/imitation_std": 194.25067138671875,
+      "eval/episode_reward/tracking_ang_vel_std": 83.7911376953125,
+      "eval/episode_reward/tracking_lin_vel_std": 205.2384033203125,
+      "eval/episode_swing_peak_std": 0.6219549179077148,
+      "eval/avg_episode_length": 1000.0,
+      "eval/epoch_eval_time": 9.883646726608276,
+      "eval/sps": 809.4178415404899
+    }
+  },
+  "evaluation": {
+    "skipped": true,
+    "reason": "capacity/update/reload check only; no walking-quality evidence"
+  }
+}

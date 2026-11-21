@@ -1,0 +1,45 @@
+{
+  "learning_rate": 0.0003,
+  "n_steps": 256,
+  "batch_size": 256,
+  "n_epochs": 10,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "clip_range": 0.2,
+  "ent_coef": 0.0,
+  "vf_coef": 0.5,
+  "max_grad_norm": 0.5,
+  "seed": 42,
+  "device": "cpu",
+  "n_envs": 4,
+  "requested_steps": 200000,
+  "pi_layers": [
+    64,
+    64
+  ],
+  "vf_layers": [
+    64,
+    64
+  ],
+  "validation_seeds": [
+    900,
+    901,
+    902,
+    903,
+    904
+  ],
+  "test_seeds": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009
+  ],
+  "torch": "2.9.1+cpu",
+  "cuda_build": null
+}

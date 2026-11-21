@@ -1,0 +1,7 @@
+# 单摆学习环境；小鸭子训练仓库的依赖会单独核对。
+--extra-index-url https://download.pytorch.org/whl/cpu
+mujoco==3.17.0
+Pillow
+gymnasium==1.4.0
+torch==2.9.1+cpu
+stable-baselines3==2.9.2
