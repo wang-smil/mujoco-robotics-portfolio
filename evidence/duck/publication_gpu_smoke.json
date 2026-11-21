@@ -1,0 +1,18 @@
+{
+  "date_local": "2026-11-21",
+  "purpose": "Verify the published CUDA training setup: model initialization, PPO update, save, and checkpoint reload.",
+  "task_profile": "gait_forward",
+  "parallel_envs": 32,
+  "actual_steps": 1280,
+  "final_checkpoint": "checkpoints/step_1280",
+  "status": "passed",
+  "training": {
+    "policy_weight_l2": 0.15963250736562118,
+    "probe_action_l2": 1.423202633857727,
+    "restore_max_action_error": 0.0
+  },
+  "evaluation": {
+    "skipped": true,
+    "reason": "capacity/update/reload check only; no walking-quality evidence"
+  }
+}

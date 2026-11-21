@@ -91,3 +91,5 @@ PYTHONPATH="$PWD/duck_training:$PWD/lessons" JAX_PLATFORMS=cpu \
 ```
 
 `evidence/` 是历史实验的导出快照，`artifacts/` 是这次运行生成的结果。已整理的训练和控制器检查点见 [`checkpoints/`](../checkpoints/)。旧后退课程代码可在 [`history/environment_profiles/`](../history/environment_profiles/) 阅读。 `demo/` 保留了当前手柄用到的原始实验组件，其较早的探针入口可能引用未随发布包分发的历史轮次。
+
+**发布版核验。** 单摆第 01 至 04 课重跑通过，保存的三个 PPO 模型和 PD 都在原来的 10 个种子上重新评估。双足侧 53 项测试通过。公开仓库重新克隆后可重建训练环境，指定种子的弧线后退控制逐步复现 1,432 帧轨迹。作者 ONNX 的 80 局对照逐段复现原始记录。32 个 CUDA 并行环境的小批量训练完成 1,280 步，检查点重载动作最大误差为 `0.0`。[小批量训练检查](../evidence/duck/publication_gpu_smoke.json)
