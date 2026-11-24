@@ -1,0 +1,25 @@
+{
+  "source_path": "artifacts/spider_ppo/command-ab-gutptkn_/base_axial/base_524288.params",
+  "source_sha256": "a9c12083c71597afd0400a522112f9211747bed8a95a8ce3d6262f103ef64881",
+  "numpy_sha256": "f18e3dbcfbc270b38b4cf62a2a5e3ac1ea81a786834dbcd136764894530416fe",
+  "ppo_control_steps": 524288,
+  "observation_size": 61,
+  "action_size": 16,
+  "controller_dt_seconds": 0.02,
+  "physics_dt_seconds": 0.002,
+  "hidden_activation": "swish",
+  "output_activation": "tanh",
+  "observation_normalization": false,
+  "verification_observations": 1024,
+  "max_absolute_action_error": 1.2516975402832031e-06,
+  "command_scale": [
+    0.034,
+    0.012,
+    0.25
+  ],
+  "slew_limits": [
+    0.08,
+    0.06,
+    1.2
+  ]
+}

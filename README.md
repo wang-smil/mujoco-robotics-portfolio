@@ -53,6 +53,12 @@ JAX_PLATFORMS=cpu OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 \
 
 单摆使用独立 CPU 环境。安装 [依赖](requirements/requirements.txt) 后，按顺序运行 [第 01–05 课脚本](lessons/)，复现物理步进、PD、重力补偿和 SB3 PPO。重力补偿将该实验的稳态误差从 `0.0884 rad` 降至约 `3.4×10⁻⁷ rad`。[单摆实验日志](docs/03-timeline.md#单摆)
 
+## 八足小蜘蛛
+
+从单腿 MJCF 搭建八足机器人，用交错步态的动作示范热启动 MJX/Brax PPO。预训练策略支持前进、后退、横移、转向和弧线，两套已发布权重均通过 **19/19** 条原生 MuJoCo 平地路线。Windows 可直接用手柄驾驶。
+
+[演示、快速运行与训练复现](docs/04-spider.md) · [平地 A/B 评测与训练日志](evidence/spider/)
+
 ## 上游来源
 
 机器人、MJCF、参考步态和基础任务来自 Antoine Pirrone 与 Open Duck Mini 贡献者。`bootstrap_duck.py` 从固定提交获取 Open Duck Playground，再叠加本地扩展。作者权重基线为 `BEST_WALK_ONNX_2.onnx`。[Open Duck Mini v2](https://github.com/apirrone/Open_Duck_Mini/tree/v2) · [固定环境提交](https://github.com/apirrone/Open_Duck_Playground/tree/b9be205ac64488c23504ca42e5ec790337adeec3) · [作者权重](https://github.com/apirrone/Open_Duck_Mini/blob/b23317a485b3cec7d8417f352478778b3475173c/BEST_WALK_ONNX_2.onnx) · [上游许可](https://github.com/apirrone/Open_Duck_Mini/blob/v2/LICENSE)

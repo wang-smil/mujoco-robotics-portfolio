@@ -1,0 +1,25 @@
+{
+  "source_path": "artifacts/spider_ppo/command-ab-gutptkn_/rich_axial/rich_1048576.params",
+  "source_sha256": "92d48d800e2cb5d60f66ba3955130497ca496e2905bc2f5628e1ec69b11ad83e",
+  "numpy_sha256": "ad7fb509339d8a611ef8923dc5766bf6c0887c1116e6a331b8ec02644b9defeb",
+  "ppo_control_steps": 1048576,
+  "observation_size": 61,
+  "action_size": 16,
+  "controller_dt_seconds": 0.02,
+  "physics_dt_seconds": 0.002,
+  "hidden_activation": "swish",
+  "output_activation": "tanh",
+  "observation_normalization": false,
+  "verification_observations": 1024,
+  "max_absolute_action_error": 1.1771917343139648e-06,
+  "command_scale": [
+    0.034,
+    0.012,
+    0.25
+  ],
+  "slew_limits": [
+    0.08,
+    0.06,
+    1.2
+  ]
+}

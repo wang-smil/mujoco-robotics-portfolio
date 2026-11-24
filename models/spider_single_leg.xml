@@ -1,0 +1,25 @@
+<mujoco model="spider_single_leg">
+  <compiler angle="radian"/>
+  <option timestep="0.002"/>
+
+  <worldbody>
+    <body name="torso" pos="0 0 0.25">
+      <geom type="box" size="0.04 0.03 0.02"/>
+      <body name="upper_leg">
+        <joint name="hip" type="hinge" axis="1 0 0" damping="0.05"/>
+        <geom type="capsule" fromto="0 0 0 0 0.12 0" size="0.01"/>
+        <body name="lower_leg" pos="0 0.12 0">
+          <joint name="knee" type="hinge" axis="0 0 1" damping="0.05"/>
+          <geom type="capsule" fromto="0 0 0 0 0.10 0" size="0.008"/>
+          <site name="foot_tip" pos="0 0.10 0" size="0.012" rgba="1 0.35 0.1 1"/>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+
+  <actuator>
+    <position name="knee_position" joint="knee" kp="10" gear="1"/>
+    <position name="hip_position" joint="hip" kp="10" gear="1"/>
+  </actuator>
+
+</mujoco>

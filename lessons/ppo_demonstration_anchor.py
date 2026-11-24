@@ -28,7 +28,7 @@ def load_demonstrations(paths, cadence):
 
 
 @contextmanager
-def anchor_loss(loss_module, datasets, weight):
+def anchor_loss(loss_module, datasets, weight, *, format_observation=None):
     original = loss_module.compute_ppo_loss
 
     def compute(params, normalizer_params, data, rng, ppo_network, **kwargs):
@@ -36,7 +36,11 @@ def anchor_loss(loss_module, datasets, weight):
         demo_losses = []
         for i, (observations, actions) in enumerate(datasets):
             indices = jax.random.randint(jax.random.fold_in(rng, 8191 + i), (128,), 0, len(observations))
-            obs = {'state': observations[indices], 'privileged_state': jp.zeros((128, 212), dtype=jp.float32)}
+            sample = observations[indices]
+            if format_observation is None:
+                obs = {'state': sample, 'privileged_state': jp.zeros((128, 212), dtype=jp.float32)}
+            else:
+                obs = format_observation(sample)
             logits = ppo_network.policy_network.apply(normalizer_params, params.policy, obs)
             prediction = ppo_network.parametric_action_distribution.mode(logits)
             demo_losses.append(jp.mean(jp.square(prediction - actions[indices])))
